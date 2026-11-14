@@ -1,0 +1,27 @@
+{
+  "A": {
+    "chunks": 386,
+    "chars": 183077,
+    "ingest_seconds": 39.0
+  },
+  "B": {
+    "chunks": 230,
+    "chars": 166027,
+    "ingest_seconds": 17.2
+  },
+  "C": {
+    "chunks": 230,
+    "chars": 166027,
+    "ingest_seconds": 17.9
+  },
+  "_meta": {
+    "model": "qwen/qwen3-embedding-8b",
+    "dimensions": 4096,
+    "store": "pgvector/cosine",
+    "db_chunk_counts": {
+      "A": 386,
+      "B": 230,
+      "C": 230
+    }
+  }
+}
