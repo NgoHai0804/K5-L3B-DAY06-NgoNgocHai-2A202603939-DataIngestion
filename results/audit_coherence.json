@@ -1,0 +1,284 @@
+{
+  "method": "Chọn 10 vị trí = điểm giữa (midpoint) của 10 trang cố định (5 trang đầu mỗi tài liệu, chốt trước khi chấm). Với mỗi vị trí, chấm chunk chứa vị trí đó. Thang 0-2: 0=cắt giữa ý/thiếu chủ thể, 1=hiểu một phần/thiếu ngữ cảnh, 2=tự hiểu và giữ trọn ý.",
+  "scale": {
+    "0": "cắt giữa ý / thiếu chủ thể → không hiểu",
+    "1": "hiểu một phần, thiếu ngữ cảnh",
+    "2": "tự hiểu được, giữ trọn ý"
+  },
+  "positions": [
+    {
+      "document_id": "legal-nlp-india-survey-2107.06056",
+      "page": 1
+    },
+    {
+      "document_id": "legal-nlp-india-survey-2107.06056",
+      "page": 2
+    },
+    {
+      "document_id": "legal-nlp-india-survey-2107.06056",
+      "page": 3
+    },
+    {
+      "document_id": "legal-nlp-india-survey-2107.06056",
+      "page": 5
+    },
+    {
+      "document_id": "legal-nlp-india-survey-2107.06056",
+      "page": 6
+    },
+    {
+      "document_id": "nlp-legal-survey-2410.21306",
+      "page": 1
+    },
+    {
+      "document_id": "nlp-legal-survey-2410.21306",
+      "page": 5
+    },
+    {
+      "document_id": "nlp-legal-survey-2410.21306",
+      "page": 9
+    },
+    {
+      "document_id": "nlp-legal-survey-2410.21306",
+      "page": 13
+    },
+    {
+      "document_id": "nlp-legal-survey-2410.21306",
+      "page": 17
+    }
+  ],
+  "labels": {
+    "A": {
+      "n": 10,
+      "avg_over_2": 1.1,
+      "items": [
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 1,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p1-c3-6aab784b",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'valuation' (từ 'evaluation' bị cắt), vẫn đọc được nhưng thiếu đầu mệnh đề."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 2,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p2-c4-f2cf5c0c",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'y' (từ 'they' bị cắt); nội dung rời rạc."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 3,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p3-c4-0909678a",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'emplate' (từ 'template' bị cắt)."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 5,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p5-c4-df90daa9",
+          "score": 1,
+          "reason": "Bắt đầu giữa câu 'E.g. Context: ...', thiếu ngữ cảnh trước."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 6,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p6-c3-b0c61e0e",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'ia' (từ 'India' bị cắt)."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 1,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p1-c4-a65f328c",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'ial' (từ 'Artificial' bị cắt)."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 5,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p5-c4-4f0b225d",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'ft' (từ 'left' bị cắt)."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 9,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p9-c3-e5cd458b",
+          "score": 1,
+          "reason": "Bắt đầu giữa số '0-2022', nội dung nối tiếp trang trước."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 13,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p13-c4-a799da65",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'riptions' (từ 'descriptions' bị cắt)."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 17,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p17-c4-e817f799",
+          "score": 2,
+          "reason": "Bắt đầu bằng câu hoàn chỉnh sau dấu '.' và bao gồm cả heading '8.1 Datasets'."
+        }
+      ]
+    },
+    "B": {
+      "n": 10,
+      "avg_over_2": 1.1,
+      "items": [
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 1,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p1-c2-05eff6ce",
+          "score": 2,
+          "reason": "Bắt đầu ở 'language models. A benchmark in these fields consists of...' rồi định nghĩa trọn vẹn khái niệm benchmark."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 2,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p2-c2-6b888bff",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'evant' (từ 'relevant' bị cắt)."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 3,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p3-c2-b6e5fd8b",
+          "score": 1,
+          "reason": "Bắt đầu bằng mảnh câu hỏi “?”, thiếu chủ thể."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 5,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p5-c2-dd94d9fe",
+          "score": 1,
+          "reason": "Bắt đầu giữa câu 'factoid Question would be...', thiếu chủ thể."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 6,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p6-c1-6f26de79",
+          "score": 1,
+          "reason": "Bắt đầu bằng dấu ')' giữa câu."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 1,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p1-c2-1643df86",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'urveys' (từ 'Surveys' bị cắt)."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 5,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p5-c2-53621869",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'illion-dollar' (từ 'billion-dollar' bị cắt)."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 9,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p9-c1-70d671c4",
+          "score": 1,
+          "reason": "Bắt đầu giữa câu 'was defined by the following two queries'."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 13,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p13-c2-d0c13322",
+          "score": 1,
+          "reason": "Bắt đầu giữa câu 'making. Evaluated on...'."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 17,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p17-c2-025c0c6c",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'isation' (từ 'summarisation' bị cắt)."
+        }
+      ]
+    },
+    "C": {
+      "n": 10,
+      "avg_over_2": 1.1,
+      "items": [
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 1,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p1-c2-05eff6ce",
+          "score": 2,
+          "reason": "Bắt đầu ở 'language models. A benchmark in these fields consists of...' rồi định nghĩa trọn vẹn khái niệm benchmark."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 2,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p2-c2-6b888bff",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'evant' (từ 'relevant' bị cắt)."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 3,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p3-c2-b6e5fd8b",
+          "score": 1,
+          "reason": "Bắt đầu bằng mảnh câu hỏi “?”, thiếu chủ thể."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 5,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p5-c2-dd94d9fe",
+          "score": 1,
+          "reason": "Bắt đầu giữa câu 'factoid Question would be...', thiếu chủ thể."
+        },
+        {
+          "document_id": "legal-nlp-india-survey-2107.06056",
+          "page": 6,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p6-c1-6f26de79",
+          "score": 1,
+          "reason": "Bắt đầu bằng dấu ')' giữa câu."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 1,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p1-c2-1643df86",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'urveys' (từ 'Surveys' bị cắt)."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 5,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p5-c2-53621869",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'illion-dollar' (từ 'billion-dollar' bị cắt)."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 9,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p9-c1-70d671c4",
+          "score": 1,
+          "reason": "Bắt đầu giữa câu 'was defined by the following two queries'."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 13,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p13-c2-d0c13322",
+          "score": 1,
+          "reason": "Bắt đầu giữa câu 'making. Evaluated on...'."
+        },
+        {
+          "document_id": "nlp-legal-survey-2410.21306",
+          "page": 17,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p17-c2-025c0c6c",
+          "score": 1,
+          "reason": "Bắt đầu giữa từ 'isation' (từ 'summarisation' bị cắt)."
+        }
+      ]
+    }
+  },
+  "scorer": "NgoNgocHai (tác giả)",
+  "bias_risk": "Tự chấm nên có nguy cơ thiên lệch; mẫu nhỏ (10 vị trí coherence, 5 câu test); nhãn mang tính định tính.",
+  "independent_of_auto": "Nhãn thủ công độc lập với hit_at_1/evidence_hit_at_3 tự động (proxy khớp chuỗi).",
+  "notes": "PDF trích bằng pypdf gần như không có dấu xuống đoạn '\\n\\n', nên 'by_paragraph' thoái hoá thành cửa sổ 800 ký tự; cả hai cách chunk đều cắt giữa từ. C hiển thị giống B (cùng cách chunk)."
+}

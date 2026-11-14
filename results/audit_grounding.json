@@ -1,0 +1,452 @@
+{
+  "method": "Chấm thủ công top-3 của 5 câu test (q05, q09, q23, q24, q25) cho từng cấu hình. Thang 0-2 cho EVIDENCE RETRIEVAL (không phải độ đúng câu trả lời LLM).",
+  "scale": {
+    "0": "không có bằng chứng",
+    "1": "có nhưng thiếu điều kiện/ngữ cảnh cần thiết",
+    "2": "đủ để trả lời và truy nguồn"
+  },
+  "questions": [
+    "q05",
+    "q09",
+    "q23",
+    "q24",
+    "q25"
+  ],
+  "labels": {
+    "A": {
+      "n": 15,
+      "score_0": 8,
+      "score_1": 2,
+      "score_2": 5,
+      "avg_over_2": 0.8,
+      "items": [
+        {
+          "question_id": "q05",
+          "rank": 1,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p13-c0-422e6e8f",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 13,
+          "score": 2,
+          "reason": "Top-1 (trang 13) chứa đủ evidence + đáp án (FSCS, >85,000 cases)."
+        },
+        {
+          "question_id": "q05",
+          "rank": 2,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p6-c2-f5a6e0ab",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 6,
+          "score": 0,
+          "reason": "Chunk survey Ấn Độ về question generation — không liên quan."
+        },
+        {
+          "question_id": "q05",
+          "rank": 3,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p12-c8-69e7b443",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 12,
+          "score": 0,
+          "reason": "Chunk trang 12 về Court View Gen (Trung Quốc) — không liên quan."
+        },
+        {
+          "question_id": "q09",
+          "rank": 1,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p24-c2-255b4012",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 24,
+          "score": 2,
+          "reason": "Top-1 (trang 24) chứa đủ 'MultiLegalPile ... 689 GB ... 24 languages'."
+        },
+        {
+          "question_id": "q09",
+          "rank": 2,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p24-c0-572eb012",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 24,
+          "score": 0,
+          "reason": "Chunk 'Pile of Law, 256 GB' là corpus KHÁC — không trả lời."
+        },
+        {
+          "question_id": "q09",
+          "rank": 3,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p25-c0-bedc6154",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 25,
+          "score": 0,
+          "reason": "Chunk trang 25 về Lawformer — không liên quan."
+        },
+        {
+          "question_id": "q23",
+          "rank": 1,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p8-c1-04528299",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 8,
+          "score": 2,
+          "reason": "Top-1 (trang 8) chứa cả '90th percentile' và '48th percentile / 15th percentile' → trả lời đủ."
+        },
+        {
+          "question_id": "q23",
+          "rank": 2,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p8-c2-6a14f905",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 8,
+          "score": 1,
+          "reason": "Chunk trang 8 có '15th percentile' nhưng thiếu số '48th' — thiếu một phần đáp án."
+        },
+        {
+          "question_id": "q23",
+          "rank": 3,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p6-c5-f593b448",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 6,
+          "score": 0,
+          "reason": "Chunk survey Ấn Độ (QA) — không liên quan."
+        },
+        {
+          "question_id": "q24",
+          "rank": 1,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p15-c5-14bab426",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 15,
+          "score": 1,
+          "reason": "Top-1 (trang 15) mô tả task 'Predict Relevant Acts' nhưng CHƯA chứa đáp án 'Section 378'."
+        },
+        {
+          "question_id": "q24",
+          "rank": 2,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p15-c6-717d7e6e",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 15,
+          "score": 2,
+          "reason": "Top-2 (trang 15) chứa đáp án 'Section 378 under Indian Penal Code' → đủ."
+        },
+        {
+          "question_id": "q24",
+          "rank": 3,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p13-c0-91bdbe22",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 0,
+          "reason": "Chunk trang 13 (bảng relations/case similarity) — không liên quan."
+        },
+        {
+          "question_id": "q25",
+          "rank": 1,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p13-c0-91bdbe22",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 0,
+          "reason": "Top-1 (trang 13) là bảng relations + heading '5.3 Case Similarity' — không chứa bằng chứng."
+        },
+        {
+          "question_id": "q25",
+          "rank": 2,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p13-c1-03abed3e",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 2,
+          "reason": "Top-2 (trang 13) chứa đáp án 'This activity is manual ... keyword based or act based similarities' → đủ."
+        },
+        {
+          "question_id": "q25",
+          "rank": 3,
+          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p13-c7-6128073b",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 0,
+          "reason": "Chunk trang 13 (COL) — không liên quan."
+        }
+      ]
+    },
+    "B": {
+      "n": 15,
+      "score_0": 8,
+      "score_1": 2,
+      "score_2": 5,
+      "avg_over_2": 0.8,
+      "items": [
+        {
+          "question_id": "q05",
+          "rank": 1,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p13-c0-ce3544fd",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 13,
+          "score": 2,
+          "reason": "Top-1 (trang 13) chứa đủ evidence + đáp án."
+        },
+        {
+          "question_id": "q05",
+          "rank": 2,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p3-c0-a06d01c5",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 3,
+          "score": 0,
+          "reason": "Chunk bảng dữ liệu Ấn Độ — không liên quan."
+        },
+        {
+          "question_id": "q05",
+          "rank": 3,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p2-c3-6c17d7af",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 2,
+          "score": 0,
+          "reason": "Chunk Data Availability Ấn Độ — không liên quan."
+        },
+        {
+          "question_id": "q09",
+          "rank": 1,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p24-c1-958d1d7f",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 24,
+          "score": 2,
+          "reason": "Top-1 (trang 24) chứa đủ evidence + đáp án."
+        },
+        {
+          "question_id": "q09",
+          "rank": 2,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p23-c0-6ead0e73",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 23,
+          "score": 0,
+          "reason": "Chunk trang 23 về competition tasks — không liên quan."
+        },
+        {
+          "question_id": "q09",
+          "rank": 3,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p24-c0-cb4cad36",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 24,
+          "score": 0,
+          "reason": "Chunk 'Pile of Law, 256 GB' là corpus KHÁC — không trả lời."
+        },
+        {
+          "question_id": "q23",
+          "rank": 1,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p8-c1-b12e17b3",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 8,
+          "score": 2,
+          "reason": "Top-1 (trang 8) chứa '48th percentile / 15th percentile' → đủ để trả lời (nhưng proxy tự động báo miss vì thiếu câu '90th percentile')."
+        },
+        {
+          "question_id": "q23",
+          "rank": 2,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p19-c5-85af0ff5",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 19,
+          "score": 0,
+          "reason": "Chunk trang 19 (NER) — không liên quan."
+        },
+        {
+          "question_id": "q23",
+          "rank": 3,
+          "chunk_id": "B:nlp-legal-survey-2410.21306-p9-c0-8fdaf0b5",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 9,
+          "score": 0,
+          "reason": "Chunk trang 9 (methodology) — không liên quan."
+        },
+        {
+          "question_id": "q24",
+          "rank": 1,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p15-c3-9d6d3975",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 15,
+          "score": 2,
+          "reason": "Top-1 (trang 15) chứa cả task và đáp án 'Section 378 under Indian Penal Code' → đủ."
+        },
+        {
+          "question_id": "q24",
+          "rank": 2,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p13-c0-d9c9bba3",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 0,
+          "reason": "Chunk trang 13 (relations) — không liên quan."
+        },
+        {
+          "question_id": "q24",
+          "rank": 3,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p3-c3-6a1b4bd1",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 3,
+          "score": 0,
+          "reason": "Chunk trang 3 (trích dẫn) — không liên quan."
+        },
+        {
+          "question_id": "q25",
+          "rank": 1,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p13-c0-d9c9bba3",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 2,
+          "reason": "Top-1 (trang 13) chứa đáp án 'This activity is manual ... keyword based' → đủ."
+        },
+        {
+          "question_id": "q25",
+          "rank": 2,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p13-c1-dbffa49b",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 1,
+          "reason": "Chunk trang 13 'Find Similar Cases' mô tả task, có 'keywords' nhưng thiếu câu 'manual' → một phần."
+        },
+        {
+          "question_id": "q25",
+          "rank": 3,
+          "chunk_id": "B:legal-nlp-india-survey-2107.06056-p13-c2-d8954d74",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 1,
+          "reason": "Chunk trang 13 'Value Proposition' nhắc 'manual search' — một phần."
+        }
+      ]
+    },
+    "C": {
+      "n": 15,
+      "score_0": 8,
+      "score_1": 2,
+      "score_2": 5,
+      "avg_over_2": 0.8,
+      "items": [
+        {
+          "question_id": "q05",
+          "rank": 1,
+          "chunk_id": "C:nlp-legal-survey-2410.21306-p13-c0-ce3544fd",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 13,
+          "score": 2,
+          "reason": "Top-1 (trang 13) chứa đủ evidence + đáp án."
+        },
+        {
+          "question_id": "q05",
+          "rank": 2,
+          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p3-c0-a06d01c5",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 3,
+          "score": 0,
+          "reason": "Chunk bảng dữ liệu Ấn Độ — không liên quan."
+        },
+        {
+          "question_id": "q05",
+          "rank": 3,
+          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p2-c3-6c17d7af",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 2,
+          "score": 0,
+          "reason": "Chunk Data Availability Ấn Độ — không liên quan."
+        },
+        {
+          "question_id": "q09",
+          "rank": 1,
+          "chunk_id": "C:nlp-legal-survey-2410.21306-p24-c1-958d1d7f",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 24,
+          "score": 2,
+          "reason": "Top-1 (trang 24) chứa đủ evidence + đáp án."
+        },
+        {
+          "question_id": "q09",
+          "rank": 2,
+          "chunk_id": "C:nlp-legal-survey-2410.21306-p23-c0-6ead0e73",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 23,
+          "score": 0,
+          "reason": "Chunk trang 23 về competition tasks — không liên quan."
+        },
+        {
+          "question_id": "q09",
+          "rank": 3,
+          "chunk_id": "C:nlp-legal-survey-2410.21306-p24-c0-cb4cad36",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 24,
+          "score": 0,
+          "reason": "Chunk 'Pile of Law, 256 GB' là corpus KHÁC — không trả lời."
+        },
+        {
+          "question_id": "q23",
+          "rank": 1,
+          "chunk_id": "C:nlp-legal-survey-2410.21306-p8-c1-b12e17b3",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 8,
+          "score": 2,
+          "reason": "Top-1 (trang 8) chứa '48th percentile / 15th percentile' → đủ để trả lời (proxy tự động báo miss)."
+        },
+        {
+          "question_id": "q23",
+          "rank": 2,
+          "chunk_id": "C:nlp-legal-survey-2410.21306-p19-c5-85af0ff5",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 19,
+          "score": 0,
+          "reason": "Chunk trang 19 (NER) — không liên quan."
+        },
+        {
+          "question_id": "q23",
+          "rank": 3,
+          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p6-c2-1bb180cf",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 6,
+          "score": 0,
+          "reason": "Chunk survey Ấn Độ (question generation) — không liên quan."
+        },
+        {
+          "question_id": "q24",
+          "rank": 1,
+          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p15-c3-9d6d3975",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 15,
+          "score": 2,
+          "reason": "Top-1 (trang 15) chứa cả task và đáp án 'Section 378 under Indian Penal Code' → đủ."
+        },
+        {
+          "question_id": "q24",
+          "rank": 2,
+          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p15-c2-852a7891",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 15,
+          "score": 0,
+          "reason": "Chunk trang 15 (danh sách citations) — không liên quan."
+        },
+        {
+          "question_id": "q24",
+          "rank": 3,
+          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p15-c1-b0827ff3",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 15,
+          "score": 0,
+          "reason": "Chunk trang 15 (Value Proposition) — không liên quan."
+        },
+        {
+          "question_id": "q25",
+          "rank": 1,
+          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p13-c0-d9c9bba3",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 2,
+          "reason": "Top-1 (trang 13) chứa đáp án 'This activity is manual ... keyword based' → đủ."
+        },
+        {
+          "question_id": "q25",
+          "rank": 2,
+          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p13-c1-dbffa49b",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 1,
+          "reason": "Chunk trang 13 'Find Similar Cases' mô tả task, thiếu câu 'manual' → một phần."
+        },
+        {
+          "question_id": "q25",
+          "rank": 3,
+          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p13-c2-d8954d74",
+          "source": "legal-nlp-india-survey-2107.06056",
+          "page": 13,
+          "score": 1,
+          "reason": "Chunk trang 13 'Value Proposition' nhắc 'manual search' — một phần."
+        }
+      ]
+    }
+  },
+  "scorer": "NgoNgocHai (tác giả)",
+  "bias_risk": "Tự chấm nên có nguy cơ thiên lệch; mẫu nhỏ (10 vị trí coherence, 5 câu test); nhãn mang tính định tính.",
+  "independent_of_auto": "Nhãn thủ công độc lập với hit_at_1/evidence_hit_at_3 tự động (proxy khớp chuỗi)."
+}

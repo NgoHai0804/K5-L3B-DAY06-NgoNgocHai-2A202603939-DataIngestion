@@ -72,7 +72,31 @@ Lệnh chạy: `.\.venv\Scripts\python.exe -m src.run` trong `starter/`. Trace �
 - **Idempotent:** chạy lại pipeline lần hai → pgvector vẫn A = 386, B = 230, C = 230 (không nhân đôi); do id ổn định dạng `strategy:chunk_id`.
 - **Phân bố độ dài chunk** (đo lại từ pgvector): A trung bình 474 (57–500); B/C trung bình 722 (19–800).
 - **Chi phí:** ≈ 0 — embedding ~130k token qua OpenRouter `qwen/qwen3-embedding-8b` (không đáng kể), vector store chạy local.
-- Chấm thủ công 5 khía cạnh (coherence, metadata, grounding) thuộc Bước 6.
+
+### Chấm thủ công 5 khía cạnh (Bước 6)
+
+Người chấm: **NgoNgocHai (tác giả)** — nhãn **thủ công, độc lập** với chỉ số tự động; nguy cơ thiên lệch do tự chấm và mẫu nhỏ. Nhãn chi tiết ở [`results/audit_coherence.json`](results/audit_coherence.json), [`results/audit_metadata.json`](results/audit_metadata.json), [`results/audit_grounding.json`](results/audit_grounding.json).
+
+| Khía cạnh | A | B | C |
+|---|---|---|---|
+| Retrieval — Hit@1 (dev / test) | 13/19 · 6/8 | 13/19 · 5/8 | 14/19 · 5/8 |
+| Retrieval — Evidence Hit@3 (dev / test) | 15/19 · 8/8 | 15/19 · 5/8 | 15/19 · 5/8 |
+| Coherence (trung bình /2, 10 vị trí) | 1.1 | 1.1 | 1.1 |
+| Metadata đủ & đúng (n/N) | 15/15 | 15/15 | 15/15 |
+| Filter compliance | N/A | N/A | 2/2 |
+| Grounding (trung bình /2, 5 câu test × top-3) | 0.80 | 0.80 | 0.80 |
+
+- **Coherence:** A và B đều ~1.1/2 — hầu hết chunk cắt giữa từ vì text PDF (pypdf) gần như không có ranh giới đoạn `\n\n`, nên `by_paragraph` thoái hoá thành cửa sổ 800 ký tự.
+- **Metadata:** 45/45 bản ghi (5 câu × top-3 × 3 cấu hình) có `source`/`page`/`section` đủ và đúng theo manifest; C tuân thủ filter 2/2.
+- **Grounding:** cả ba ~0.80/2 — mỗi câu thường có 1 chunk đủ bằng chứng trong top-3; các chunk còn lại là nhiễu (thường kéo chunk từ tài liệu Ấn Độ sang).
+
+### Tác động chiến lược dữ liệu (A–B và B–C)
+
+- **A–B (chỉ đổi chunking):** B giảm chunk 386→230 (−40%) và thời gian ingest, nhưng coherence **không** cải thiện (1.1 = 1.1) và retrieval test **giảm** (A 8/8 vs B 5/8 Evidence Hit@3). Chunk 500 ký tự khớp trọn `evidence_quote` thường xuyên hơn chunk 800 → chunking theo đoạn không giúp trên corpus này.
+- **B–C (chỉ đổi filter):** filter chỉ tác động 4 câu có filter. Dev: C +1 Hit@1 (13→14). Test: không đổi (5/8). Filter compliance 2/2, không gây hại → filter hữu ích nhưng hiệu ứng nằm trong nhiễu do quá ít câu filter.
+- **Tiêu chí chọn (chốt trước khi xem test):** ưu tiên Evidence Hit@3 → grounding → tài nguyên. Theo đó **A** thắng Hit@3 test (8/8) nhưng tốn ~1.7× chunk/thời gian; nếu ưu tiên rẻ thì **B/C** (ngang dev, ít tài nguyên hơn).
+- **Ví dụ lỗi:** (1) q23 — B/C lấy đúng chunk chứa đáp án "48th/15th percentile" ở top-1 nhưng proxy tự động báo **miss** vì gold quote là câu "90th percentile" khác (bằng chứng bị tách giữa các chunk); (2) q25 (A) — top-1 trả về bảng relations thay vì câu "This activity is manual…", đáp án rơi xuống top-2.
+- **Giới hạn:** test chỉ 8 câu (4 câu filter); proxy hit khớp chuỗi nên bỏ sót bằng chứng tương đương; embedding API có thể lệch giữa các lần chạy (B/C chênh ±1).
 
 Đánh giá theo năm khía cạnh: **độ chính xác truy xuất**, **tính mạch lạc của chunk**, **tính hữu dụng của metadata**, **chất lượng grounding** và **tác động của chiến lược dữ liệu**. Giải thích lựa chọn bằng kết quả, ví dụ lỗi và các đánh đổi.
 
