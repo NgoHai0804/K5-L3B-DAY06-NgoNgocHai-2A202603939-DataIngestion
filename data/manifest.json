@@ -15,9 +15,34 @@
       "document_type"
     ],
     "page-level": [
-      "section (suy ra từ heading khi ingest ở Bước 3)"
+      "section"
     ],
-    "note": "2 tài liệu + nhiều section -> >=2 phạm vi phân biệt để metadata filter có ý nghĩa."
+    "section_values": {
+      "nlp-legal-survey-2410.21306": [
+        "introduction",
+        "related_work",
+        "background",
+        "methodology",
+        "question_answering",
+        "judgement_prediction",
+        "text_classification",
+        "summarisation",
+        "named_entity_recognition",
+        "argument_mining",
+        "datasets",
+        "language_models",
+        "challenges",
+        "conclusion"
+      ],
+      "legal-nlp-india-survey-2107.06056": [
+        "overview",
+        "information_extraction",
+        "summary_generation",
+        "case_similarity",
+        "reasoning"
+      ]
+    },
+    "note": "section gán theo heading cấp trang (page->section) ở mục 'sections'; ingestion dùng map này để gắn metadata."
   },
   "position_convention": "Corpus đặt tại data/raw/; manifest tại data/manifest.json (repo root). run.py, manifest và README dùng cùng quy ước này.",
   "sources": [
@@ -68,7 +93,66 @@
       "normalized_char_count": 114801,
       "snapshot_or_version": "arXiv:2410.21306v3",
       "empty_or_ocr_broken_pages": [],
-      "notes": "Trang references bị loại khỏi đếm nội dung."
+      "notes": "Trang references bị loại khỏi đếm nội dung.",
+      "sections": {
+        "introduction": [
+          1,
+          2
+        ],
+        "related_work": [
+          3,
+          4
+        ],
+        "background": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "methodology": [
+          9
+        ],
+        "question_answering": [
+          10,
+          11
+        ],
+        "judgement_prediction": [
+          12,
+          13
+        ],
+        "text_classification": [
+          14,
+          15,
+          16
+        ],
+        "summarisation": [
+          17
+        ],
+        "named_entity_recognition": [
+          18,
+          19
+        ],
+        "argument_mining": [
+          20
+        ],
+        "datasets": [
+          21,
+          22,
+          23
+        ],
+        "language_models": [
+          24,
+          25
+        ],
+        "challenges": [
+          26,
+          27,
+          28
+        ],
+        "conclusion": [
+          29
+        ]
+      }
     },
     {
       "source_id": "legal-nlp-india-survey-2107.06056",
@@ -106,7 +190,32 @@
       "empty_or_ocr_broken_pages": [
         4
       ],
-      "notes": "Trang references bị loại khỏi đếm nội dung. Trang ít text (hình/bảng, <200 ký tự): [4]."
+      "notes": "Trang references bị loại khỏi đếm nội dung. Trang ít text (hình/bảng, <200 ký tự): [4].",
+      "sections": {
+        "overview": [
+          1,
+          2
+        ],
+        "information_extraction": [
+          3,
+          5,
+          6
+        ],
+        "summary_generation": [
+          7,
+          9,
+          12
+        ],
+        "case_similarity": [
+          13,
+          14
+        ],
+        "reasoning": [
+          15,
+          16,
+          17
+        ]
+      }
     }
   ]
 }
