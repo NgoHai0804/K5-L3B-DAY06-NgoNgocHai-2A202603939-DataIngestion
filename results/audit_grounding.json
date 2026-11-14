@@ -81,7 +81,7 @@
           "source": "nlp-legal-survey-2410.21306",
           "page": 8,
           "score": 2,
-          "reason": "Top-1 (trang 8) chứa cả '90th percentile' và '48th percentile / 15th percentile' → trả lời đủ."
+          "reason": "Top-1 (trang 8) chứa đủ '48th percentile / 15th percentile' → đủ."
         },
         {
           "question_id": "q23",
@@ -90,16 +90,16 @@
           "source": "nlp-legal-survey-2410.21306",
           "page": 8,
           "score": 1,
-          "reason": "Chunk trang 8 có '15th percentile' nhưng thiếu số '48th' — thiếu một phần đáp án."
+          "reason": "Chunk trang 8 chỉ có '15th percentile', thiếu '48th' — thiếu một phần đáp án."
         },
         {
           "question_id": "q23",
           "rank": 3,
-          "chunk_id": "A:legal-nlp-india-survey-2107.06056-p6-c5-f593b448",
-          "source": "legal-nlp-india-survey-2107.06056",
-          "page": 6,
+          "chunk_id": "A:nlp-legal-survey-2410.21306-p10-c4-d888c1ff",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 10,
           "score": 0,
-          "reason": "Chunk survey Ấn Độ (QA) — không liên quan."
+          "reason": "Chunk trang 10 (JEC-QA) — không liên quan."
         },
         {
           "question_id": "q24",
@@ -225,7 +225,7 @@
           "source": "nlp-legal-survey-2410.21306",
           "page": 8,
           "score": 2,
-          "reason": "Top-1 (trang 8) chứa '48th percentile / 15th percentile' → đủ để trả lời (nhưng proxy tự động báo miss vì thiếu câu '90th percentile')."
+          "reason": "Top-1 (trang 8) chứa đủ evidence + đáp án → đủ."
         },
         {
           "question_id": "q23",
@@ -369,7 +369,7 @@
           "source": "nlp-legal-survey-2410.21306",
           "page": 8,
           "score": 2,
-          "reason": "Top-1 (trang 8) chứa '48th percentile / 15th percentile' → đủ để trả lời (proxy tự động báo miss)."
+          "reason": "Top-1 (trang 8) chứa đủ evidence + đáp án → đủ."
         },
         {
           "question_id": "q23",
@@ -383,11 +383,11 @@
         {
           "question_id": "q23",
           "rank": 3,
-          "chunk_id": "C:legal-nlp-india-survey-2107.06056-p6-c2-1bb180cf",
-          "source": "legal-nlp-india-survey-2107.06056",
-          "page": 6,
+          "chunk_id": "C:nlp-legal-survey-2410.21306-p9-c0-8fdaf0b5",
+          "source": "nlp-legal-survey-2410.21306",
+          "page": 9,
           "score": 0,
-          "reason": "Chunk survey Ấn Độ (question generation) — không liên quan."
+          "reason": "Chunk trang 9 (methodology) — không liên quan."
         },
         {
           "question_id": "q24",
@@ -448,5 +448,6 @@
   },
   "scorer": "NgoNgocHai (tác giả)",
   "bias_risk": "Tự chấm nên có nguy cơ thiên lệch; mẫu nhỏ (10 vị trí coherence, 5 câu test); nhãn mang tính định tính.",
-  "independent_of_auto": "Nhãn thủ công độc lập với hit_at_1/evidence_hit_at_3 tự động (proxy khớp chuỗi)."
+  "independent_of_auto": "Nhãn thủ công độc lập với hit_at_1/evidence_hit_at_3 tự động (proxy khớp chuỗi).",
+  "note": "evidence_quote của q23 đã được sửa cho khớp đáp án (khai báo); số liệu lấy từ lần chạy lại sau khi sửa."
 }

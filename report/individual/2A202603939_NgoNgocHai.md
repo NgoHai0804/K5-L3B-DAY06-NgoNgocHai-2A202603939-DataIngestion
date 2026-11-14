@@ -22,12 +22,12 @@ Bảng 1 — Retrieval & tài nguyên:
 
 | Strategy | Split | Hit@1 (n/N) | Evidence Hit@3 (n/N) | Chunk count | Thời gian (ingest) | Chi phí |
 |---|---|---|---|---|---|---|
-| A | dev | 13/19 | 15/19 | 386 | 52.1s | ≈0 |
+| A | dev | 13/19 | 15/19 | 386 | 25.9s | ≈0 |
 | A | test | 6/8 | 8/8 | 386 | — | ≈0 |
-| B | dev | 13/19 | 15/19 | 230 | 29.4s | ≈0 |
-| B | test | 5/8 | 5/8 | 230 | — | ≈0 |
-| C | dev | 14/19 | 15/19 | 230 | 22.4s | ≈0 |
-| C | test | 5/8 | 5/8 | 230 | — | ≈0 |
+| B | dev | 13/19 | 15/19 | 230 | 27.8s | ≈0 |
+| B | test | 6/8 | 6/8 | 230 | — | ≈0 |
+| C | dev | 13/19 | 15/19 | 230 | 41.1s | ≈0 |
+| C | test | 6/8 | 6/8 | 230 | — | ≈0 |
 
 Bảng 2 — Audit thủ công (người chấm: tác giả; có nguy cơ thiên lệch):
 
@@ -39,12 +39,19 @@ Bảng 2 — Audit thủ công (người chấm: tác giả; có nguy cơ thiên
 
 **Mẫu & trace:** `results/traces.json`; coherence = 10 vị trí cố định (điểm giữa 10 trang, 5 trang đầu mỗi tài liệu) → `results/audit_coherence.json`; metadata & grounding = 5 câu test × top-3 → `results/audit_metadata.json`, `results/audit_grounding.json`.
 
+## Dùng AI & kiểm chứng
+
+- **Công cụ AI:** Kilo Code (VS Code) — hỗ trợ viết pipeline `starter/src/*`, sinh bộ câu hỏi, script chấm audit và soạn tài liệu. Tôi đọc lại và hiểu toàn bộ code/kết quả trước khi nộp.
+- **Cách kiểm chứng:** (1) chạy thật pipeline trên OpenRouter + pgvector rồi đối chiếu `results/`; (2) xác minh từng `evidence_quote` tồn tại ở trang gold sau chuẩn hóa; (3) đối chiếu `source`/`page`/`section` của top-3 với `data/manifest.json`; (4) tự đọc chunk và gán nhãn coherence/grounding; (5) kiểm tra idempotent bằng cách chạy lại và đếm `chunks` trong DB.
+- **Trung thực:** mọi con số lấy từ `results/stats.json`; không tạo số liệu hay nhãn giả.
+
 ## Phân tích và kết luận
 
-- **A–B (chỉ đổi chunking):** B giảm 40% chunk (386→230) và thời gian ingest, nhưng coherence **không** tăng (1.1 = 1.1) và retrieval test **giảm** (A 8/8 vs B 5/8 Evidence Hit@3). Nguyên nhân: text pypdf thiếu ranh giới đoạn nên `by_paragraph` ≈ cửa sổ 800; chunk 500 khớp trọn `evidence_quote` thường xuyên hơn.
-- **B–C (chỉ đổi filter):** filter chỉ tác động 4 câu có filter. Dev: C +1 Hit@1 (13→14). Test: không đổi (5/8). Filter compliance 2/2, không gây hại → hữu ích nhưng nằm trong nhiễu do quá ít câu filter.
+- **A–B (chỉ đổi chunking):** B giảm 40% chunk (386→230) và thời gian ingest, nhưng coherence **không** tăng (1.1 = 1.1) và retrieval test **giảm** (A 8/8 vs B 6/8 Evidence Hit@3; dev ngang nhau 13/19 · 15/19). Nguyên nhân: text pypdf thiếu ranh giới đoạn nên `by_paragraph` ≈ cửa sổ 800; chunk 500 khớp trọn `evidence_quote` thường xuyên hơn.
+- **B–C (chỉ đổi filter):** filter chỉ tác động 4 câu có filter; dev và test đều **không đổi** (13/19, 6/8). Filter compliance 2/2, không gây hại → hữu ích về kiểm soát phạm vi nhưng nằm trong nhiễu do quá ít câu filter.
+- **Sửa benchmark (khai báo):** `evidence_quote` của **q23** ban đầu trỏ sai sang câu "90th percentile" (không khớp đáp án "48th/15th percentile"); đã sửa thành câu đúng trên trang 8 và **chạy lại** pipeline — mọi số liệu phản ánh lần chạy sau khi sửa (B/C test Hit@3 5/8 → 6/8).
 - **2 ví dụ sai:**
-  1. **q23** (test, gold `nlp-legal-survey-2410.21306` trang 8): với B/C, top-1 lấy đúng chunk chứa đáp án "48th percentile / 15th percentile" nhưng proxy tự động báo **miss** vì gold evidence là câu "Uniform Bar Exam near the 90th percentile" nằm ở chunk khác → bằng chứng bị tách giữa các chunk.
+  1. **q24** (test, gold `legal-nlp-india-survey-2107.06056` trang 15): với B/C, top-1 **chứa đáp án** "Section 378 under Indian Penal Code" nhưng proxy báo miss vì `evidence_quote` ("Predicting the relevant act of the law based on") bị cắt ở ranh giới chunk ("ing the relevant act of the law based on") → bằng chứng bị tách giữa các chunk.
   2. **q25** (test, gold `legal-nlp-india-survey-2107.06056` trang 13): với **A**, top-1 trả về bảng relations thay vì câu "This activity is manual and a lot of…"; đáp án rơi xuống top-2 → xếp hạng nhiễu khi chunk 500 cắt rời đoạn.
 - **Chiến lược chọn, đánh đổi, điều kiện áp dụng:** theo tiêu chí đã chốt, **A** cho Evidence Hit@3 test tốt nhất (8/8) nhưng tốn ~1.7× chunk/thời gian; nếu ưu tiên tài nguyên thì **B/C** ngang dev với ít chunk hơn. Chỉ kết luận trong phạm vi corpus này (2 survey tiếng Anh, trang dày chữ).
 - **Hạn chế:** test nhỏ (8 câu, chỉ 4 câu filter); proxy hit khớp chuỗi chính xác nên bỏ sót bằng chứng tương đương; `section` cấp trang nên trang nhiều tiểu mục bị gán một nhãn; embedding API không hoàn toàn xác định (B/C chênh ±1 giữa các lần chạy); nhãn thủ công do chính tác giả chấm nên có thiên lệch; thời gian đo chỉ gồm bước embed+upsert, chưa tính tải model.

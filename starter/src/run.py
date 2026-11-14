@@ -68,9 +68,13 @@ def main() -> None:
         vectors = embedder.embed_documents([c.text for c in chunks])
         store.upsert(name, chunks, vectors)
         elapsed = time.time() - t0
+        lengths = [len(c.text) for c in chunks]
         ingest_log[name] = {
             "chunks": len(chunks),
-            "chars": sum(len(c.text) for c in chunks),
+            "chars": sum(lengths),
+            "length_min": min(lengths) if lengths else 0,
+            "length_avg": round(sum(lengths) / len(lengths), 1) if lengths else 0,
+            "length_max": max(lengths) if lengths else 0,
             "ingest_seconds": round(elapsed, 1),
         }
         print(f"[{name}] chunks={len(chunks)} ingest={elapsed:.1f}s")
@@ -93,6 +97,12 @@ def main() -> None:
         "dimensions": embedder.dimensions,
         "store": "pgvector/cosine",
         "db_chunk_counts": store.count_by_strategy(),
+    }
+    ingest_log["corpus"] = {
+        "pages": len(pages),
+        "content_pages": len(content),
+        "empty_pages": sorted(f"{p.document_id}:p{p.page}" for p in pages if p.metadata.get("is_empty")),
+        "errors": [],
     }
     (RESULTS / "ingest_log.json").write_text(json.dumps(ingest_log, ensure_ascii=False, indent=2), "utf-8")
     print(json.dumps(stats, ensure_ascii=False, indent=2))

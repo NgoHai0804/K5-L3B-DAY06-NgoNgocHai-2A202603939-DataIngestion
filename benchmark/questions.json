@@ -217,7 +217,7 @@
     {
       "id": "q20",
       "split": "dev",
-      "type": "metadata_filter",
+      "type": "truc_tiep",
       "gold_source_id": "nlp-legal-survey-2410.21306",
       "gold_page": 23,
       "question": "Which legal corpus contains 258,146 cases from UK courts dating back to the 16th century?",
@@ -260,7 +260,7 @@
       "gold_page": 8,
       "question": "According to the survey, when later analyses re-examined GPT-4's performance, what percentile was suggested?",
       "expected_answer": "About the 48th percentile overall and 15th percentile on essays.",
-      "evidence_quote": "Uniform Bar Exam near the 90th percentile",
+      "evidence_quote": "possibly around the 48th percentile\noverall and 15th percentile on essays",
       "filter": null
     },
     {

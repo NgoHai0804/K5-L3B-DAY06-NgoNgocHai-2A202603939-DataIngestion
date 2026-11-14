@@ -2,17 +2,26 @@
   "A": {
     "chunks": 386,
     "chars": 183077,
-    "ingest_seconds": 46.7
+    "length_min": 57,
+    "length_avg": 474.3,
+    "length_max": 500,
+    "ingest_seconds": 25.9
   },
   "B": {
     "chunks": 230,
     "chars": 166027,
-    "ingest_seconds": 26.6
+    "length_min": 19,
+    "length_avg": 721.9,
+    "length_max": 800,
+    "ingest_seconds": 27.8
   },
   "C": {
     "chunks": 230,
     "chars": 166027,
-    "ingest_seconds": 25.1
+    "length_min": 19,
+    "length_avg": 721.9,
+    "length_max": 800,
+    "ingest_seconds": 41.1
   },
   "_meta": {
     "model": "qwen/qwen3-embedding-8b",
@@ -23,5 +32,11 @@
       "B": 230,
       "C": 230
     }
+  },
+  "corpus": {
+    "pages": 45,
+    "content_pages": 45,
+    "empty_pages": [],
+    "errors": []
   }
 }
