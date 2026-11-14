@@ -2,17 +2,17 @@
   "A": {
     "chunks": 386,
     "chars": 183077,
-    "ingest_seconds": 39.0
+    "ingest_seconds": 46.7
   },
   "B": {
     "chunks": 230,
     "chars": 166027,
-    "ingest_seconds": 17.2
+    "ingest_seconds": 26.6
   },
   "C": {
     "chunks": 230,
     "chars": 166027,
-    "ingest_seconds": 17.9
+    "ingest_seconds": 25.1
   },
   "_meta": {
     "model": "qwen/qwen3-embedding-8b",

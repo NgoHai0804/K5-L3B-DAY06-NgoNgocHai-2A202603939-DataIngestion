@@ -8,22 +8,22 @@
     "evidence_quote": "reviewing 154 studies, with a final selection of 131 after manual filtering",
     "top3": [
       {
-        "chunk_id": "A:nlp-legal-survey-2410.21306-p9-c4-a2979e4b",
-        "document_id": "nlp-legal-survey-2410.21306",
-        "source": "nlp-legal-survey-2410.21306",
-        "page": 9,
-        "section": "methodology",
-        "score": 0.5951923373226929,
-        "text": "efine this list, we applied manual review.\nThis process involved:\n(1) Title and Abstract Screening: We reviewed the titles and abstracts of all retrieved studies to assess their\nrelevance to the predefined legal NLP tasks. Studies unrelated to the core legal NLP and its tasks were excluded.\n(2) Full-Text Review: Articles that passed the initial screening underwent a detailed full-text review to confirm\ntheir relevance, quality and alignment with the inclusion criteria. During this phase, we also"
-      },
-      {
         "chunk_id": "A:nlp-legal-survey-2410.21306-p9-c5-c4e87ce5",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.5949498833730875,
+        "score": 0.5952926405741034,
         "text": "the inclusion criteria. During this phase, we also examined the\nliterature review sections of each paper to ensure that the studies not only contributed original findings but also\ndemonstrated a comprehensive understanding of the existing legal NLP research landscape.\n(3) Final Selection: Of the original 154 studies, 131 met the inclusion criteria and were retained. These studies\nwere selected for their direct relevance to key legal NLP tasks, methodological quality, and engagement with\nexisting"
+      },
+      {
+        "chunk_id": "A:nlp-legal-survey-2410.21306-p9-c4-a2979e4b",
+        "document_id": "nlp-legal-survey-2410.21306",
+        "source": "nlp-legal-survey-2410.21306",
+        "page": 9,
+        "section": "methodology",
+        "score": 0.5946524980871392,
+        "text": "efine this list, we applied manual review.\nThis process involved:\n(1) Title and Abstract Screening: We reviewed the titles and abstracts of all retrieved studies to assess their\nrelevance to the predefined legal NLP tasks. Studies unrelated to the core legal NLP and its tasks were excluded.\n(2) Full-Text Review: Articles that passed the initial screening underwent a detailed full-text review to confirm\ntheir relevance, quality and alignment with the inclusion criteria. During this phase, we also"
       },
       {
         "chunk_id": "A:nlp-legal-survey-2410.21306-p9-c3-e5cd458b",
@@ -31,7 +31,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.5510435043521519,
+        "score": 0.5509498983055423,
         "text": "0-2022, and LAM from 2009-2024. Furthermore,\nwe limited our search for legal corpora to 2021-2024 and legal LMs from 2020-2024. This approach ensured the inclusion\nof recent advancements. Peer-reviewed journal articles and high-quality conference proceedings were prioritised, with\nsecondary consideration given to relevant non-peer-reviewed sources.\n4.2 Study Selection\nA total of 154 studies were initially identified from the database search. To refine this list, we applied manual review.\nThis pr"
       }
     ],
@@ -54,7 +54,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.544743147805789,
+        "score": 0.5437441034240756,
         "text": "a venue for researchers to test and\nManuscript submitted to ACM"
       },
       {
@@ -63,7 +63,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.5341287614337461,
+        "score": 0.5331578811218918,
         "text": "s, with detailed discussions on\ntechnical solutions that tackle these issues, thereby enhancing understanding and encouraging further research in this\nevolving field. (3) This survey also highlights the existing research gaps in legal NLP, identifying areas that require\nfurther exploration and development and providing a road-map for future research efforts in the legal NLP domain.\n3 Background and Foundational Concepts\nIn this section, we explain how NLP can be applied within the legal domain. "
       },
       {
@@ -72,7 +72,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.5304566536306373,
+        "score": 0.5267155170440674,
         "text": "ve been specifically adapted\nto the legal field. Finally, in Section 13, we address the key challenges associated with deploying NLP technologies in\nlegal settings, discussing both current issues and potential solutions. Since this survey contains many acronyms, Table\n2 provides the list of acronyms and their meanings to make it easier to follow.\n2 Related Work\nSeveral studies have examined the use of NLP in the legal domain, each focusing on different problems and applications.\nTo provide a com"
       }
     ],
@@ -95,7 +95,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.5754049167278451,
+        "score": 0.5767747163772747,
         "text": " comprehensive assessment of research on NLP tasks within the legal sector.\n4.1 Search Strategy\nWe performed a systematic search across two academic databases to identify relevant studies, including: Google Scholar\nand IEEE Xplore. Then, search queries were crafted to capture studies that focused on the application of NLP to legal\ntasks. The search was defined by the following two queries:\n• Query 1: (“Natural Language Processing” OR “NLP”) AND (“Legal” OR “Law”)\n• Query 2: (“Legal” AND (“Named "
       },
       {
@@ -104,7 +104,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.5505352944454814,
+        "score": 0.5507622421696514,
         "text": "0-2022, and LAM from 2009-2024. Furthermore,\nwe limited our search for legal corpora to 2021-2024 and legal LMs from 2020-2024. This approach ensured the inclusion\nof recent advancements. Peer-reviewed journal articles and high-quality conference proceedings were prioritised, with\nsecondary consideration given to relevant non-peer-reviewed sources.\n4.2 Study Selection\nA total of 154 studies were initially identified from the database search. To refine this list, we applied manual review.\nThis pr"
       },
       {
@@ -113,7 +113,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.5088977531607911,
+        "score": 0.5089877247810508,
         "text": "10 Ariai et al.\n– Both peer-reviewed and non-peer-reviewed studies were considered if they provided valuable insights.\n• Exclusion Criteria:\n– Studies focused exclusively on unrelated areas such as IR methods, pattern mining, information extraction or\nsimilarity detection without a clear application to the specific legal NLP tasks mentioned.\n– General NLP studies without a focus on legal applications.\n– Editorials, opinion pieces or other non-research articles.\n– Papers that did not meet basic m"
       }
     ],
@@ -136,7 +136,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.6707567376349424,
+        "score": 0.6625024870040997,
         "text": "ions (CA-questions) [155]. KD-questions are centred around the understanding of specific legal concepts,\nwhereas CA-questions involve the analysis of actual legal cases. Both categories demand advanced reasoning skills and\na deep comprehension of the text, making LQA a particularly challenging task in the field of NLP.\nZhong et al. [155] introduce JEC-QA, a dataset with 26,365 multiple-choice questions from the National Judicial\nExamination of China and related websites. Each question provides f"
       },
       {
@@ -145,7 +145,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 6,
         "section": "information_extraction",
-        "score": 0.6178186167586773,
+        "score": 0.6088968748511844,
         "text": "t, and cover various ver-\nsions of the questions through human annotations.\nThe questions generated are essentially evaluated\nfor coverage of the text and linguistic correctness.\nBut these datasets lack the domain speciﬁc legal\nlanguage which limits use of such benchmarks.\nThere is also a reasoning based legal dataset (JEC-\nQA (Zhong et al., 2020b)) which involves complex\nquestions based on the questions from the National\nJudicial Examination of China. However, this is a\nquestion answering bench"
       },
       {
@@ -154,7 +154,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.6083694462996402,
+        "score": 0.5980270984140688,
         "text": "ating complex cross-border issues.\nEQUALS [23] is a large-scale annotated LQA dataset in Chinese law, containing 6,914 question-answer pairs with\nanswers based on specific law articles. Curated by senior law students, it covers 10 collections of Chinese laws and\nincludes annotations indicating the type of reasoning required for each question. The dataset ensures that answers are\nprecise excerpts from relevant law articles, making it valuable for developing advanced LQA systems that can aid in\nle"
       }
     ],
@@ -177,7 +177,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 13,
         "section": "judgement_prediction",
-        "score": 0.7850964537320422,
+        "score": 0.7857571584888886,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 13\nNiklaus et al . [96] introduce a multilingual LJP dataset from the Federal Supreme Court of Switzerland (FSCS),\ncontaining over 85,000 cases in German, French, and Italian. The dataset is annotated with publication years, legal areas,\nand cantons of origin, making it suitable for NLP applications in judgement prediction.\nSemo et al. [118] introduce the first LJP dataset centred on US class-act"
       },
       {
@@ -195,7 +195,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 12,
         "section": "judgement_prediction",
-        "score": 0.6855992913006285,
+        "score": 0.6859529240075259,
         "text": "ing.\nThe Court View Gen [144] dataset is an innovative resource containing 171,981 Chinese legal cases, each involving\na single defendant and a corresponding charge, covering a total of 51 charge categories. It is specifically curated to\nsupport the generation of court opinions based on charge labels. All cases were collected from the publicly available\nChina Judgements Online repository.\nManuscript submitted to ACM"
       }
     ],
@@ -218,7 +218,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 15,
         "section": "text_classification",
-        "score": 0.7690223455429077,
+        "score": 0.7682844033326307,
         "text": "cation, few-shot and zero-shot learning, with documents tagged with an expansive set of descriptors.\nTuggener et al. [133] introduce LEDGAR, a multi-label corpus of legal provisions from contracts scraped from the\nthe US Securities and Exchange Commission’s website. The dataset includes over 846,000 provisions across 60,540\ncontracts, with an extensive label set suitable for text classification and legal studies.\nChalkidis et al. [19] present MULTI-EURLEX, a multilingual dataset containing 65,00"
       },
       {
@@ -227,7 +227,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.7227549172268787,
+        "score": 0.7246188685525254,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 5\n3.1 Legal Documents\nLegal documents, such as court filings, judicial judgements, statutes, treaties, contracts, and formal legal correspondence\nencode the authoritative rules, rights, and duties that underpin our legal systems. They transmit legally operative\ninformation, including procedural requirements, enforceable obligations, and interpretative reasoning. Lawyers, judges,\nregulators, and a"
       },
       {
@@ -236,7 +236,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.7045389061616597,
+        "score": 0.7063204646110736,
         "text": "E) benchmark, a com-\nprehensive suite of datasets aimed at assessing the capabilities of NLP models across various legal tasks. The benchmark\ncovers datasets, such as ECHR [17], SCOTUS,8 EUR-Lex, LEDGAR [133], UNFAIR-ToS[77] and CaseHOLD [151], each\nchosen for its complexity, relevance, and need for legal expertise. These datasets cover a range of tasks from multi-label\nand multi-class classification to multiple-choice questions and are split chronologically into training, development\nand test s"
       }
     ],
@@ -277,7 +277,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.7080557868381041,
+        "score": 0.7079750647574636,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 3\nTable 2. List of acronyms used in the survey.\nAcronyms Meaning\nCFR Code of Federal Regulations\nCJEU Court of Justice of the European Union\nECHR European Court of Human Rights\nFSCS Federal Supreme Court of Switzerland\nJEC-QA Judicial Examination of Chinese Question Answering\nLAM Legal Argument Mining\nLDS Legal Document Summarisation\nLJP Legal Judgement Prediction\nLQA Legal Question Answering\nLTC"
       }
     ],
@@ -341,7 +341,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.7145426912196899,
+        "score": 0.7153573375514547,
         "text": "ontent filtering practices before pre-training LLMs, thereby enhancing the ethical use of NLP in legal applications.\nNiklaus et al. [98] present the MultiLegalPile, the largest open-source multilingual legal corpus available, totalling 689\nGB and spanning 17 jurisdictions across 24 languages. This extensive dataset is designed to facilitate training of LLMs\nwithin the legal domain, featuring diverse legal text types including case law, legislation and contracts, predominantly\nin English due to t"
       },
       {
@@ -350,7 +350,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.6827294041353121,
+        "score": 0.6814152788272443,
         "text": "24 Ariai et al.\n11.2 Large corpora for pre-training\nHenderson et al. [56] introduce the “Pile of Law, ” the first at-scale legal text collection, containing a 256 GB dataset of\nopen-source English-language legal and administrative data. This dataset includes contracts, court opinions, legislative\nrecords, and administrative rules, curated to explore data sanitation norms across legal and administrative settings and\nserve as a tool for pre-training legal LLMs. They emphasise the legal norms gover"
       },
       {
@@ -359,7 +359,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 25,
         "section": "language_models",
-        "score": 0.6658507784694075,
+        "score": 0.6642401614332307,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 25\ntoken capacities, Lawformer employs a unique combination of sliding window, dilated sliding window, and global\nattention mechanisms to process long texts, making it suitable for legal AI tasks, such as LJP and LQA. Pre-trained\non a vast corpus of Chinese legal documents segmented into criminal and civil cases, Lawformer integrates complex\nsequential dependencies across tokens using these atten"
       }
     ],
@@ -382,7 +382,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.5659698922598274,
+        "score": 0.5640146579707485,
         "text": "24 Ariai et al.\n11.2 Large corpora for pre-training\nHenderson et al. [56] introduce the “Pile of Law, ” the first at-scale legal text collection, containing a 256 GB dataset of\nopen-source English-language legal and administrative data. This dataset includes contracts, court opinions, legislative\nrecords, and administrative rules, curated to explore data sanitation norms across legal and administrative settings and\nserve as a tool for pre-training legal LLMs. They emphasise the legal norms gover"
       },
       {
@@ -391,7 +391,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.5099148166078147,
+        "score": 0.5054818077439651,
         "text": "ating complex cross-border issues.\nEQUALS [23] is a large-scale annotated LQA dataset in Chinese law, containing 6,914 question-answer pairs with\nanswers based on specific law articles. Curated by senior law students, it covers 10 collections of Chinese laws and\nincludes annotations indicating the type of reasoning required for each question. The dataset ensures that answers are\nprecise excerpts from relevant law articles, making it valuable for developing advanced LQA systems that can aid in\nle"
       },
       {
@@ -400,7 +400,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 25,
         "section": "language_models",
-        "score": 0.5077060461044456,
+        "score": 0.5019758341341252,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 25\ntoken capacities, Lawformer employs a unique combination of sliding window, dilated sliding window, and global\nattention mechanisms to process long texts, making it suitable for legal AI tasks, such as LJP and LQA. Pre-trained\non a vast corpus of Chinese legal documents segmented into criminal and civil cases, Lawformer integrates complex\nsequential dependencies across tokens using these atten"
       }
     ],
@@ -423,7 +423,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 25,
         "section": "language_models",
-        "score": 0.8219945642954689,
+        "score": 0.8272296477370956,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 25\ntoken capacities, Lawformer employs a unique combination of sliding window, dilated sliding window, and global\nattention mechanisms to process long texts, making it suitable for legal AI tasks, such as LJP and LQA. Pre-trained\non a vast corpus of Chinese legal documents segmented into criminal and civil cases, Lawformer integrates complex\nsequential dependencies across tokens using these atten"
       },
       {
@@ -432,7 +432,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.7833683619875706,
+        "score": 0.7882584298427208,
         "text": "f\nBERT directly. They introduce legal-bert, which includes versions for varied computational capacities and demonstrates\ncompetitive performance with a lower environmental impact.\nXiao et al. [140] introduce Lawformer, a Longformer-based [10] LM adapted for Chinese legal texts, designed to\nhandle extensive document lengths common in legal data. Recognising the limitation of standard PLMs with shorter\nManuscript submitted to ACM"
       },
       {
@@ -441,7 +441,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 25,
         "section": "language_models",
-        "score": 0.7242105819049655,
+        "score": 0.7272448648056262,
         "text": "s to cope with the challenges of long\nlegal texts within the LexGLUE benchmark, focusing on extending input capabilities and enhancing efficiency. They\nmodify Longformer [10], originally extending up to 4,096 subwords, to process up to 8,192 subwords by reducing local\nattention window size and incorporating a global token at the end of each paragraph to facilitate information flow\nacross longer texts. Additionally, they adapt legal-bert to employ TF-IDF representations to manage longer documents"
       }
     ],
@@ -464,7 +464,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 25,
         "section": "language_models",
-        "score": 0.6533190985499472,
+        "score": 0.6528494138791286,
         "text": "pre-training BERT from\nscratch using a broad range of legal documents, including legislative materials and contracts.\nColombo et al . [27] introduce SaulLM-7B, a novel LLM specifically designed for legal text comprehension and\ngeneration, built on the 7 billion parameter Mistral [62] architecture. This model is trained on an extensive English legal\ncorpus, designed to meet the unique challenges of legal syntax and terms. SaulLM-7B uses a two-tier training approach:\ncontinued pre-training on a ca"
       },
       {
@@ -473,7 +473,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.6149964149297485,
+        "score": 0.6168181712383711,
         "text": "8 Ariai et al.\n3.2.2 LLMs as an application of NLP in the legal sector. LLMs are a category of Deep Learning (DL)-based NLP models\ntrained on extensive text corpora to process and generate human-like language. These models, typically based on\nTransformer architectures, learn linguistic patterns from diverse sources, enabling them to perform tasks, such as text\nsummarisation, document analysis and Question Answering (QA). LLMs have gained widespread attention in NLP\napplications, particularly fol"
       },
       {
@@ -482,7 +482,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 25,
         "section": "language_models",
-        "score": 0.6026076494870422,
+        "score": 0.6017997802913017,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 25\ntoken capacities, Lawformer employs a unique combination of sliding window, dilated sliding window, and global\nattention mechanisms to process long texts, making it suitable for legal AI tasks, such as LJP and LQA. Pre-trained\non a vast corpus of Chinese legal documents segmented into criminal and civil cases, Lawformer integrates complex\nsequential dependencies across tokens using these atten"
       }
     ],
@@ -505,7 +505,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 27,
         "section": "challenges",
-        "score": 0.770274845328951,
+        "score": 0.7746215000974251,
         "text": "it hard to segment them\ninto coherent units for analysis. Without addressing these complexities, fine-tuning LMs on raw legal data becomes\nimpractical, limiting the performance of legal NLP applications.\nORC9: Reinforcement Learning from Human Feedback (RLHF). The use of RLHF within the legal domain is notably scarce.\nCurrently, there is only one peer-reviewed work [94] available that explores this approach. This indicates an opportunity\nfor research and development in this area, as RLHF could p"
       },
       {
@@ -514,7 +514,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 27,
         "section": "challenges",
-        "score": 0.7341669201850891,
+        "score": 0.7377178576168472,
         "text": "arch and development in this area, as RLHF could potentially enhance the capability of NLP models to learn and\nto make decisions based on complex legal data under human guidance. Further exploration into this method could\nlead to more responsive and adaptable legal NLP systems. However, due to the complex nature of legal reasoning and\nthe need for accurate legal knowledge in the human feedback phase, integrating RLHF into legal NLP pipelines poses\nsome challenges. In particular, legal experts su"
       },
       {
@@ -523,7 +523,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 28,
         "section": "challenges",
-        "score": 0.7101934379454529,
+        "score": 0.7189087439233827,
         "text": "28 Ariai et al.\naccurately interpret and apply complex legal concepts, which is a barrier due to the significant cost of employing such\nprofessionals. Nonetheless, if RLHF can demonstrate further downstream savings due to improved worker efficiency,\nthe up-front cost of employing legal professionals for data annotation tasks may be a worthwhile investment.\nORC10: Expanding Legal Domain Coverage. There is a noticeable gap in the research across various areas of the legal\ndomain, including Intelle"
       }
     ],
@@ -546,7 +546,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 29,
         "section": "conclusion",
-        "score": 0.7244689896386273,
+        "score": 0.7211947441101074,
         "text": "ion. The legal domain presents particular challenges because documents are\nlengthy, contain numerous cross-references, and exhibit complex linguistic structures. These characteristics can cause\nLLMs to hallucinate when asked for precise answers. RAG offers a promising remedy by incorporating relevant passages\ndirectly into the generation process, overcoming LLM input-length limits and improving both relevance and contextual\naccuracy. However, applying RAG in legal settings still poses challenges"
       },
       {
@@ -555,7 +555,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 29,
         "section": "conclusion",
-        "score": 0.664520323084622,
+        "score": 0.6675111254307966,
         "text": "lying RAG in legal settings still poses challenges: handling documents from multiple jurisdictions,\nensuring that retrieved material remains temporally current, addressing multilingual texts, and mitigating retrieval\nbiases are all significant problems that must be resolved.\nSummary. Table 5 illustrates the connections between ORCs and the discussed research areas. As shown, most ORCs\nare related to LJP, LQA, LTC and LLMs, indicating more extensive research in these areas. Nonetheless, it is evi"
       },
       {
@@ -564,7 +564,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 29,
         "section": "conclusion",
-        "score": 0.6165923615208103,
+        "score": 0.6207546365710888,
         "text": "f Reliable Annotated data ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\nMultilingual Capabilities ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\nOntology ✓ ✓ ✓ ✓ ✓ ✓ ✓ –\nPre-processing Legal Text ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\nRLHF ✓ ✓ ✓ ✓ – ✓ ✓ –\nExpanding Legal Domain Coverage ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\nSLMs – – – – – – ✓ –\nDomain-Specific Efficient Fine-Tuning ✓ ✓ ✓ ✓ – – ✓ –\nLegal Logical Reasoning ✓ ✓ ✓ – – ✓ ✓ –\nLegal NER – – – – ✓ ✓ – –\nStochastic Parrots – – – – – – ✓ –\nRAG ✓ ✓ – – – ✓ ✓ –\nORC16: Retrieval-Augmented Generation. The legal domain presents particular challeng"
       }
     ],
@@ -587,7 +587,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.7719879422202179,
+        "score": 0.7862411716939768,
         "text": "ively alter legal consequences. One such example appeared in the 2006 dispute between Rogers Communications\nand Bell Aliant,1 where a single comma in the English version of a termination clause was interpreted to permit early\ncancellation of a multimillion-dollar pole-access contract, whereas the absence of that comma in the equally-authentic\nFrench text preserved the original five-year lock-in. This case illustrates how punctuation alone can shift rights and\nliabilities. Legal documents also ty"
       },
       {
@@ -596,7 +596,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.5611190388585866,
+        "score": 0.565775137980308,
         "text": ", primarily because of its role within the legal system. One prominent feature is its formality,\nwhere legal texts often employ a more formal vocabulary and syntax to ensure precision and avoid ambiguity [ 50].\nThis formality is important, as the meaning of terms can have legal effects. Specialised vocabularies, fixed syntactic\npatterns, and even punctuation are chosen to maximise precision and avoid ambiguity, as small drafting choices can\ndecisively alter legal consequences. One such example a"
       },
       {
@@ -605,7 +605,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 6,
         "section": "background",
-        "score": 0.5157304657308942,
+        "score": 0.5177902291888145,
         "text": "6 Ariai et al.\nFig. 1. A sample page from the CFR, illustrating the structured and referenced nature of legal documents.\nAdditionally, the variation in legal reasoning, which includes rule-based, analogical and evidentiary arguments, along\nwith changes in legal standards, creates challenges for applying conventional NLP models [42]. Elements such as the\npeculiar use of punctuation affecting text segmentation and the frequent presence of digits and numbers, can also\ndisrupt traditional NLP pipeli"
       }
     ],
@@ -628,7 +628,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.7577268932895121,
+        "score": 0.7528550624847412,
         "text": "e\noverall and 15th percentile on essays. Similarly, further research reveals that although ChatGPT can achieve moderate\nsuccess on certain legal classification tasks, smaller fine-tuned models still outperform it by about 30 percentage points\n[16]. Another study highlights a tendency for LLMs to hallucinate legal content at high rates—up to 58% in some cases,\nraising reliability concerns for complex tasks [29]. Despite these drawbacks, lawyers and law students remain conscious\nof the broader imp"
       },
       {
@@ -637,7 +637,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.609911571160871,
+        "score": 0.6088266372680664,
         "text": "gal reasoning, legal IR and legal knowledge\nrepresentation. A recent special issue, Applications and Evaluation of LLMs in the Legal Domain, examines the use of\nLLMs in legal tasks such as summarisation, judgement prediction and contract drafting, while also addressing concerns,\nsuch as bias, misinformation and regulatory compliance. Additionally, the “Journal of Law and Information Technology”\nfocuses on the application of information technology in law, including research AI.\nConferences signif"
       },
       {
@@ -646,7 +646,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 29,
         "section": "conclusion",
-        "score": 0.5981207729506043,
+        "score": 0.5970290899276733,
         "text": "ion. The legal domain presents particular challenges because documents are\nlengthy, contain numerous cross-references, and exhibit complex linguistic structures. These characteristics can cause\nLLMs to hallucinate when asked for precise answers. RAG offers a promising remedy by incorporating relevant passages\ndirectly into the generation process, overcoming LLM input-length limits and improving both relevance and contextual\naccuracy. However, applying RAG in legal settings still poses challenges"
       }
     ],
@@ -669,7 +669,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.7224518921913985,
+        "score": 0.723942680593921,
         "text": "ad attention in NLP\napplications, particularly following the release of ChatGPT in November 2022 [99].\nA notable demonstration of NLP’s potential in the legal sector occurred when GPT-4 was reported to have passed the\nUniform Bar Exam near the 90th percentile, underscoring the technology’s potential [67]. However, subsequent analyses\nby Martínez [88] suggest that its actual performance may be considerably lower, possibly around the 48th percentile\noverall and 15th percentile on essays. Similarly"
       },
       {
@@ -678,7 +678,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.5844256556668388,
+        "score": 0.584653069418307,
         "text": "e\noverall and 15th percentile on essays. Similarly, further research reveals that although ChatGPT can achieve moderate\nsuccess on certain legal classification tasks, smaller fine-tuned models still outperform it by about 30 percentage points\n[16]. Another study highlights a tendency for LLMs to hallucinate legal content at high rates—up to 58% in some cases,\nraising reliability concerns for complex tasks [29]. Despite these drawbacks, lawyers and law students remain conscious\nof the broader imp"
       },
       {
@@ -687,7 +687,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 12,
         "section": "judgement_prediction",
-        "score": 0.5086015614450445,
+        "score": 0.520990400255307,
         "text": "strating improved performance in LQA\neven without domain-specific training.\nYuan et al. [146] present a three-step approach to bridge the legal knowledge gap by creating CLIC-pages—snippets\nthat explain technical legal concepts in layperson’s terms. They construct a legal question bank containing legal\nquestions answered by CLIC-pages, using GPT-3 [14] to generate machine-generated questions. The study shows that\nmachine-generated questions improve scalability and access to legal information for"
       }
     ],
@@ -710,17 +710,8 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.6721401405125793,
+        "score": 0.6741512216880581,
         "text": "The main\ncontributions of this survey are summarised as follows: (1) This article extends previous surveys by examining a\nbroad spectrum of studies and applications of legal NLP. By discussing datasets and large corpora in 24 languages and\nexploring popular legal LMs, this survey establishes itself as an important resource in the field of legal NLP. (2) The\nsurvey offers an in-depth look at the challenges of integrating NLP with legal applications, with detailed discussions on\ntechnical solution"
-      },
-      {
-        "chunk_id": "A:nlp-legal-survey-2410.21306-p4-c0-640045c3",
-        "document_id": "nlp-legal-survey-2410.21306",
-        "source": "nlp-legal-survey-2410.21306",
-        "page": 4,
-        "section": "related_work",
-        "score": 0.632438283191973,
-        "text": "4 Ariai et al.\nTable 3. An overview of existing surveys on NLP in the legal domain. We use a check mark (✓) to indicate papers that study the most\nof the existing research on each subject in legal NLP. Papers that do not address a subject receive a cross (✗), and those that partially\ncover specific subjects are marked with a dash (–).\nReferences Covered Subjects in the Legal Domain Published Year\nDataset NLP Tasks LM Large Corpora\nDias et al. [33] – – – ✗ 2022\nSun [128] ✓ – ✓ ✗ 2023\nCui et al. ["
       },
       {
         "chunk_id": "A:nlp-legal-survey-2410.21306-p3-c5-7c8578fe",
@@ -728,8 +719,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.6320929558194092,
+        "score": 0.631483799549855,
         "text": "ntrast, reviews NLP tasks in the legal domain, including\nLQA, LDS and LTC, along with legal datasets and corpora. Sun [128] examined two NLP tasks in the legal domain, such\nas LJP and statutory reasoning. Their study reviewed three datasets and two LLMs related to these tasks. Unlike Sun’s\nwork, our survey covers a wider range of NLP tasks and includes legal corpora and datasets. Cui et al. [28] focused\non LJP, reviewing 43 datasets in nine languages. Their study evaluated classification, text g"
+      },
+      {
+        "chunk_id": "A:nlp-legal-survey-2410.21306-p24-c2-255b4012",
+        "document_id": "nlp-legal-survey-2410.21306",
+        "source": "nlp-legal-survey-2410.21306",
+        "page": 24,
+        "section": "language_models",
+        "score": 0.630522577638016,
+        "text": "ontent filtering practices before pre-training LLMs, thereby enhancing the ethical use of NLP in legal applications.\nNiklaus et al. [98] present the MultiLegalPile, the largest open-source multilingual legal corpus available, totalling 689\nGB and spanning 17 jurisdictions across 24 languages. This extensive dataset is designed to facilitate training of LLMs\nwithin the legal domain, featuring diverse legal text types including case law, legislation and contracts, predominantly\nin English due to t"
       }
     ],
     "hit_at_1": true,
@@ -751,7 +751,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.8824017766716779,
+        "score": 0.8826950192451728,
         "text": "E) benchmark, a com-\nprehensive suite of datasets aimed at assessing the capabilities of NLP models across various legal tasks. The benchmark\ncovers datasets, such as ECHR [17], SCOTUS,8 EUR-Lex, LEDGAR [133], UNFAIR-ToS[77] and CaseHOLD [151], each\nchosen for its complexity, relevance, and need for legal expertise. These datasets cover a range of tasks from multi-label\nand multi-class classification to multiple-choice questions and are split chronologically into training, development\nand test s"
       },
       {
@@ -760,7 +760,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.7729732299173057,
+        "score": 0.7704887937334075,
         "text": "] Smădu et al. [123]German LER by Leitner et al. [72]\nLAM ECHR by Poudyal et al. [108] Zhang et al. [148]Demosthenes by Santin et al. [115] Santin et al. [115], Zhang et al. [148]\n11.1 Evaluation benchmarks\nZheng et al. [151] introduce CaseHOLD, a novel benchmark for evaluating NLP models in the legal domain, designed to\naddress the challenge of identifying the legal holdings from case texts. The dataset contains over 53,000 multiple-choice\nquestions derived from the US case law citations, where"
       },
       {
@@ -769,7 +769,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.7539724629546074,
+        "score": 0.7535141102041936,
         "text": "ntrast, reviews NLP tasks in the legal domain, including\nLQA, LDS and LTC, along with legal datasets and corpora. Sun [128] examined two NLP tasks in the legal domain, such\nas LJP and statutory reasoning. Their study reviewed three datasets and two LLMs related to these tasks. Unlike Sun’s\nwork, our survey covers a wider range of NLP tasks and includes legal corpora and datasets. Cui et al. [28] focused\non LJP, reviewing 43 datasets in nine languages. Their study evaluated classification, text g"
       }
     ],
@@ -792,7 +792,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.6910331271022402,
+        "score": 0.6898193133092745,
         "text": "petition leverages a dataset of over 5,700 case law files and introduces\nnew query cases and test questions sourced from recent bar exams, testing the efficacy of different teams’ approaches\nin handling complex legal texts and hypotheses in a controlled competitive environment.\nÖstling et al. [157] introduce the Cambridge Law Corpus (CLC), a legal dataset featuring 258,146 cases from UK\ncourts, dating from the 16th century to the present. The corpus includes raw text and metadata across various "
       },
       {
@@ -801,7 +801,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 12,
         "section": "judgement_prediction",
-        "score": 0.5813072593968067,
+        "score": 0.5806543827056926,
         "text": "ing.\nThe Court View Gen [144] dataset is an innovative resource containing 171,981 Chinese legal cases, each involving\na single defendant and a corresponding charge, covering a total of 51 charge categories. It is specifically curated to\nsupport the generation of court opinions based on charge labels. All cases were collected from the publicly available\nChina Judgements Online repository.\nManuscript submitted to ACM"
       },
       {
@@ -810,7 +810,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 18,
         "section": "named_entity_recognition",
-        "score": 0.5604174995173524,
+        "score": 0.5600740241916151,
         "text": " legal NER corpus drawn from federal court decisions, comprising about 67,000\nsentences and more than two million tokens. It contains roughly 54,000 manually annotated entities across 19 fine-\ngrained, domain-specific classes, such as court, judge, lawyer, law, person and legal literature, alongside over 35,000\nTimeML-based [109] time expressions. The annotations cover both broad categories, such as location, person and\nManuscript submitted to ACM"
       }
     ],
@@ -828,13 +828,13 @@
     "evidence_quote": "set of 2914 supreme court judgements.",
     "top3": [
       {
-        "chunk_id": "A:legal-nlp-india-survey-2107.06056-p15-c3-64344392",
+        "chunk_id": "A:legal-nlp-india-survey-2107.06056-p6-c2-f5a6e0ab",
         "document_id": "legal-nlp-india-survey-2107.06056",
         "source": "legal-nlp-india-survey-2107.06056",
-        "page": 15,
-        "section": "reasoning",
-        "score": 0.7088161284437116,
-        "text": "Cases (Chalkidis et al., 2019). To the best of\nour knowledge, there are no benchmarks that focus\non establishing inﬂuential judgments in speciﬁc\nareas of Indian Law.\n• Dataset to be collected\nData needed for such benchmark is supreme and\nhigh court judgements with citations. Legal experts\nwould be needed to create such lists. Opinions of\nmultiple legal experts need to be combined to cre-\nate the curated list in speciﬁc areas. Since data to\nbe collected involves ranked lists in a given area,\ncomp"
+        "page": 6,
+        "section": "information_extraction",
+        "score": 0.7061926582742797,
+        "text": "China. However, this is a\nquestion answering benchmark and not a question\ngeneration one. Hence a generation dataset using\nIndian Legal text would ensure that the solutions\ndeveloped work well with Indian Legal Language\nand are speciﬁc to this task.\n• Dataset to be collected\nThe data for this task could be collected from\njudgments, FIRs, chargesheets. Of these sources,\nthe judgments from district-courts, high-courts, and\nthe supreme-courts of India are available for use\nin such tasks. The humans"
       },
       {
         "chunk_id": "A:legal-nlp-india-survey-2107.06056-p13-c5-c987c405",
@@ -842,17 +842,17 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7087754607200623,
+        "score": 0.7058123209792933,
         "text": "atent space. This mapping\nof cases to latent vectors is learnt while training.\nThese types of tasks are harder to evaluate and\nhence hard to improve on.\n• Similar NLP benchmarks\nIn the Forum of Information Retrieval Evalua-\ntion 2019 (Bhattacharya et al., 2019a), there is a\ndataset created which identiﬁes the most similar\ncases for a given text description of a case from a\nset of 2914 supreme court judgements. This data is\navailable for 50 text description queries. Chinese\nAI Law competition (Xi"
       },
       {
-        "chunk_id": "A:legal-nlp-india-survey-2107.06056-p6-c2-f5a6e0ab",
+        "chunk_id": "A:legal-nlp-india-survey-2107.06056-p7-c3-f9fc8667",
         "document_id": "legal-nlp-india-survey-2107.06056",
         "source": "legal-nlp-india-survey-2107.06056",
-        "page": 6,
-        "section": "information_extraction",
-        "score": 0.7074649333953857,
-        "text": "China. However, this is a\nquestion answering benchmark and not a question\ngeneration one. Hence a generation dataset using\nIndian Legal text would ensure that the solutions\ndeveloped work well with Indian Legal Language\nand are speciﬁc to this task.\n• Dataset to be collected\nThe data for this task could be collected from\njudgments, FIRs, chargesheets. Of these sources,\nthe judgments from district-courts, high-courts, and\nthe supreme-courts of India are available for use\nin such tasks. The humans"
+        "page": 7,
+        "section": "summary_generation",
+        "score": 0.7046844817227921,
+        "text": "al., 2016), research(ArXiv) articles (Leskovec\net al., 2005), (Gehrke et al., 2003), pubmed articles\n(Sen et al., 2008). Similarly, the current state of\nthe art research focuses on comparing the perfor-\nmance of various algorithms on Indian Judgements\n(Bhattacharya et al., 2019b).\n• Dataset to be collected\nSince the summaries created by lawyers of the\nsupreme court for judgments from 1950 to 1994\nare available in the form of headnotes, this data\ncould be utilized to create the benchmark.\n• Evalu"
       }
     ],
     "hit_at_1": false,
@@ -874,7 +874,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 7,
         "section": "summary_generation",
-        "score": 0.7158742289693133,
+        "score": 0.7135360836982727,
         "text": "Finding the right context from such long judge-\nment is time consuming and error prone. Supreme\nCourt judgements from 1950 to 1994 used to have\nsummaries created by lawyers while publishing.\nBut after that the summaries are not present in the\nsupreme court judgement texts. This benchmark\nwould focus on evaluating various aspects of the\nsummaries created for a given judgement.\n• Value Proposition\nThe summary of high courts and supreme court\nis often used in establishing precedent. Searching\nin su"
       },
       {
@@ -883,7 +883,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 7,
         "section": "summary_generation",
-        "score": 0.7119227991196208,
+        "score": 0.7110213041305542,
         "text": "al., 2016), research(ArXiv) articles (Leskovec\net al., 2005), (Gehrke et al., 2003), pubmed articles\n(Sen et al., 2008). Similarly, the current state of\nthe art research focuses on comparing the perfor-\nmance of various algorithms on Indian Judgements\n(Bhattacharya et al., 2019b).\n• Dataset to be collected\nSince the summaries created by lawyers of the\nsupreme court for judgments from 1950 to 1994\nare available in the form of headnotes, this data\ncould be utilized to create the benchmark.\n• Evalu"
       },
       {
@@ -892,7 +892,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 9,
         "section": "summary_generation",
-        "score": 0.6706725555257573,
+        "score": 0.6682494082153596,
         "text": "best\nof our knowledge, there exists no ML and legal\nbenchmarks on context/ actor speciﬁc summary\ngeneration.\n• Dataset to be collected\nIn our benchmark, we propose the use of open\ndocuments from the Indian Legal System (e.g. case"
       }
     ],
@@ -915,7 +915,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.6050540514370878,
+        "score": 0.6018283013888167,
         "text": "ad attention in NLP\napplications, particularly following the release of ChatGPT in November 2022 [99].\nA notable demonstration of NLP’s potential in the legal sector occurred when GPT-4 was reported to have passed the\nUniform Bar Exam near the 90th percentile, underscoring the technology’s potential [67]. However, subsequent analyses\nby Martínez [88] suggest that its actual performance may be considerably lower, possibly around the 48th percentile\noverall and 15th percentile on essays. Similarly"
       },
       {
@@ -924,7 +924,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.5679385485539236,
+        "score": 0.5625739432915425,
         "text": "e\noverall and 15th percentile on essays. Similarly, further research reveals that although ChatGPT can achieve moderate\nsuccess on certain legal classification tasks, smaller fine-tuned models still outperform it by about 30 percentage points\n[16]. Another study highlights a tendency for LLMs to hallucinate legal content at high rates—up to 58% in some cases,\nraising reliability concerns for complex tasks [29]. Despite these drawbacks, lawyers and law students remain conscious\nof the broader imp"
       },
       {
@@ -933,7 +933,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 6,
         "section": "information_extraction",
-        "score": 0.4365617968701315,
+        "score": 0.4371704496639769,
         "text": "swers, the generated answers\nwould be compared with Human answers to cal-\nculate the overlap. The Quality of the questions\ncould be checked by checking the grammar of the\nquestions, passing the question through the stan-\ndard question answering model to check whether\nthe answer matches with the given answer.\n5.2 Summary Generation\n5.2.1 Judgement Summarization\n• Description of Task\nThe court judgements, especially from high\ncourts and supreme court, tend to be very long."
       }
     ],
@@ -956,7 +956,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 15,
         "section": "reasoning",
-        "score": 0.7215422176855298,
+        "score": 0.7285687812741907,
         "text": "model created ranked list of expert\ncreated list\n5.4 Reasoning Based NLP\n5.4.1 Predict Relevant Acts based on Case\nFacts\n• Description of Task\nPredicting the relevant act of the law based on\nthe text description of the fact is an important legal\nresearch task. This is done typically by lawyers\nand police while making the chargesheet. Automat-\ning this process can help layman people who don’t\nunderstand law. This would help people to collect\nthe right information about the case in a timely\nmanner"
       },
       {
@@ -965,7 +965,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 15,
         "section": "reasoning",
-        "score": 0.694695490914863,
+        "score": 0.70299261158838,
         "text": "ight information about the case in a timely\nmanner before they interact with lawyers or police.\nThis will also increase familiarity of law in com-\nmon people. E.g. A citizen enters text “Thieves\ntook away my Rs. 10000 and Mobile last night....”\nthe NLP system would return “Section 378 under\nIndian Penal Code”. It can also return what are\nthe keywords in the input text description that trig-\ngered this prediction. In this case keywords could\nbe “took away”.\n• Value Proposition\nInformed with the r"
       },
       {
@@ -974,7 +974,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.6251825168402474,
+        "score": 0.631917423263067,
         "text": "Entity1 Relation Entity2\nAshok Sethi is Complainer\nPranav Jog is Accussed\nComplainer is neighbor Accussed\nComplainer assaulted Accussed\nTable 2: Example of Extracted Relations\nNLP Models should be able to correctly identify\nmost of the relations and correctly categorize those.\n5.3 Case Similarity\nIndian Law is common law. This means that prece-\ndent set by previous courts to interpret laws must\nbe respected. Hence ﬁnding out cases which are\nsimilar to a given case becomes important for le-\ngal r"
       }
     ],
@@ -997,7 +997,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7480343803177673,
+        "score": 0.7523156852910344,
         "text": "Entity1 Relation Entity2\nAshok Sethi is Complainer\nPranav Jog is Accussed\nComplainer is neighbor Accussed\nComplainer assaulted Accussed\nTable 2: Example of Extracted Relations\nNLP Models should be able to correctly identify\nmost of the relations and correctly categorize those.\n5.3 Case Similarity\nIndian Law is common law. This means that prece-\ndent set by previous courts to interpret laws must\nbe respected. Hence ﬁnding out cases which are\nsimilar to a given case becomes important for le-\ngal r"
       },
       {
@@ -1006,7 +1006,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7384378818329996,
+        "score": 0.7461190214440927,
         "text": "ar to a given case becomes important for le-\ngal research. This activity is manual and a lot of\ncommercial tools use keyword based or act based\nsimilarities. But to be able to search the similar\njudgements based on longer text like case facts,\nFIR etc. would make the search more relevant and\nautomated. Following benchmarks focus on these\ntasks.\n5.3.1 Find Similar Cases\n• Description of Task\nThis benchmark deals with ﬁnding most rele-\nvant cases for given text descriptions about a case.\nMany exis"
       },
       {
@@ -1015,7 +1015,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7365250931881566,
+        "score": 0.7390678084452384,
         "text": "in sen-\ntences similarity and not on similarity of the entire\ndocument. Competition on Legal Information Ex-\ntraction/Entailment (COL) focuses on extracting\nsupporting cases for a given new case using Canada\ncases. Hence there is a need for benchmark of In-\ndian Legal cases similarity.\n• Dataset to be collected\nThe data needed for this benchmark is past judge-\nments and metadata about the case like acts etc.\nUsing this data, triplets of cases (A,B,C) would be\nmade. Legal Experts would tag if cas"
       }
     ],
@@ -1038,7 +1038,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.7634815150764368,
+        "score": 0.7600262475045076,
         "text": ", reflecting the ongoing evolution and\nchallenge in legal NLP applications.\nBarale et al. [9] present AsyLex, a pioneering dataset tailored for refugee law applications, featuring 59,112 documents\nfrom Canadian refugee status determinations spanning from 1996 to 2022. This dataset is designed to enhance the\ncapabilities of NLP models in legal research by providing 19,115 gold-standard human-annotated and 30,944 inferred\nlabels for entity extraction and LJP. Key contributions include anonymizing "
       },
       {
@@ -1047,7 +1047,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 15,
         "section": "text_classification",
-        "score": 0.6168630034082582,
+        "score": 0.6198173862314734,
         "text": "TI-EURLEX, a multilingual dataset containing 65,000 EU laws translated into 23\nofficial EU languages, annotated with EuroVoc labels. The dataset emphasises temporal concept drift by adopting\nchronological splits, enhancing its utility for sophisticated LTC tasks requiring understanding legal terms across\ndifferent time periods.\nPapaloukas et al. [102] introduce the Greek Legal Code dataset, categorising approximately 47,000 Greek legislative\ndocuments into a detailed multi-level classification s"
       },
       {
@@ -1056,7 +1056,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.6073560970678572,
+        "score": 0.6084308390874268,
         "text": "petition leverages a dataset of over 5,700 case law files and introduces\nnew query cases and test questions sourced from recent bar exams, testing the efficacy of different teams’ approaches\nin handling complex legal texts and hypotheses in a controlled competitive environment.\nÖstling et al. [157] introduce the Cambridge Law Corpus (CLC), a legal dataset featuring 258,146 cases from UK\ncourts, dating from the 16th century to the present. The corpus includes raw text and metadata across various "
       }
     ],
@@ -1079,7 +1079,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.8197014116885019,
+        "score": 0.8198263537780388,
         "text": "E) benchmark, a com-\nprehensive suite of datasets aimed at assessing the capabilities of NLP models across various legal tasks. The benchmark\ncovers datasets, such as ECHR [17], SCOTUS,8 EUR-Lex, LEDGAR [133], UNFAIR-ToS[77] and CaseHOLD [151], each\nchosen for its complexity, relevance, and need for legal expertise. These datasets cover a range of tasks from multi-label\nand multi-class classification to multiple-choice questions and are split chronologically into training, development\nand test s"
       },
       {
@@ -1088,7 +1088,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.7846867442131042,
+        "score": 0.7859560506396234,
         "text": "on and LJP. Key contributions include anonymizing decision documents, employing a robust\nannotation methodology and creating datasets for specific NLP tasks, such as entity extraction and judgement prediction.\nNiklaus et al. [97] present LEXTREME, a multilingual benchmark for evaluating LMs on legal NLP tasks. Drawing on\nlegal NLP research published between 2010 and 2022, they curate 11 human-annotated datasets spanning 24 languages\nand multiple legal domains. To ensure fair comparison across mo"
       },
       {
@@ -1097,7 +1097,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.7738786744096389,
+        "score": 0.76801011657685,
         "text": "The main\ncontributions of this survey are summarised as follows: (1) This article extends previous surveys by examining a\nbroad spectrum of studies and applications of legal NLP. By discussing datasets and large corpora in 24 languages and\nexploring popular legal LMs, this survey establishes itself as an important resource in the field of legal NLP. (2) The\nsurvey offers an in-depth look at the challenges of integrating NLP with legal applications, with detailed discussions on\ntechnical solution"
       }
     ],
@@ -1120,7 +1120,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.6302977424682543,
+        "score": 0.6305744712517622,
         "text": "ceedings were prioritised, with\nsecondary consideration given to relevant non-peer-reviewed sources.\n4.2 Study Selection\nA total of 154 studies were initially identified from the database search. To refine this list, we applied manual review.\nThis process involved:\n(1) Title and Abstract Screening: We reviewed the titles and abstracts of all retrieved studies to assess their\nrelevance to the predefined legal NLP tasks. Studies unrelated to the core legal NLP and its tasks were excluded.\n(2) Full"
       },
       {
@@ -1129,7 +1129,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.523422329221826,
+        "score": 0.5288343991238595,
         "text": "ed original findings but also\ndemonstrated a comprehensive understanding of the existing legal NLP research landscape.\n(3) Final Selection: Of the original 154 studies, 131 met the inclusion criteria and were retained. These studies\nwere selected for their direct relevance to key legal NLP tasks, methodological quality, and engagement with\nexisting literature.\n4.3 Eligibility Criteria\nTo determine which studies were included in the final synthesis, we established the following criteria:\n• Inclus"
       },
       {
@@ -1138,7 +1138,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.5013737827948919,
+        "score": 0.5038319525818862,
         "text": "10 Ariai et al.\n– Both peer-reviewed and non-peer-reviewed studies were considered if they provided valuable insights.\n• Exclusion Criteria:\n– Studies focused exclusively on unrelated areas such as IR methods, pattern mining, information extraction or\nsimilarity detection without a clear application to the specific legal NLP tasks mentioned.\n– General NLP studies without a focus on legal applications.\n– Editorials, opinion pieces or other non-research articles.\n– Papers that did not meet basic m"
       }
     ],
@@ -1170,7 +1170,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.5120658292848896,
+        "score": 0.5159156322479395,
         "text": "nce between our work and previous surveys is that our survey aims to provide a more general\nview of all aspects of NLP tasks in the legal domain, rather than focusing solely on specific applications. The main\ncontributions of this survey are summarised as follows: (1) This article extends previous surveys by examining a\nbroad spectrum of studies and applications of legal NLP. By discussing datasets and large corpora in 24 languages and\nexploring popular legal LMs, this survey establishes itself "
       },
       {
@@ -1179,7 +1179,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.4862419060612939,
+        "score": 0.4939762048692983,
         "text": "4 Ariai et al.\nTable 3. An overview of existing surveys on NLP in the legal domain. We use a check mark (✓) to indicate papers that study the most\nof the existing research on each subject in legal NLP. Papers that do not address a subject receive a cross (✗), and those that partially\ncover specific subjects are marked with a dash (–).\nReferences Covered Subjects in the Legal Domain Published Year\nDataset NLP Tasks LM Large Corpora\nDias et al. [33] – – – ✗ 2022\nSun [128] ✓ – ✓ ✗ 2023\nCui et al. ["
       }
     ],
@@ -1202,7 +1202,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.5355719327926636,
+        "score": 0.5402981734986719,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 9\ncompare methods in the context of e-discovery. Its contributions include benchmark datasets and evaluation metrics\nthat were used to assess retrieval performance in legal text processing.\n4 Methodology\nThis survey follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) framework [100].\nIt ensures a transparent and comprehensive assessment of research on NLP tasks"
       },
       {
@@ -1211,7 +1211,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.5227892994880676,
+        "score": 0.5281847715377957,
         "text": "ceedings were prioritised, with\nsecondary consideration given to relevant non-peer-reviewed sources.\n4.2 Study Selection\nA total of 154 studies were initially identified from the database search. To refine this list, we applied manual review.\nThis process involved:\n(1) Title and Abstract Screening: We reviewed the titles and abstracts of all retrieved studies to assess their\nrelevance to the predefined legal NLP tasks. Studies unrelated to the core legal NLP and its tasks were excluded.\n(2) Full"
       },
       {
@@ -1220,7 +1220,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.4701462212335684,
+        "score": 0.47680407486010834,
         "text": "10 Ariai et al.\n– Both peer-reviewed and non-peer-reviewed studies were considered if they provided valuable insights.\n• Exclusion Criteria:\n– Studies focused exclusively on unrelated areas such as IR methods, pattern mining, information extraction or\nsimilarity detection without a clear application to the specific legal NLP tasks mentioned.\n– General NLP studies without a focus on legal applications.\n– Editorials, opinion pieces or other non-research articles.\n– Papers that did not meet basic m"
       }
     ],
@@ -1243,7 +1243,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.6885517239570618,
+        "score": 0.6837401797616601,
         "text": " text, making LQA a particularly challenging task in the field of NLP.\nZhong et al. [155] introduce JEC-QA, a dataset with 26,365 multiple-choice questions from the National Judicial\nExamination of China and related websites. Each question provides four possible answers and is annotated with the\ntype of reasoning required, such as word matching, conceptual understanding, numerical analysis, multi-paragraph\ncomprehension and multi-hop inference. This dataset poses challenges for QA models, highli"
       },
       {
@@ -1252,7 +1252,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 6,
         "section": "information_extraction",
-        "score": 0.5901750462934386,
+        "score": 0.5903697502172459,
         "text": "Figure 2: Question generation using state of the art techniques.\n• Similar NLP benchmarks\nSimilar benchmarks exist for selection speciﬁc\nquestion generation benchmarks such as Sel-QA\n(Jurczyk et al., 2016), Wiki-QA (Yang et al., 2015),\nand GlGE (Liu et al., 2020). They are taken\nfrom a curated list of topics from corpora such as\nwikipedia. They are essentially question-answering\nbenchmarks where the questions are generated\nbased on a selected text, and cover various ver-\nsions of the questions t"
       },
       {
@@ -1261,7 +1261,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.585864767884878,
+        "score": 0.588803971481096,
         "text": "ome II and Brussels\nI bis – with answers derived directly from these regulations. The questions are classified based on their specificity,\nallowing for nuanced analysis of context-dependency in legal reasoning. This dataset supports the assessment of QA\nsystems intended for legal professionals navigating complex cross-border issues.\nEQUALS [23] is a large-scale annotated LQA dataset in Chinese law, containing 6,914 question-answer pairs with\nanswers based on specific law articles. Curated by sen"
       }
     ],
@@ -1284,7 +1284,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 13,
         "section": "judgement_prediction",
-        "score": 0.7561496045500397,
+        "score": 0.7594049429538934,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 13\nNiklaus et al . [96] introduce a multilingual LJP dataset from the Federal Supreme Court of Switzerland (FSCS),\ncontaining over 85,000 cases in German, French, and Italian. The dataset is annotated with publication years, legal areas,\nand cantons of origin, making it suitable for NLP applications in judgement prediction.\nSemo et al. [118] introduce the first LJP dataset centred on US class-act"
       },
       {
@@ -1293,7 +1293,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 3,
         "section": "information_extraction",
-        "score": 0.675382077693944,
+        "score": 0.6635144352913092,
         "text": "Name Description\nCourt Judgements Districts, High & Supreme Courts judgements are publicly available on their\nwebsites. These judgements are in English and contain rich text data for Indian Law.\nFIR by Police Police Departments of many states provide FIRs on their websites.\nSome of them are in local Indian Languages.\nIndia Code Digital Repository of All central and state acts\nTable 1: Publicly Available Sources of Data. Released through Government of India platforms.\n4.2.4 FIRs are not always up"
       },
       {
@@ -1302,7 +1302,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 2,
         "section": "overview",
-        "score": 0.662361343188446,
+        "score": 0.6512778969904012,
         "text": " on the\ncourt judgement text. Using Indian law text en-\nsures that the NLP models learn the language used\nin Indian Law.\n4.1 Data Availability\nThanks to many open data initiatives like National\nJudicial Data Grid (NJG) and Crime and Criminal\nTracking Network and System (CCT), a lot of data\nrelated to law and crime is publicly available. Table\n1 shows the public data sources which can be used\nfor multiple benchmarks.\n4.2 Challenges\nFollowing are some of the challenges in dealing\nwith the legal do"
       }
     ],
@@ -1325,17 +1325,8 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 15,
         "section": "text_classification",
-        "score": 0.7526671886444092,
+        "score": 0.749121949024318,
         "text": "Voc5 concepts. This dataset facilitates research in LTC, including extreme multi-label text\nclassification, few-shot and zero-shot learning, with documents tagged with an expansive set of descriptors.\nTuggener et al. [133] introduce LEDGAR, a multi-label corpus of legal provisions from contracts scraped from the\nthe US Securities and Exchange Commission’s website. The dataset includes over 846,000 provisions across 60,540\ncontracts, with an extensive label set suitable for text classification an"
-      },
-      {
-        "chunk_id": "B:nlp-legal-survey-2410.21306-p23-c0-6ead0e73",
-        "document_id": "nlp-legal-survey-2410.21306",
-        "source": "nlp-legal-survey-2410.21306",
-        "page": 23,
-        "section": "datasets",
-        "score": 0.7054387190101701,
-        "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       },
       {
         "chunk_id": "B:nlp-legal-survey-2410.21306-p5-c0-bd5b405b",
@@ -1343,8 +1334,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.7008711456214066,
+        "score": 0.7112647891044668,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 5\n3.1 Legal Documents\nLegal documents, such as court filings, judicial judgements, statutes, treaties, contracts, and formal legal correspondence\nencode the authoritative rules, rights, and duties that underpin our legal systems. They transmit legally operative\ninformation, including procedural requirements, enforceable obligations, and interpretative reasoning. Lawyers, judges,\nregulators, and a"
+      },
+      {
+        "chunk_id": "B:nlp-legal-survey-2410.21306-p23-c0-6ead0e73",
+        "document_id": "nlp-legal-survey-2410.21306",
+        "source": "nlp-legal-survey-2410.21306",
+        "page": 23,
+        "section": "datasets",
+        "score": 0.7097394716429081,
+        "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       }
     ],
     "hit_at_1": true,
@@ -1366,7 +1366,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 17,
         "section": "summarisation",
-        "score": 0.8114064707048558,
+        "score": 0.8116300589817812,
         "text": "sation to achieve concise, readable\nsummaries that transform the original legal language into more accessible forms [120].\nShen et al. [120] introduce Multi-LexSum, an abstractive summarisation dataset tailored for the US federal civil rights\nlawsuits, containing 40,000 source documents and 9,000 expert-written summaries of diverse lengths.\nLiu et al . [78] published the Common Law Court Judgement Summarisation (CLSum) , a dataset designed for\nsummarising multi-jurisdictional common law court ju"
       },
       {
@@ -1375,7 +1375,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.712006794215269,
+        "score": 0.7158711979312431,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       },
       {
@@ -1384,7 +1384,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.7024285261205295,
+        "score": 0.7015299023109629,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 3\nTable 2. List of acronyms used in the survey.\nAcronyms Meaning\nCFR Code of Federal Regulations\nCJEU Court of Justice of the European Union\nECHR European Court of Human Rights\nFSCS Federal Supreme Court of Switzerland\nJEC-QA Judicial Examination of Chinese Question Answering\nLAM Legal Argument Mining\nLDS Legal Document Summarisation\nLJP Legal Judgement Prediction\nLQA Legal Question Answering\nLTC"
       }
     ],
@@ -1407,7 +1407,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 18,
         "section": "named_entity_recognition",
-        "score": 0.732999114155669,
+        "score": 0.7345219570968672,
         "text": "erms. This specialised form of NER is crucial for structuring legal documents\nand enhancing legal IR systems. Unlike general NER systems that handle common entity types, legal NER must navigate\nthe complex language and structured format of legal documents, motivating the need for systems and methodologies\nspecifically tailored to the legal context.\n9.1 Datasets\nLeitner et al. [72] release a German legal NER corpus drawn from federal court decisions, comprising about 67,000\nsentences and more tha"
       },
       {
@@ -1416,7 +1416,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 19,
         "section": "named_entity_recognition",
-        "score": 0.6987071870216404,
+        "score": 0.7003136933410824,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 19\norganisation and more specialised ones, such as legal norms and case-by-case regulations, distinguishing between\ndifferent types of legal acts and literature. Annotation proceeded through multiple iterations to refine guidelines and\nensure high-quality labels.\nPăis et al. [110] introduce the LegalNERo corpus, a manually annotated resource for NER in the Romanian legal\ndomain, featuring 370 leg"
       },
       {
@@ -1425,7 +1425,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 19,
         "section": "named_entity_recognition",
-        "score": 0.6705889112810346,
+        "score": 0.6733464209254337,
         "text": "include person,\nlocation, organisation, government, court, business and legislation/act, adjusting the CoNLL classes to better suit legal\ndocuments. E-NER contains longer sentences compared to CoNLL and includes detailed annotations of financial entities\nfrom legal company filings.\nKalamkar et al. [65] release a legal NER corpus with 46,545 entities of 14 types extracted from Indian High Court\nand Supreme Court judgements. The corpus is divided into preamble and judgement sections and covers ent"
       }
     ],
@@ -1448,7 +1448,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.6828088760376025,
+        "score": 0.6782425642013743,
         "text": "d potentially offensive content, the paper provides actionable insights for researchers to improve\ncontent filtering practices before pre-training LLMs, thereby enhancing the ethical use of NLP in legal applications.\nNiklaus et al. [98] present the MultiLegalPile, the largest open-source multilingual legal corpus available, totalling 689\nGB and spanning 17 jurisdictions across 24 languages. This extensive dataset is designed to facilitate training of LLMs\nwithin the legal domain, featuring diver"
       },
       {
@@ -1457,7 +1457,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.6467391409627817,
+        "score": 0.6585950458887297,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       },
       {
@@ -1466,7 +1466,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.6452914861018363,
+        "score": 0.6445419212095284,
         "text": "24 Ariai et al.\n11.2 Large corpora for pre-training\nHenderson et al. [56] introduce the “Pile of Law, ” the first at-scale legal text collection, containing a 256 GB dataset of\nopen-source English-language legal and administrative data. This dataset includes contracts, court opinions, legislative\nrecords, and administrative rules, curated to explore data sanitation norms across legal and administrative settings and\nserve as a tool for pre-training legal LLMs. They emphasise the legal norms gover"
       }
     ],
@@ -1489,7 +1489,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.5332734624473445,
+        "score": 0.5252176649673939,
         "text": "24 Ariai et al.\n11.2 Large corpora for pre-training\nHenderson et al. [56] introduce the “Pile of Law, ” the first at-scale legal text collection, containing a 256 GB dataset of\nopen-source English-language legal and administrative data. This dataset includes contracts, court opinions, legislative\nrecords, and administrative rules, curated to explore data sanitation norms across legal and administrative settings and\nserve as a tool for pre-training legal LLMs. They emphasise the legal norms gover"
       },
       {
@@ -1498,17 +1498,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.4725254253366242,
+        "score": 0.47252169415226175,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       },
       {
-        "chunk_id": "B:nlp-legal-survey-2410.21306-p21-c5-c37c9176",
+        "chunk_id": "B:nlp-legal-survey-2410.21306-p10-c3-6e6bb0b5",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
-        "page": 21,
-        "section": "datasets",
-        "score": 0.4562775142523696,
-        "text": "t. Together, large legal\ncorpora and evaluation benchmarks can support the advancement of reliable legal AI applications.\nManuscript submitted to ACM"
+        "page": 10,
+        "section": "question_answering",
+        "score": 0.4546866524966592,
+        "text": "ome II and Brussels\nI bis – with answers derived directly from these regulations. The questions are classified based on their specificity,\nallowing for nuanced analysis of context-dependency in legal reasoning. This dataset supports the assessment of QA\nsystems intended for legal professionals navigating complex cross-border issues.\nEQUALS [23] is a large-scale annotated LQA dataset in Chinese law, containing 6,914 question-answer pairs with\nanswers based on specific law articles. Curated by sen"
       }
     ],
     "hit_at_1": true,
@@ -1530,7 +1530,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 25,
         "section": "language_models",
-        "score": 0.7810730673161825,
+        "score": 0.7817318439483698,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 25\ntoken capacities, Lawformer employs a unique combination of sliding window, dilated sliding window, and global\nattention mechanisms to process long texts, making it suitable for legal AI tasks, such as LJP and LQA. Pre-trained\non a vast corpus of Chinese legal documents segmented into criminal and civil cases, Lawformer integrates complex\nsequential dependencies across tokens using these atten"
       },
       {
@@ -1539,17 +1539,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 11,
         "section": "question_answering",
-        "score": 0.6977481065838412,
+        "score": 0.7018465932881975,
         "text": "tly, ChatGPT, have proven\nparticularly effective in NLP tasks. These models use the transformer architecture and self-attention mechanisms to\nlearn the context of text to model the patterns and word dependencies in text. This allows them to provide relevant\nanswers by weighting the importance of different parts of the input based on its contextual importance. In the following\nparagraphs, we will study the existing LQA works in the legal domain.\nHuang et al. [59] introduce the Artificial Intellig"
       },
       {
-        "chunk_id": "B:nlp-legal-survey-2410.21306-p25-c4-77ec0916",
+        "chunk_id": "B:nlp-legal-survey-2410.21306-p13-c2-d0c13322",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
-        "page": 25,
-        "section": "language_models",
-        "score": 0.6937060221924884,
-        "text": "within the LexGLUE benchmark, focusing on extending input capabilities and enhancing efficiency. They\nmodify Longformer [10], originally extending up to 4,096 subwords, to process up to 8,192 subwords by reducing local\nattention window size and incorporating a global token at the end of each paragraph to facilitate information flow\nacross longer texts. Additionally, they adapt legal-bert to employ TF-IDF representations to manage longer documents,\nintroducing variants, such as TF-IDF-SRT-LegalBE"
+        "page": 13,
+        "section": "judgement_prediction",
+        "score": 0.6945965654138845,
+        "text": "making. Evaluated on large-scale Chinese\ncriminal case datasets, it outperformed previous models in predicting legal outcomes.\nYe et al. [144] tackle court view generation from criminal case fact descriptions to improve the interpretability of\ncharge prediction systems and support automatic legal document drafting. They frame the task as a text-to-text natural\nlanguage generation problem, employing a label-conditioned sequence-to-sequence model with attention to generate\ncourt views from encoded"
       }
     ],
     "hit_at_1": false,
@@ -1580,7 +1580,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.5868374530423575,
+        "score": 0.589229093056159,
         "text": "8 Ariai et al.\n3.2.2 LLMs as an application of NLP in the legal sector. LLMs are a category of Deep Learning (DL)-based NLP models\ntrained on extensive text corpora to process and generate human-like language. These models, typically based on\nTransformer architectures, learn linguistic patterns from diverse sources, enabling them to perform tasks, such as text\nsummarisation, document analysis and Question Answering (QA). LLMs have gained widespread attention in NLP\napplications, particularly fol"
       },
       {
@@ -1589,7 +1589,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 11,
         "section": "question_answering",
-        "score": 0.5569672720354262,
+        "score": 0.5598720478973465,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 11\n5.2 Approaches\nRecently, DL has been applied in LQA through NN models trained on large datasets to identify complex patterns and\nrelationships. These models analyse posed questions, recognise relevant legal topics, and generate appropriate answers\nbased on learned patterns and memory.\nModern ML approaches to LQA use NN architectures to process natural language. Popular architectures include\nRe"
       }
     ],
@@ -1612,7 +1612,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 27,
         "section": "challenges",
-        "score": 0.738784200440425,
+        "score": 0.7380213957435312,
         "text": "s approach. This indicates an opportunity\nfor research and development in this area, as RLHF could potentially enhance the capability of NLP models to learn and\nto make decisions based on complex legal data under human guidance. Further exploration into this method could\nlead to more responsive and adaptable legal NLP systems. However, due to the complex nature of legal reasoning and\nthe need for accurate legal knowledge in the human feedback phase, integrating RLHF into legal NLP pipelines pose"
       },
       {
@@ -1621,7 +1621,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 28,
         "section": "challenges",
-        "score": 0.6895847731581207,
+        "score": 0.6897829174995422,
         "text": "28 Ariai et al.\naccurately interpret and apply complex legal concepts, which is a barrier due to the significant cost of employing such\nprofessionals. Nonetheless, if RLHF can demonstrate further downstream savings due to improved worker efficiency,\nthe up-front cost of employing legal professionals for data annotation tasks may be a worthwhile investment.\nORC10: Expanding Legal Domain Coverage. There is a noticeable gap in the research across various areas of the legal\ndomain, including Intelle"
       },
       {
@@ -1630,7 +1630,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.668779015163389,
+        "score": 0.6665682395357955,
         "text": " for model\nperformance. Following this, in Section 12, we investigate the development of LMs that have been specifically adapted\nto the legal field. Finally, in Section 13, we address the key challenges associated with deploying NLP technologies in\nlegal settings, discussing both current issues and potential solutions. Since this survey contains many acronyms, Table\n2 provides the list of acronyms and their meanings to make it easier to follow.\n2 Related Work\nSeveral studies have examined the us"
       }
     ],
@@ -1653,7 +1653,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 29,
         "section": "conclusion",
-        "score": 0.7086099808579684,
+        "score": 0.7077824721077052,
         "text": " – ✓ ✓ – –\nStochastic Parrots – – – – – – ✓ –\nRAG ✓ ✓ – – – ✓ ✓ –\nORC16: Retrieval-Augmented Generation. The legal domain presents particular challenges because documents are\nlengthy, contain numerous cross-references, and exhibit complex linguistic structures. These characteristics can cause\nLLMs to hallucinate when asked for precise answers. RAG offers a promising remedy by incorporating relevant passages\ndirectly into the generation process, overcoming LLM input-length limits and improving bo"
       },
       {
@@ -1662,17 +1662,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.5513154864311218,
+        "score": 0.5433933955323826,
         "text": "\nevolving field. (3) This survey also highlights the existing research gaps in legal NLP, identifying areas that require\nfurther exploration and development and providing a road-map for future research efforts in the legal NLP domain.\n3 Background and Foundational Concepts\nIn this section, we explain how NLP can be applied within the legal domain. We begin by outlining the unique charac-\nteristics of legal documents and legal language, highlighting the challenges these features pose for NLP appl"
       },
       {
-        "chunk_id": "B:nlp-legal-survey-2410.21306-p10-c0-2c76eb02",
+        "chunk_id": "B:nlp-legal-survey-2410.21306-p11-c3-7c490126",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
-        "page": 10,
+        "page": 11,
         "section": "question_answering",
-        "score": 0.5496566191008666,
-        "text": "10 Ariai et al.\n– Both peer-reviewed and non-peer-reviewed studies were considered if they provided valuable insights.\n• Exclusion Criteria:\n– Studies focused exclusively on unrelated areas such as IR methods, pattern mining, information extraction or\nsimilarity detection without a clear application to the specific legal NLP tasks mentioned.\n– General NLP studies without a focus on legal applications.\n– Editorials, opinion pieces or other non-research articles.\n– Papers that did not meet basic m"
+        "score": 0.5431848219853428,
+        "text": "ereby enhancing the model’s ability to discriminate relevant answers.\nLi et al. [76]introduce a retrieve-then-answer framework featuring aGraph-Based Evidence Retrieval and Aggregation\nNetwork (GESAN)to enhance LQA on the JEC-QA dataset [155]. The framework leverages legal knowledge by predicting\nquestion topics and retrieving relevant paragraphs using BM25. GESAN aggregates the evidence and processes it along\nwith the question and options to generate accurate predictions, demonstrating improved"
       }
     ],
     "hit_at_1": true,
@@ -1694,7 +1694,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.676836769392299,
+        "score": 0.6690566340370016,
         "text": "illion-dollar pole-access contract, whereas the absence of that comma in the equally-authentic\nFrench text preserved the original five-year lock-in. This case illustrates how punctuation alone can shift rights and\nliabilities. Legal documents also typically use passive constructions and complex sentence structures to provide detailed\nand comprehensive descriptions [50] without directly attributing actions or intentions to specific parties.\nAnother distinctive aspect of legal language is its reli"
       },
       {
@@ -1703,7 +1703,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.6604967510996325,
+        "score": 0.6493139073457176,
         "text": "stics. Legal language is characterised by unique features that distinguish it\nfrom everyday language, primarily because of its role within the legal system. One prominent feature is its formality,\nwhere legal texts often employ a more formal vocabulary and syntax to ensure precision and avoid ambiguity [ 50].\nThis formality is important, as the meaning of terms can have legal effects. Specialised vocabularies, fixed syntactic\npatterns, and even punctuation are chosen to maximise precision and av"
       },
       {
@@ -1712,7 +1712,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.5068582590306924,
+        "score": 0.5001575350573617,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 5\n3.1 Legal Documents\nLegal documents, such as court filings, judicial judgements, statutes, treaties, contracts, and formal legal correspondence\nencode the authoritative rules, rights, and duties that underpin our legal systems. They transmit legally operative\ninformation, including procedural requirements, enforceable obligations, and interpretative reasoning. Lawyers, judges,\nregulators, and a"
       }
     ],
@@ -1735,7 +1735,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.6979432106018066,
+        "score": 0.6965111674957883,
         "text": "8] suggest that its actual performance may be considerably lower, possibly around the 48th percentile\noverall and 15th percentile on essays. Similarly, further research reveals that although ChatGPT can achieve moderate\nsuccess on certain legal classification tasks, smaller fine-tuned models still outperform it by about 30 percentage points\n[16]. Another study highlights a tendency for LLMs to hallucinate legal content at high rates—up to 58% in some cases,\nraising reliability concerns for compl"
       },
       {
@@ -1744,7 +1744,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 29,
         "section": "conclusion",
-        "score": 0.6035772921787089,
+        "score": 0.604782713029708,
         "text": " – ✓ ✓ – –\nStochastic Parrots – – – – – – ✓ –\nRAG ✓ ✓ – – – ✓ ✓ –\nORC16: Retrieval-Augmented Generation. The legal domain presents particular challenges because documents are\nlengthy, contain numerous cross-references, and exhibit complex linguistic structures. These characteristics can cause\nLLMs to hallucinate when asked for precise answers. RAG offers a promising remedy by incorporating relevant passages\ndirectly into the generation process, overcoming LLM input-length limits and improving bo"
       },
       {
@@ -1753,7 +1753,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 28,
         "section": "challenges",
-        "score": 0.5678032379033121,
+        "score": 0.56809908963431,
         "text": "ncern that\nthese models often do not truly understand language but merely mimic human patterns. This mimicry can lead to\nunreliable outcomes, especially in critical legal situations, if the models are not trained on high-quality, unbiased datasets.\nThe risk is notably significant in LJP, where training on biased or unfair data could lead to irreversible outcomes, as\ndiscussed in Bender et al. [11]’s work on the limitations of LLMs. Ultimately, we must ensure that tools and algorithms\naimed at au"
       }
     ],
@@ -1776,7 +1776,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.6051068776718567,
+        "score": 0.5950986260293287,
         "text": "8 Ariai et al.\n3.2.2 LLMs as an application of NLP in the legal sector. LLMs are a category of Deep Learning (DL)-based NLP models\ntrained on extensive text corpora to process and generate human-like language. These models, typically based on\nTransformer architectures, learn linguistic patterns from diverse sources, enabling them to perform tasks, such as text\nsummarisation, document analysis and Question Answering (QA). LLMs have gained widespread attention in NLP\napplications, particularly fol"
       },
       {
@@ -1785,7 +1785,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.5260408520698547,
+        "score": 0.5234474667804776,
         "text": "8] suggest that its actual performance may be considerably lower, possibly around the 48th percentile\noverall and 15th percentile on essays. Similarly, further research reveals that although ChatGPT can achieve moderate\nsuccess on certain legal classification tasks, smaller fine-tuned models still outperform it by about 30 percentage points\n[16]. Another study highlights a tendency for LLMs to hallucinate legal content at high rates—up to 58% in some cases,\nraising reliability concerns for compl"
       },
       {
@@ -1794,7 +1794,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 12,
         "section": "judgement_prediction",
-        "score": 0.4996604025566347,
+        "score": 0.48682384153675584,
         "text": "ntroduce the Q4EU dataset,\ncontaining over 70 questions and 200 answers on six European norms, demonstrating improved performance in LQA\neven without domain-specific training.\nYuan et al. [146] present a three-step approach to bridge the legal knowledge gap by creating CLIC-pages—snippets\nthat explain technical legal concepts in layperson’s terms. They construct a legal question bank containing legal\nquestions answered by CLIC-pages, using GPT-3 [14] to generate machine-generated questions. The "
       }
     ],
@@ -1817,7 +1817,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.6449115526887236,
+        "score": 0.6389233494767603,
         "text": "nce between our work and previous surveys is that our survey aims to provide a more general\nview of all aspects of NLP tasks in the legal domain, rather than focusing solely on specific applications. The main\ncontributions of this survey are summarised as follows: (1) This article extends previous surveys by examining a\nbroad spectrum of studies and applications of legal NLP. By discussing datasets and large corpora in 24 languages and\nexploring popular legal LMs, this survey establishes itself "
       },
       {
@@ -1826,17 +1826,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.5978966361592399,
+        "score": 0.5973956283026404,
         "text": "the legal domain, such\nas LJP and statutory reasoning. Their study reviewed three datasets and two LLMs related to these tasks. Unlike Sun’s\nwork, our survey covers a wider range of NLP tasks and includes legal corpora and datasets. Cui et al. [28] focused\non LJP, reviewing 43 datasets in nine languages. Their study evaluated classification, text generation and regression\ntasks. It also discussed pre-trained LMs used for LJP. Our work differs by covering multiple NLP tasks, legal corpora\nand dat"
       },
       {
-        "chunk_id": "B:nlp-legal-survey-2410.21306-p24-c1-958d1d7f",
+        "chunk_id": "B:nlp-legal-survey-2410.21306-p15-c1-b6eb33a5",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
-        "page": 24,
-        "section": "language_models",
-        "score": 0.59008086023306,
-        "text": "d potentially offensive content, the paper provides actionable insights for researchers to improve\ncontent filtering practices before pre-training LLMs, thereby enhancing the ethical use of NLP in legal applications.\nNiklaus et al. [98] present the MultiLegalPile, the largest open-source multilingual legal corpus available, totalling 689\nGB and spanning 17 jurisdictions across 24 languages. This extensive dataset is designed to facilitate training of LLMs\nwithin the legal domain, featuring diver"
+        "page": 15,
+        "section": "text_classification",
+        "score": 0.5868280108817822,
+        "text": "Voc5 concepts. This dataset facilitates research in LTC, including extreme multi-label text\nclassification, few-shot and zero-shot learning, with documents tagged with an expansive set of descriptors.\nTuggener et al. [133] introduce LEDGAR, a multi-label corpus of legal provisions from contracts scraped from the\nthe US Securities and Exchange Commission’s website. The dataset includes over 846,000 provisions across 60,540\ncontracts, with an extensive label set suitable for text classification an"
       }
     ],
     "hit_at_1": true,
@@ -1858,7 +1858,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.8144278283587778,
+        "score": 0.8152805589557559,
         "text": "lding and four closely related incorrect options, encouraging models to demonstrate genuine legal reasoning.\nChalkidis et al. [21] introduce the Legal General Language Understanding Evaluation (LexGLUE) benchmark, a com-\nprehensive suite of datasets aimed at assessing the capabilities of NLP models across various legal tasks. The benchmark\ncovers datasets, such as ECHR [17], SCOTUS,8 EUR-Lex, LEDGAR [133], UNFAIR-ToS[77] and CaseHOLD [151], each\nchosen for its complexity, relevance, and need for"
       },
       {
@@ -1867,7 +1867,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.7900171750794157,
+        "score": 0.7879551883922576,
         "text": "22 Ariai et al.\nTable 4. Overview of datasets and their usage across different legal NLP tasks and cited studies.\nTask Datasets Identified Studies\nLJP CAIL datasets by Xiao et al. [141]\nFeng et al. [41], Tong et al. [132], Xu et al.\n[142], Yang et al. [143, 143], Zhang et al.\n[149], Zhong et al. [152, 153]\nLTC LEDGAR by Tuggener et al. [133] Mamooler et al. [86]EURLEX57K by Chalkidis et al. [18] Song et al. [124]\nNER LegalNERo by Păis et al. [110] Smădu et al. [123]German LER by Leitner et al. ["
       },
       {
@@ -1876,7 +1876,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.7653767275106126,
+        "score": 0.765290328737229,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 3\nTable 2. List of acronyms used in the survey.\nAcronyms Meaning\nCFR Code of Federal Regulations\nCJEU Court of Justice of the European Union\nECHR European Court of Human Rights\nFSCS Federal Supreme Court of Switzerland\nJEC-QA Judicial Examination of Chinese Question Answering\nLAM Legal Argument Mining\nLDS Legal Document Summarisation\nLJP Legal Judgement Prediction\nLQA Legal Question Answering\nLTC"
       }
     ],
@@ -1894,22 +1894,22 @@
     "evidence_quote": "the Cambridge Law Corpus (CLC), a legal dataset featuring 258,146 cases from UK",
     "top3": [
       {
-        "chunk_id": "B:nlp-legal-survey-2410.21306-p23-c4-6adbc2d0",
-        "document_id": "nlp-legal-survey-2410.21306",
-        "source": "nlp-legal-survey-2410.21306",
-        "page": 23,
-        "section": "datasets",
-        "score": 0.6395158386519154,
-        "text": "rent teams engaging in multiple tasks. task 1 involves legal case retrieval, requiring participants to extract\nsupporting cases from a corpus and task 2 focuses on legal case entailment, identifying paragraphs that entail aspects\nof a new case. Task 3 and 4, based on Japanese civil code statutes from the bar exam, involve retrieving relevant articles\nand verifying statements, respectively. The competition leverages a dataset of over 5,700 case law files and introduces\nnew query cases and test qu"
-      },
-      {
         "chunk_id": "B:nlp-legal-survey-2410.21306-p23-c5-65e685ae",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.6383095168059788,
+        "score": 0.63774152251977,
         "text": "ting from the 16th century to the present. The corpus includes raw text and metadata across various court types\nand is structured in XML format for ease of use and annotated for case outcomes in a subset of 638 cases. Additionally,\nthe CLC is supported by a Python library for data manipulation and ML applications.\nManuscript submitted to ACM"
+      },
+      {
+        "chunk_id": "B:nlp-legal-survey-2410.21306-p23-c4-6adbc2d0",
+        "document_id": "nlp-legal-survey-2410.21306",
+        "source": "nlp-legal-survey-2410.21306",
+        "page": 23,
+        "section": "datasets",
+        "score": 0.6354862395798407,
+        "text": "rent teams engaging in multiple tasks. task 1 involves legal case retrieval, requiring participants to extract\nsupporting cases from a corpus and task 2 focuses on legal case entailment, identifying paragraphs that entail aspects\nof a new case. Task 3 and 4, based on Japanese civil code statutes from the bar exam, involve retrieving relevant articles\nand verifying statements, respectively. The competition leverages a dataset of over 5,700 case law files and introduces\nnew query cases and test qu"
       },
       {
         "chunk_id": "B:legal-nlp-india-survey-2107.06056-p16-c0-88e6c31f",
@@ -1917,11 +1917,11 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 16,
         "section": "reasoning",
-        "score": 0.5715429782867473,
+        "score": 0.5645871071148315,
         "text": "Legal Topic Inﬂuential Judgement\nRight to personal liberty Maneka Gandhi Vs. Union of India , 1978 , ...\nSupreme Court’s authority over the\nConstitution Kesavananda Bharati vs state of Kerala , 1973,.....\nUniform Civil Code Mohammed Ahmed Khan v. Shah Bano Begum , 1985,...\nTable 3: Examples of Inﬂuential Judgements\n2018) which is a part of Chinese AI Law Challenge.\nIn the Forum of Information Retrieval Evaluation\n2019 (Bhattacharya et al., 2019a), there is a dataset\ncreated which ﬁnds most relev"
       }
     ],
-    "hit_at_1": true,
+    "hit_at_1": false,
     "evidence_hit_at_3": true,
     "strategy": "B",
     "filter_applied": null
@@ -1940,7 +1940,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7561889886856294,
+        "score": 0.7483160645773386,
         "text": "n.\n• Similar NLP benchmarks\nIn the Forum of Information Retrieval Evalua-\ntion 2019 (Bhattacharya et al., 2019a), there is a\ndataset created which identiﬁes the most similar\ncases for a given text description of a case from a\nset of 2914 supreme court judgements. This data is\navailable for 50 text description queries. Chinese\nAI Law competition (Xiao et al., 2019) has created\na similar case matching competition (CAIL 2019 -\nSCM). This competition focuses on ﬁnding which\n2 supreme court cases are"
       },
       {
@@ -1949,7 +1949,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7397270823175711,
+        "score": 0.7428351930183456,
         "text": "Entity1 Relation Entity2\nAshok Sethi is Complainer\nPranav Jog is Accussed\nComplainer is neighbor Accussed\nComplainer assaulted Accussed\nTable 2: Example of Extracted Relations\nNLP Models should be able to correctly identify\nmost of the relations and correctly categorize those.\n5.3 Case Similarity\nIndian Law is common law. This means that prece-\ndent set by previous courts to interpret laws must\nbe respected. Hence ﬁnding out cases which are\nsimilar to a given case becomes important for le-\ngal r"
       },
       {
@@ -1958,7 +1958,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7373668488234201,
+        "score": 0.7367985562326297,
         "text": ".1 Find Similar Cases\n• Description of Task\nThis benchmark deals with ﬁnding most rele-\nvant cases for given text descriptions about a case.\nMany existing search engines of Indian Legal doc-\numents (India Kanoon , Legitquest, aironline etc.)\nfocus on searches based on keywords. Searching\nwith text descriptions allows you to look for more\ndetailed information rather than keywords based\nsearch. Hence one can input the FIR, chargesheets\n, case description and search for the judgements\nwhich are sim"
       }
     ],
@@ -1981,7 +1981,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 7,
         "section": "summary_generation",
-        "score": 0.7581480885655948,
+        "score": 0.758071891241807,
         "text": "Finding the right context from such long judge-\nment is time consuming and error prone. Supreme\nCourt judgements from 1950 to 1994 used to have\nsummaries created by lawyers while publishing.\nBut after that the summaries are not present in the\nsupreme court judgement texts. This benchmark\nwould focus on evaluating various aspects of the\nsummaries created for a given judgement.\n• Value Proposition\nThe summary of high courts and supreme court\nis often used in establishing precedent. Searching\nin su"
       },
       {
@@ -1990,7 +1990,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 9,
         "section": "summary_generation",
-        "score": 0.6594884395599412,
+        "score": 0.6680996420561675,
         "text": " machine\nlearning (ML) community. However, to the best\nof our knowledge, there exists no ML and legal\nbenchmarks on context/ actor speciﬁc summary\ngeneration.\n• Dataset to be collected\nIn our benchmark, we propose the use of open\ndocuments from the Indian Legal System (e.g. case"
       },
       {
@@ -1999,7 +1999,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 9,
         "section": "summary_generation",
-        "score": 0.6564422268077021,
+        "score": 0.6586098460271751,
         "text": " Indian Legal Documents (Merchant and Pande,\n2018), (Bhattacharya et al., 2019b), which they\ntested using human generated summaries (Wes).\nIn addition to these there are text summarization\ntracks in NLP conferences such as Text REtrieval\nConference (Tex), Text Analysis Conference (Tex),\nand Forum for Information Retrieval Evaluation\n(FIR). To create targeted models which go on the\nleaderboard for this benchmark, one can leverage\nexisting summary generation models such as con-\ntext speciﬁc senten"
       }
     ],
@@ -2022,7 +2022,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.541166094472046,
+        "score": 0.5461070212062076,
         "text": "8] suggest that its actual performance may be considerably lower, possibly around the 48th percentile\noverall and 15th percentile on essays. Similarly, further research reveals that although ChatGPT can achieve moderate\nsuccess on certain legal classification tasks, smaller fine-tuned models still outperform it by about 30 percentage points\n[16]. Another study highlights a tendency for LLMs to hallucinate legal content at high rates—up to 58% in some cases,\nraising reliability concerns for compl"
       },
       {
@@ -2031,7 +2031,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 19,
         "section": "named_entity_recognition",
-        "score": 0.41935992721558124,
+        "score": 0.4181855320930511,
         "text": "gradients. The authors also explore ensembles of different model configurations, evaluating\nperformance via precision, recall and F1 scores against a gold-standard corpus.\n7https://www.geonames.org/\nManuscript submitted to ACM"
       },
       {
@@ -2040,7 +2040,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.4189555991318472,
+        "score": 0.41762705164439484,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 9\ncompare methods in the context of e-discovery. Its contributions include benchmark datasets and evaluation metrics\nthat were used to assess retrieval performance in legal text processing.\n4 Methodology\nThis survey follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) framework [100].\nIt ensures a transparent and comprehensive assessment of research on NLP tasks"
       }
     ],
@@ -2063,7 +2063,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 15,
         "section": "reasoning",
-        "score": 0.7518439292907715,
+        "score": 0.7368804530047882,
         "text": "ing the relevant act of the law based on\nthe text description of the fact is an important legal\nresearch task. This is done typically by lawyers\nand police while making the chargesheet. Automat-\ning this process can help layman people who don’t\nunderstand law. This would help people to collect\nthe right information about the case in a timely\nmanner before they interact with lawyers or police.\nThis will also increase familiarity of law in com-\nmon people. E.g. A citizen enters text “Thieves\ntook "
       },
       {
@@ -2072,7 +2072,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.6509849249142544,
+        "score": 0.6410754919052306,
         "text": "Entity1 Relation Entity2\nAshok Sethi is Complainer\nPranav Jog is Accussed\nComplainer is neighbor Accussed\nComplainer assaulted Accussed\nTable 2: Example of Extracted Relations\nNLP Models should be able to correctly identify\nmost of the relations and correctly categorize those.\n5.3 Case Similarity\nIndian Law is common law. This means that prece-\ndent set by previous courts to interpret laws must\nbe respected. Hence ﬁnding out cases which are\nsimilar to a given case becomes important for le-\ngal r"
       },
       {
@@ -2081,7 +2081,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 3,
         "section": "information_extraction",
-        "score": 0.641013486264533,
+        "score": 0.6343004383324532,
         "text": "n the text below. “. . . e of\nprosecution alleged incident took place at the tea\nstall situated near Bombay Central Bus Stand at\naround 7.30 a.m. and as such there is every. . . . . . .”\n• Value Proposition\nThis automatic extraction of answers to such\nquestions would signiﬁcantly save the human read-\ning time. Having a challenging benchmark for\nFactoid Q/A would attract ML practitioners to fo-\ncus on this problem. This will create a foundation\nfor innovative approaches and open source models\nfoc"
       }
     ],
@@ -2104,7 +2104,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.8156034107326622,
+        "score": 0.8165846382407093,
         "text": "Entity1 Relation Entity2\nAshok Sethi is Complainer\nPranav Jog is Accussed\nComplainer is neighbor Accussed\nComplainer assaulted Accussed\nTable 2: Example of Extracted Relations\nNLP Models should be able to correctly identify\nmost of the relations and correctly categorize those.\n5.3 Case Similarity\nIndian Law is common law. This means that prece-\ndent set by previous courts to interpret laws must\nbe respected. Hence ﬁnding out cases which are\nsimilar to a given case becomes important for le-\ngal r"
       },
       {
@@ -2113,7 +2113,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.8007640601115312,
+        "score": 0.7991415024059737,
         "text": ".1 Find Similar Cases\n• Description of Task\nThis benchmark deals with ﬁnding most rele-\nvant cases for given text descriptions about a case.\nMany existing search engines of Indian Legal doc-\numents (India Kanoon , Legitquest, aironline etc.)\nfocus on searches based on keywords. Searching\nwith text descriptions allows you to look for more\ndetailed information rather than keywords based\nsearch. Hence one can input the FIR, chargesheets\n, case description and search for the judgements\nwhich are sim"
       },
       {
@@ -2122,7 +2122,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7536985805181537,
+        "score": 0.7552700267812702,
         "text": "n of India and Another (1978) , Kharak\nSingh v. State of U.P. and Others etc. The sim-\nilar cases could come from other high courts or\nsupreme courts.\n• Value Proposition\nReduce time needed for manual search of similar\ncases and provide more meaningful results. Pro-\nvision of search by larger text instead of just key-\nwords would be very helpful. Many startups are\ndeveloping such search engines as well. But there\nis no benchmark about how good the search en-\ngines are. Hence this benchmark would"
       }
     ],
@@ -2145,17 +2145,8 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.7322795231508937,
+        "score": 0.7373342733781089,
         "text": "s 3, 4 and 5 which\nadapted to recent legal revisions in Japanese law and excluded untranslated parts, reflecting the ongoing evolution and\nchallenge in legal NLP applications.\nBarale et al. [9] present AsyLex, a pioneering dataset tailored for refugee law applications, featuring 59,112 documents\nfrom Canadian refugee status determinations spanning from 1996 to 2022. This dataset is designed to enhance the\ncapabilities of NLP models in legal research by providing 19,115 gold-standard human-annota"
-      },
-      {
-        "chunk_id": "B:legal-nlp-india-survey-2107.06056-p16-c0-88e6c31f",
-        "document_id": "legal-nlp-india-survey-2107.06056",
-        "source": "legal-nlp-india-survey-2107.06056",
-        "page": 16,
-        "section": "reasoning",
-        "score": 0.5921139717102093,
-        "text": "Legal Topic Inﬂuential Judgement\nRight to personal liberty Maneka Gandhi Vs. Union of India , 1978 , ...\nSupreme Court’s authority over the\nConstitution Kesavananda Bharati vs state of Kerala , 1973,.....\nUniform Civil Code Mohammed Ahmed Khan v. Shah Bano Begum , 1985,...\nTable 3: Examples of Inﬂuential Judgements\n2018) which is a part of Chinese AI Law Challenge.\nIn the Forum of Information Retrieval Evaluation\n2019 (Bhattacharya et al., 2019a), there is a dataset\ncreated which ﬁnds most relev"
       },
       {
         "chunk_id": "B:nlp-legal-survey-2410.21306-p10-c3-6e6bb0b5",
@@ -2163,8 +2154,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.5862679687185255,
+        "score": 0.5855786974900783,
         "text": "ome II and Brussels\nI bis – with answers derived directly from these regulations. The questions are classified based on their specificity,\nallowing for nuanced analysis of context-dependency in legal reasoning. This dataset supports the assessment of QA\nsystems intended for legal professionals navigating complex cross-border issues.\nEQUALS [23] is a large-scale annotated LQA dataset in Chinese law, containing 6,914 question-answer pairs with\nanswers based on specific law articles. Curated by sen"
+      },
+      {
+        "chunk_id": "B:legal-nlp-india-survey-2107.06056-p16-c0-88e6c31f",
+        "document_id": "legal-nlp-india-survey-2107.06056",
+        "source": "legal-nlp-india-survey-2107.06056",
+        "page": 16,
+        "section": "reasoning",
+        "score": 0.5827188341710908,
+        "text": "Legal Topic Inﬂuential Judgement\nRight to personal liberty Maneka Gandhi Vs. Union of India , 1978 , ...\nSupreme Court’s authority over the\nConstitution Kesavananda Bharati vs state of Kerala , 1973,.....\nUniform Civil Code Mohammed Ahmed Khan v. Shah Bano Begum , 1985,...\nTable 3: Examples of Inﬂuential Judgements\n2018) which is a part of Chinese AI Law Challenge.\nIn the Forum of Information Retrieval Evaluation\n2019 (Bhattacharya et al., 2019a), there is a dataset\ncreated which ﬁnds most relev"
       }
     ],
     "hit_at_1": true,
@@ -2186,7 +2186,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.8040058846466736,
+        "score": 0.8060045491465134,
         "text": "multilingual benchmark for evaluating LMs on legal NLP tasks. Drawing on\nlegal NLP research published between 2010 and 2022, they curate 11 human-annotated datasets spanning 24 languages\nand multiple legal domains. To ensure fair comparison across models, the authors introduce two aggregate metrics—the\ndataset aggregate score and the language aggregate score—and show that performance on LEXTREME rises with model\nsize. The benchmark covers three task types: single-label text classification, multi"
       },
       {
@@ -2195,7 +2195,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.785070849354814,
+        "score": 0.7911665662228896,
         "text": "lding and four closely related incorrect options, encouraging models to demonstrate genuine legal reasoning.\nChalkidis et al. [21] introduce the Legal General Language Understanding Evaluation (LexGLUE) benchmark, a com-\nprehensive suite of datasets aimed at assessing the capabilities of NLP models across various legal tasks. The benchmark\ncovers datasets, such as ECHR [17], SCOTUS,8 EUR-Lex, LEDGAR [133], UNFAIR-ToS[77] and CaseHOLD [151], each\nchosen for its complexity, relevance, and need for"
       },
       {
@@ -2204,7 +2204,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.7599516141400225,
+        "score": 0.7590554212960865,
         "text": "22 Ariai et al.\nTable 4. Overview of datasets and their usage across different legal NLP tasks and cited studies.\nTask Datasets Identified Studies\nLJP CAIL datasets by Xiao et al. [141]\nFeng et al. [41], Tong et al. [132], Xu et al.\n[142], Yang et al. [143, 143], Zhang et al.\n[149], Zhong et al. [152, 153]\nLTC LEDGAR by Tuggener et al. [133] Mamooler et al. [86]EURLEX57K by Chalkidis et al. [18] Song et al. [124]\nNER LegalNERo by Păis et al. [110] Smădu et al. [123]German LER by Leitner et al. ["
       }
     ],
@@ -2227,7 +2227,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.6357171752621439,
+        "score": 0.635318545027126,
         "text": "ceedings were prioritised, with\nsecondary consideration given to relevant non-peer-reviewed sources.\n4.2 Study Selection\nA total of 154 studies were initially identified from the database search. To refine this list, we applied manual review.\nThis process involved:\n(1) Title and Abstract Screening: We reviewed the titles and abstracts of all retrieved studies to assess their\nrelevance to the predefined legal NLP tasks. Studies unrelated to the core legal NLP and its tasks were excluded.\n(2) Full"
       },
       {
@@ -2236,7 +2236,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.5280879421181722,
+        "score": 0.5325720549991042,
         "text": "ed original findings but also\ndemonstrated a comprehensive understanding of the existing legal NLP research landscape.\n(3) Final Selection: Of the original 154 studies, 131 met the inclusion criteria and were retained. These studies\nwere selected for their direct relevance to key legal NLP tasks, methodological quality, and engagement with\nexisting literature.\n4.3 Eligibility Criteria\nTo determine which studies were included in the final synthesis, we established the following criteria:\n• Inclus"
       },
       {
@@ -2245,7 +2245,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.5054713638267384,
+        "score": 0.5064352743106789,
         "text": "10 Ariai et al.\n– Both peer-reviewed and non-peer-reviewed studies were considered if they provided valuable insights.\n• Exclusion Criteria:\n– Studies focused exclusively on unrelated areas such as IR methods, pattern mining, information extraction or\nsimilarity detection without a clear application to the specific legal NLP tasks mentioned.\n– General NLP studies without a focus on legal applications.\n– Editorials, opinion pieces or other non-research articles.\n– Papers that did not meet basic m"
       }
     ],
@@ -2268,7 +2268,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 29,
         "section": "conclusion",
-        "score": 0.5238804249621093,
+        "score": 0.5236349985817085,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 29\nTable 5. Summary of existing ORCs in each area. A direct relationship is denoted with a check-mark ( ✓).\nOpen Research Challenges LQA LJP LTC LDS NER AM LLMs Corpora\nBias and Fairness ✓ ✓ ✓ – – – ✓ ✓\nPrivacy Concern ✓ ✓ ✓ ✓ ✓ – ✓ ✓\nInterpretability and Explainability ✓ ✓ ✓ – – ✓ ✓ –\nAnnotation Process and Transparency ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\nScarcity of Reliable Annotated data ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\nMultilin"
       },
       {
@@ -2277,7 +2277,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.5159999458789811,
+        "score": 0.5182474233809242,
         "text": "nce between our work and previous surveys is that our survey aims to provide a more general\nview of all aspects of NLP tasks in the legal domain, rather than focusing solely on specific applications. The main\ncontributions of this survey are summarised as follows: (1) This article extends previous surveys by examining a\nbroad spectrum of studies and applications of legal NLP. By discussing datasets and large corpora in 24 languages and\nexploring popular legal LMs, this survey establishes itself "
       },
       {
@@ -2286,7 +2286,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.4907499540746296,
+        "score": 0.4974311590194702,
         "text": "4 Ariai et al.\nTable 3. An overview of existing surveys on NLP in the legal domain. We use a check mark (✓) to indicate papers that study the most\nof the existing research on each subject in legal NLP. Papers that do not address a subject receive a cross (✗), and those that partially\ncover specific subjects are marked with a dash (–).\nReferences Covered Subjects in the Legal Domain Published Year\nDataset NLP Tasks LM Large Corpora\nDias et al. [33] – – – ✗ 2022\nSun [128] ✓ – ✓ ✗ 2023\nCui et al. ["
       }
     ],
@@ -2309,7 +2309,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.5420993020652931,
+        "score": 0.5402981734986719,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 9\ncompare methods in the context of e-discovery. Its contributions include benchmark datasets and evaluation metrics\nthat were used to assess retrieval performance in legal text processing.\n4 Methodology\nThis survey follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) framework [100].\nIt ensures a transparent and comprehensive assessment of research on NLP tasks"
       },
       {
@@ -2318,7 +2318,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 9,
         "section": "methodology",
-        "score": 0.5313137210981551,
+        "score": 0.5281847715377957,
         "text": "ceedings were prioritised, with\nsecondary consideration given to relevant non-peer-reviewed sources.\n4.2 Study Selection\nA total of 154 studies were initially identified from the database search. To refine this list, we applied manual review.\nThis process involved:\n(1) Title and Abstract Screening: We reviewed the titles and abstracts of all retrieved studies to assess their\nrelevance to the predefined legal NLP tasks. Studies unrelated to the core legal NLP and its tasks were excluded.\n(2) Full"
       },
       {
@@ -2327,7 +2327,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.4769476455042817,
+        "score": 0.47680407486010834,
         "text": "10 Ariai et al.\n– Both peer-reviewed and non-peer-reviewed studies were considered if they provided valuable insights.\n• Exclusion Criteria:\n– Studies focused exclusively on unrelated areas such as IR methods, pattern mining, information extraction or\nsimilarity detection without a clear application to the specific legal NLP tasks mentioned.\n– General NLP studies without a focus on legal applications.\n– Editorials, opinion pieces or other non-research articles.\n– Papers that did not meet basic m"
       }
     ],
@@ -2350,7 +2350,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.6802715468568544,
+        "score": 0.6831180860470597,
         "text": " text, making LQA a particularly challenging task in the field of NLP.\nZhong et al. [155] introduce JEC-QA, a dataset with 26,365 multiple-choice questions from the National Judicial\nExamination of China and related websites. Each question provides four possible answers and is annotated with the\ntype of reasoning required, such as word matching, conceptual understanding, numerical analysis, multi-paragraph\ncomprehension and multi-hop inference. This dataset poses challenges for QA models, highli"
       },
       {
@@ -2359,7 +2359,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 6,
         "section": "information_extraction",
-        "score": 0.5808616550060595,
+        "score": 0.5943258694299863,
         "text": "Figure 2: Question generation using state of the art techniques.\n• Similar NLP benchmarks\nSimilar benchmarks exist for selection speciﬁc\nquestion generation benchmarks such as Sel-QA\n(Jurczyk et al., 2016), Wiki-QA (Yang et al., 2015),\nand GlGE (Liu et al., 2020). They are taken\nfrom a curated list of topics from corpora such as\nwikipedia. They are essentially question-answering\nbenchmarks where the questions are generated\nbased on a selected text, and cover various ver-\nsions of the questions t"
       },
       {
@@ -2368,7 +2368,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.5748460471263085,
+        "score": 0.5884999878108603,
         "text": "ome II and Brussels\nI bis – with answers derived directly from these regulations. The questions are classified based on their specificity,\nallowing for nuanced analysis of context-dependency in legal reasoning. This dataset supports the assessment of QA\nsystems intended for legal professionals navigating complex cross-border issues.\nEQUALS [23] is a large-scale annotated LQA dataset in Chinese law, containing 6,914 question-answer pairs with\nanswers based on specific law articles. Curated by sen"
       }
     ],
@@ -2391,7 +2391,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 13,
         "section": "judgement_prediction",
-        "score": 0.7603236890032119,
+        "score": 0.7593491507740361,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 13\nNiklaus et al . [96] introduce a multilingual LJP dataset from the Federal Supreme Court of Switzerland (FSCS),\ncontaining over 85,000 cases in German, French, and Italian. The dataset is annotated with publication years, legal areas,\nand cantons of origin, making it suitable for NLP applications in judgement prediction.\nSemo et al. [118] introduce the first LJP dataset centred on US class-act"
       },
       {
@@ -2400,7 +2400,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 3,
         "section": "information_extraction",
-        "score": 0.6665934721585209,
+        "score": 0.6669848759779514,
         "text": "Name Description\nCourt Judgements Districts, High & Supreme Courts judgements are publicly available on their\nwebsites. These judgements are in English and contain rich text data for Indian Law.\nFIR by Police Police Departments of many states provide FIRs on their websites.\nSome of them are in local Indian Languages.\nIndia Code Digital Repository of All central and state acts\nTable 1: Publicly Available Sources of Data. Released through Government of India platforms.\n4.2.4 FIRs are not always up"
       },
       {
@@ -2409,7 +2409,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 2,
         "section": "overview",
-        "score": 0.6539777723564056,
+        "score": 0.6542571805255698,
         "text": " on the\ncourt judgement text. Using Indian law text en-\nsures that the NLP models learn the language used\nin Indian Law.\n4.1 Data Availability\nThanks to many open data initiatives like National\nJudicial Data Grid (NJG) and Crime and Criminal\nTracking Network and System (CCT), a lot of data\nrelated to law and crime is publicly available. Table\n1 shows the public data sources which can be used\nfor multiple benchmarks.\n4.2 Challenges\nFollowing are some of the challenges in dealing\nwith the legal do"
       }
     ],
@@ -2432,17 +2432,8 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 15,
         "section": "text_classification",
-        "score": 0.7529952077272531,
+        "score": 0.7492242754430496,
         "text": "Voc5 concepts. This dataset facilitates research in LTC, including extreme multi-label text\nclassification, few-shot and zero-shot learning, with documents tagged with an expansive set of descriptors.\nTuggener et al. [133] introduce LEDGAR, a multi-label corpus of legal provisions from contracts scraped from the\nthe US Securities and Exchange Commission’s website. The dataset includes over 846,000 provisions across 60,540\ncontracts, with an extensive label set suitable for text classification an"
-      },
-      {
-        "chunk_id": "C:nlp-legal-survey-2410.21306-p23-c0-6ead0e73",
-        "document_id": "nlp-legal-survey-2410.21306",
-        "source": "nlp-legal-survey-2410.21306",
-        "page": 23,
-        "section": "datasets",
-        "score": 0.7078106999397479,
-        "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       },
       {
         "chunk_id": "C:nlp-legal-survey-2410.21306-p5-c0-bd5b405b",
@@ -2450,8 +2441,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.7030518762941655,
+        "score": 0.7112409988806858,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 5\n3.1 Legal Documents\nLegal documents, such as court filings, judicial judgements, statutes, treaties, contracts, and formal legal correspondence\nencode the authoritative rules, rights, and duties that underpin our legal systems. They transmit legally operative\ninformation, including procedural requirements, enforceable obligations, and interpretative reasoning. Lawyers, judges,\nregulators, and a"
+      },
+      {
+        "chunk_id": "C:nlp-legal-survey-2410.21306-p23-c0-6ead0e73",
+        "document_id": "nlp-legal-survey-2410.21306",
+        "source": "nlp-legal-survey-2410.21306",
+        "page": 23,
+        "section": "datasets",
+        "score": 0.7097850614914375,
+        "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       }
     ],
     "hit_at_1": true,
@@ -2473,7 +2473,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 17,
         "section": "summarisation",
-        "score": 0.815966877466404,
+        "score": 0.8116300589817812,
         "text": "sation to achieve concise, readable\nsummaries that transform the original legal language into more accessible forms [120].\nShen et al. [120] introduce Multi-LexSum, an abstractive summarisation dataset tailored for the US federal civil rights\nlawsuits, containing 40,000 source documents and 9,000 expert-written summaries of diverse lengths.\nLiu et al . [78] published the Common Law Court Judgement Summarisation (CLSum) , a dataset designed for\nsummarising multi-jurisdictional common law court ju"
       },
       {
@@ -2482,7 +2482,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.7104630470276081,
+        "score": 0.7158711979312431,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       },
       {
@@ -2491,7 +2491,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.7034520330102776,
+        "score": 0.7015299023109629,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 3\nTable 2. List of acronyms used in the survey.\nAcronyms Meaning\nCFR Code of Federal Regulations\nCJEU Court of Justice of the European Union\nECHR European Court of Human Rights\nFSCS Federal Supreme Court of Switzerland\nJEC-QA Judicial Examination of Chinese Question Answering\nLAM Legal Argument Mining\nLDS Legal Document Summarisation\nLJP Legal Judgement Prediction\nLQA Legal Question Answering\nLTC"
       }
     ],
@@ -2514,7 +2514,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 18,
         "section": "named_entity_recognition",
-        "score": 0.7335504293441981,
+        "score": 0.7345219570968672,
         "text": "erms. This specialised form of NER is crucial for structuring legal documents\nand enhancing legal IR systems. Unlike general NER systems that handle common entity types, legal NER must navigate\nthe complex language and structured format of legal documents, motivating the need for systems and methodologies\nspecifically tailored to the legal context.\n9.1 Datasets\nLeitner et al. [72] release a German legal NER corpus drawn from federal court decisions, comprising about 67,000\nsentences and more tha"
       },
       {
@@ -2523,7 +2523,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 19,
         "section": "named_entity_recognition",
-        "score": 0.6986352025649184,
+        "score": 0.7003136933410824,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 19\norganisation and more specialised ones, such as legal norms and case-by-case regulations, distinguishing between\ndifferent types of legal acts and literature. Annotation proceeded through multiple iterations to refine guidelines and\nensure high-quality labels.\nPăis et al. [110] introduce the LegalNERo corpus, a manually annotated resource for NER in the Romanian legal\ndomain, featuring 370 leg"
       },
       {
@@ -2532,7 +2532,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 19,
         "section": "named_entity_recognition",
-        "score": 0.6708102626091506,
+        "score": 0.6733464209254337,
         "text": "include person,\nlocation, organisation, government, court, business and legislation/act, adjusting the CoNLL classes to better suit legal\ndocuments. E-NER contains longer sentences compared to CoNLL and includes detailed annotations of financial entities\nfrom legal company filings.\nKalamkar et al. [65] release a legal NER corpus with 46,545 entities of 14 types extracted from Indian High Court\nand Supreme Court judgements. The corpus is divided into preamble and judgement sections and covers ent"
       }
     ],
@@ -2555,7 +2555,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.6841559410095264,
+        "score": 0.6784391019867828,
         "text": "d potentially offensive content, the paper provides actionable insights for researchers to improve\ncontent filtering practices before pre-training LLMs, thereby enhancing the ethical use of NLP in legal applications.\nNiklaus et al. [98] present the MultiLegalPile, the largest open-source multilingual legal corpus available, totalling 689\nGB and spanning 17 jurisdictions across 24 languages. This extensive dataset is designed to facilitate training of LLMs\nwithin the legal domain, featuring diver"
       },
       {
@@ -2564,7 +2564,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.6462517344209684,
+        "score": 0.6589716469628613,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       },
       {
@@ -2573,7 +2573,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.6440907161073882,
+        "score": 0.6447633697022015,
         "text": "24 Ariai et al.\n11.2 Large corpora for pre-training\nHenderson et al. [56] introduce the “Pile of Law, ” the first at-scale legal text collection, containing a 256 GB dataset of\nopen-source English-language legal and administrative data. This dataset includes contracts, court opinions, legislative\nrecords, and administrative rules, curated to explore data sanitation norms across legal and administrative settings and\nserve as a tool for pre-training legal LLMs. They emphasise the legal norms gover"
       }
     ],
@@ -2596,7 +2596,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 24,
         "section": "language_models",
-        "score": 0.531894195594483,
+        "score": 0.5245694391044475,
         "text": "24 Ariai et al.\n11.2 Large corpora for pre-training\nHenderson et al. [56] introduce the “Pile of Law, ” the first at-scale legal text collection, containing a 256 GB dataset of\nopen-source English-language legal and administrative data. This dataset includes contracts, court opinions, legislative\nrecords, and administrative rules, curated to explore data sanitation norms across legal and administrative settings and\nserve as a tool for pre-training legal LLMs. They emphasise the legal norms gover"
       },
       {
@@ -2605,17 +2605,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.4697068035602703,
+        "score": 0.47374939605586475,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 23\napproaches. The competition tasks included case law retrieval and entailment, as well as statute law retrieval and\nentailment with and without prior retrieved data. Specifically, task 1 focused on extracting relevant supporting cases\nfrom a corpus, while task 2 involved identifying paragraphs from cases that entail a given new case fragment. For statute\nlaw, tasks 3 and 4 entailed retrieving a"
       },
       {
-        "chunk_id": "C:nlp-legal-survey-2410.21306-p21-c5-c37c9176",
+        "chunk_id": "C:nlp-legal-survey-2410.21306-p10-c3-6e6bb0b5",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
-        "page": 21,
-        "section": "datasets",
-        "score": 0.45717719963004677,
-        "text": "t. Together, large legal\ncorpora and evaluation benchmarks can support the advancement of reliable legal AI applications.\nManuscript submitted to ACM"
+        "page": 10,
+        "section": "question_answering",
+        "score": 0.45784539235560473,
+        "text": "ome II and Brussels\nI bis – with answers derived directly from these regulations. The questions are classified based on their specificity,\nallowing for nuanced analysis of context-dependency in legal reasoning. This dataset supports the assessment of QA\nsystems intended for legal professionals navigating complex cross-border issues.\nEQUALS [23] is a large-scale annotated LQA dataset in Chinese law, containing 6,914 question-answer pairs with\nanswers based on specific law articles. Curated by sen"
       }
     ],
     "hit_at_1": true,
@@ -2637,7 +2637,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 25,
         "section": "language_models",
-        "score": 0.7866576313972529,
+        "score": 0.7818687428157787,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 25\ntoken capacities, Lawformer employs a unique combination of sliding window, dilated sliding window, and global\nattention mechanisms to process long texts, making it suitable for legal AI tasks, such as LJP and LQA. Pre-trained\non a vast corpus of Chinese legal documents segmented into criminal and civil cases, Lawformer integrates complex\nsequential dependencies across tokens using these atten"
       },
       {
@@ -2646,17 +2646,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 11,
         "section": "question_answering",
-        "score": 0.6981099427872943,
+        "score": 0.6977924468764776,
         "text": "tly, ChatGPT, have proven\nparticularly effective in NLP tasks. These models use the transformer architecture and self-attention mechanisms to\nlearn the context of text to model the patterns and word dependencies in text. This allows them to provide relevant\nanswers by weighting the importance of different parts of the input based on its contextual importance. In the following\nparagraphs, we will study the existing LQA works in the legal domain.\nHuang et al. [59] introduce the Artificial Intellig"
       },
       {
-        "chunk_id": "C:nlp-legal-survey-2410.21306-p25-c4-77ec0916",
+        "chunk_id": "C:nlp-legal-survey-2410.21306-p13-c2-d0c13322",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
-        "page": 25,
-        "section": "language_models",
-        "score": 0.6920366654352349,
-        "text": "within the LexGLUE benchmark, focusing on extending input capabilities and enhancing efficiency. They\nmodify Longformer [10], originally extending up to 4,096 subwords, to process up to 8,192 subwords by reducing local\nattention window size and incorporating a global token at the end of each paragraph to facilitate information flow\nacross longer texts. Additionally, they adapt legal-bert to employ TF-IDF representations to manage longer documents,\nintroducing variants, such as TF-IDF-SRT-LegalBE"
+        "page": 13,
+        "section": "judgement_prediction",
+        "score": 0.6915864532240371,
+        "text": "making. Evaluated on large-scale Chinese\ncriminal case datasets, it outperformed previous models in predicting legal outcomes.\nYe et al. [144] tackle court view generation from criminal case fact descriptions to improve the interpretability of\ncharge prediction systems and support automatic legal document drafting. They frame the task as a text-to-text natural\nlanguage generation problem, employing a label-conditioned sequence-to-sequence model with attention to generate\ncourt views from encoded"
       }
     ],
     "hit_at_1": false,
@@ -2678,7 +2678,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 25,
         "section": "language_models",
-        "score": 0.5962644156454004,
+        "score": 0.5927135524962414,
         "text": "ns within\nthe legal field by adapting BERT technology to Arabic’s specific content needs, involving pre-training BERT from\nscratch using a broad range of legal documents, including legislative materials and contracts.\nColombo et al . [27] introduce SaulLM-7B, a novel LLM specifically designed for legal text comprehension and\ngeneration, built on the 7 billion parameter Mistral [62] architecture. This model is trained on an extensive English legal\ncorpus, designed to meet the unique challenges of"
       },
       {
@@ -2687,7 +2687,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.5868374530423575,
+        "score": 0.586129318014303,
         "text": "8 Ariai et al.\n3.2.2 LLMs as an application of NLP in the legal sector. LLMs are a category of Deep Learning (DL)-based NLP models\ntrained on extensive text corpora to process and generate human-like language. These models, typically based on\nTransformer architectures, learn linguistic patterns from diverse sources, enabling them to perform tasks, such as text\nsummarisation, document analysis and Question Answering (QA). LLMs have gained widespread attention in NLP\napplications, particularly fol"
       },
       {
@@ -2696,7 +2696,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 11,
         "section": "question_answering",
-        "score": 0.5569672720354262,
+        "score": 0.5546972586304788,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 11\n5.2 Approaches\nRecently, DL has been applied in LQA through NN models trained on large datasets to identify complex patterns and\nrelationships. These models analyse posed questions, recognise relevant legal topics, and generate appropriate answers\nbased on learned patterns and memory.\nModern ML approaches to LQA use NN architectures to process natural language. Popular architectures include\nRe"
       }
     ],
@@ -2719,7 +2719,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 27,
         "section": "challenges",
-        "score": 0.7325768671701391,
+        "score": 0.7318938301052889,
         "text": "s approach. This indicates an opportunity\nfor research and development in this area, as RLHF could potentially enhance the capability of NLP models to learn and\nto make decisions based on complex legal data under human guidance. Further exploration into this method could\nlead to more responsive and adaptable legal NLP systems. However, due to the complex nature of legal reasoning and\nthe need for accurate legal knowledge in the human feedback phase, integrating RLHF into legal NLP pipelines pose"
       },
       {
@@ -2728,7 +2728,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 28,
         "section": "challenges",
-        "score": 0.7007644950887973,
+        "score": 0.7012728390801849,
         "text": "28 Ariai et al.\naccurately interpret and apply complex legal concepts, which is a barrier due to the significant cost of employing such\nprofessionals. Nonetheless, if RLHF can demonstrate further downstream savings due to improved worker efficiency,\nthe up-front cost of employing legal professionals for data annotation tasks may be a worthwhile investment.\nORC10: Expanding Legal Domain Coverage. There is a noticeable gap in the research across various areas of the legal\ndomain, including Intelle"
       },
       {
@@ -2737,7 +2737,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.668779015163389,
+        "score": 0.6666647593182612,
         "text": " for model\nperformance. Following this, in Section 12, we investigate the development of LMs that have been specifically adapted\nto the legal field. Finally, in Section 13, we address the key challenges associated with deploying NLP technologies in\nlegal settings, discussing both current issues and potential solutions. Since this survey contains many acronyms, Table\n2 provides the list of acronyms and their meanings to make it easier to follow.\n2 Related Work\nSeveral studies have examined the us"
       }
     ],
@@ -2760,7 +2760,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 29,
         "section": "conclusion",
-        "score": 0.7087658915621479,
+        "score": 0.707386851310735,
         "text": " – ✓ ✓ – –\nStochastic Parrots – – – – – – ✓ –\nRAG ✓ ✓ – – – ✓ ✓ –\nORC16: Retrieval-Augmented Generation. The legal domain presents particular challenges because documents are\nlengthy, contain numerous cross-references, and exhibit complex linguistic structures. These characteristics can cause\nLLMs to hallucinate when asked for precise answers. RAG offers a promising remedy by incorporating relevant passages\ndirectly into the generation process, overcoming LLM input-length limits and improving bo"
       },
       {
@@ -2769,17 +2769,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.547404873989866,
+        "score": 0.5433933955323826,
         "text": "\nevolving field. (3) This survey also highlights the existing research gaps in legal NLP, identifying areas that require\nfurther exploration and development and providing a road-map for future research efforts in the legal NLP domain.\n3 Background and Foundational Concepts\nIn this section, we explain how NLP can be applied within the legal domain. We begin by outlining the unique charac-\nteristics of legal documents and legal language, highlighting the challenges these features pose for NLP appl"
       },
       {
-        "chunk_id": "C:nlp-legal-survey-2410.21306-p12-c2-d741a941",
+        "chunk_id": "C:nlp-legal-survey-2410.21306-p11-c3-7c490126",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
-        "page": 12,
-        "section": "judgement_prediction",
-        "score": 0.5451960455904054,
-        "text": "ce. They introduce the LegalQA dataset\ncontaining 9,846 questions and 33,670 lawyer-curated answers. The approach involves a two-stage ranking pipeline\nwith a BM25 retriever followed by a re-ranker, showing that integrating question tags into the input structure can\nbridge the knowledge gap and improve retrieval in the legal domain.\n6 Legal Judgement Prediction\nLJP is a key task in legal NLP, particularly in civil-law jurisdictions where judgements rely on case facts and statutory\nprovisions [15"
+        "page": 11,
+        "section": "question_answering",
+        "score": 0.5431848219853428,
+        "text": "ereby enhancing the model’s ability to discriminate relevant answers.\nLi et al. [76]introduce a retrieve-then-answer framework featuring aGraph-Based Evidence Retrieval and Aggregation\nNetwork (GESAN)to enhance LQA on the JEC-QA dataset [155]. The framework leverages legal knowledge by predicting\nquestion topics and retrieving relevant paragraphs using BM25. GESAN aggregates the evidence and processes it along\nwith the question and options to generate accurate predictions, demonstrating improved"
       }
     ],
     "hit_at_1": true,
@@ -2801,7 +2801,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.676836769392299,
+        "score": 0.6773175395334528,
         "text": "illion-dollar pole-access contract, whereas the absence of that comma in the equally-authentic\nFrench text preserved the original five-year lock-in. This case illustrates how punctuation alone can shift rights and\nliabilities. Legal documents also typically use passive constructions and complex sentence structures to provide detailed\nand comprehensive descriptions [50] without directly attributing actions or intentions to specific parties.\nAnother distinctive aspect of legal language is its reli"
       },
       {
@@ -2810,7 +2810,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.6604967510996325,
+        "score": 0.6588686508277487,
         "text": "stics. Legal language is characterised by unique features that distinguish it\nfrom everyday language, primarily because of its role within the legal system. One prominent feature is its formality,\nwhere legal texts often employ a more formal vocabulary and syntax to ensure precision and avoid ambiguity [ 50].\nThis formality is important, as the meaning of terms can have legal effects. Specialised vocabularies, fixed syntactic\npatterns, and even punctuation are chosen to maximise precision and av"
       },
       {
@@ -2819,7 +2819,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 5,
         "section": "background",
-        "score": 0.5068582590306924,
+        "score": 0.5009626745030076,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 5\n3.1 Legal Documents\nLegal documents, such as court filings, judicial judgements, statutes, treaties, contracts, and formal legal correspondence\nencode the authoritative rules, rights, and duties that underpin our legal systems. They transmit legally operative\ninformation, including procedural requirements, enforceable obligations, and interpretative reasoning. Lawyers, judges,\nregulators, and a"
       }
     ],
@@ -2842,7 +2842,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.6979432106018066,
+        "score": 0.6965111674957883,
         "text": "8] suggest that its actual performance may be considerably lower, possibly around the 48th percentile\noverall and 15th percentile on essays. Similarly, further research reveals that although ChatGPT can achieve moderate\nsuccess on certain legal classification tasks, smaller fine-tuned models still outperform it by about 30 percentage points\n[16]. Another study highlights a tendency for LLMs to hallucinate legal content at high rates—up to 58% in some cases,\nraising reliability concerns for compl"
       },
       {
@@ -2851,7 +2851,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 29,
         "section": "conclusion",
-        "score": 0.6073247428342864,
+        "score": 0.6096826791763349,
         "text": " – ✓ ✓ – –\nStochastic Parrots – – – – – – ✓ –\nRAG ✓ ✓ – – – ✓ ✓ –\nORC16: Retrieval-Augmented Generation. The legal domain presents particular challenges because documents are\nlengthy, contain numerous cross-references, and exhibit complex linguistic structures. These characteristics can cause\nLLMs to hallucinate when asked for precise answers. RAG offers a promising remedy by incorporating relevant passages\ndirectly into the generation process, overcoming LLM input-length limits and improving bo"
       },
       {
@@ -2860,7 +2860,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 28,
         "section": "challenges",
-        "score": 0.571304202079773,
+        "score": 0.5728947265681471,
         "text": "ncern that\nthese models often do not truly understand language but merely mimic human patterns. This mimicry can lead to\nunreliable outcomes, especially in critical legal situations, if the models are not trained on high-quality, unbiased datasets.\nThe risk is notably significant in LJP, where training on biased or unfair data could lead to irreversible outcomes, as\ndiscussed in Bender et al. [11]’s work on the limitations of LLMs. Ultimately, we must ensure that tools and algorithms\naimed at au"
       }
     ],
@@ -2883,7 +2883,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.5982641638877312,
+        "score": 0.5950986260293287,
         "text": "8 Ariai et al.\n3.2.2 LLMs as an application of NLP in the legal sector. LLMs are a category of Deep Learning (DL)-based NLP models\ntrained on extensive text corpora to process and generate human-like language. These models, typically based on\nTransformer architectures, learn linguistic patterns from diverse sources, enabling them to perform tasks, such as text\nsummarisation, document analysis and Question Answering (QA). LLMs have gained widespread attention in NLP\napplications, particularly fol"
       },
       {
@@ -2892,17 +2892,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.5204883968975664,
+        "score": 0.5234474667804776,
         "text": "8] suggest that its actual performance may be considerably lower, possibly around the 48th percentile\noverall and 15th percentile on essays. Similarly, further research reveals that although ChatGPT can achieve moderate\nsuccess on certain legal classification tasks, smaller fine-tuned models still outperform it by about 30 percentage points\n[16]. Another study highlights a tendency for LLMs to hallucinate legal content at high rates—up to 58% in some cases,\nraising reliability concerns for compl"
       },
       {
-        "chunk_id": "C:nlp-legal-survey-2410.21306-p12-c1-28d10241",
-        "document_id": "nlp-legal-survey-2410.21306",
-        "source": "nlp-legal-survey-2410.21306",
-        "page": 12,
-        "section": "judgement_prediction",
-        "score": 0.4912345555792619,
-        "text": "ntroduce the Q4EU dataset,\ncontaining over 70 questions and 200 answers on six European norms, demonstrating improved performance in LQA\neven without domain-specific training.\nYuan et al. [146] present a three-step approach to bridge the legal knowledge gap by creating CLIC-pages—snippets\nthat explain technical legal concepts in layperson’s terms. They construct a legal question bank containing legal\nquestions answered by CLIC-pages, using GPT-3 [14] to generate machine-generated questions. The "
+        "chunk_id": "C:legal-nlp-india-survey-2107.06056-p6-c2-1bb180cf",
+        "document_id": "legal-nlp-india-survey-2107.06056",
+        "source": "legal-nlp-india-survey-2107.06056",
+        "page": 6,
+        "section": "information_extraction",
+        "score": 0.48694267791167967,
+        "text": "thods employed in other\nquestion generation benchmarks. We need only\npeople who are proﬁcient in the language, not nec-\nessarily legal experts, for creating the data in this\nbenchmark. We can leverage existing tools such as\nProphetNET (Qi et al., 2021), T5 (Kumar, 2021)\nand Squash (Krishna and Iyyer, 2019) ﬁne-tune\nthem if needed for Legal question generation.\n• Evaluation Metrics\nThere are two main aspects of the evaluation of\nthis benchmark. First one is whether the QG pro-\ncess has identiﬁed "
       }
     ],
     "hit_at_1": true,
@@ -2924,7 +2924,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 4,
         "section": "related_work",
-        "score": 0.6447136441385294,
+        "score": 0.6375715024556223,
         "text": "nce between our work and previous surveys is that our survey aims to provide a more general\nview of all aspects of NLP tasks in the legal domain, rather than focusing solely on specific applications. The main\ncontributions of this survey are summarised as follows: (1) This article extends previous surveys by examining a\nbroad spectrum of studies and applications of legal NLP. By discussing datasets and large corpora in 24 languages and\nexploring popular legal LMs, this survey establishes itself "
       },
       {
@@ -2933,17 +2933,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.5978994136096487,
+        "score": 0.5972576141357804,
         "text": "the legal domain, such\nas LJP and statutory reasoning. Their study reviewed three datasets and two LLMs related to these tasks. Unlike Sun’s\nwork, our survey covers a wider range of NLP tasks and includes legal corpora and datasets. Cui et al. [28] focused\non LJP, reviewing 43 datasets in nine languages. Their study evaluated classification, text generation and regression\ntasks. It also discussed pre-trained LMs used for LJP. Our work differs by covering multiple NLP tasks, legal corpora\nand dat"
       },
       {
-        "chunk_id": "C:nlp-legal-survey-2410.21306-p24-c1-958d1d7f",
+        "chunk_id": "C:nlp-legal-survey-2410.21306-p15-c1-b6eb33a5",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
-        "page": 24,
-        "section": "language_models",
-        "score": 0.5885405925415576,
-        "text": "d potentially offensive content, the paper provides actionable insights for researchers to improve\ncontent filtering practices before pre-training LLMs, thereby enhancing the ethical use of NLP in legal applications.\nNiklaus et al. [98] present the MultiLegalPile, the largest open-source multilingual legal corpus available, totalling 689\nGB and spanning 17 jurisdictions across 24 languages. This extensive dataset is designed to facilitate training of LLMs\nwithin the legal domain, featuring diver"
+        "page": 15,
+        "section": "text_classification",
+        "score": 0.5875609062503242,
+        "text": "Voc5 concepts. This dataset facilitates research in LTC, including extreme multi-label text\nclassification, few-shot and zero-shot learning, with documents tagged with an expansive set of descriptors.\nTuggener et al. [133] introduce LEDGAR, a multi-label corpus of legal provisions from contracts scraped from the\nthe US Securities and Exchange Commission’s website. The dataset includes over 846,000 provisions across 60,540\ncontracts, with an extensive label set suitable for text classification an"
       }
     ],
     "hit_at_1": true,
@@ -2965,7 +2965,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.814991379230958,
+        "score": 0.8144764900207752,
         "text": "lding and four closely related incorrect options, encouraging models to demonstrate genuine legal reasoning.\nChalkidis et al. [21] introduce the Legal General Language Understanding Evaluation (LexGLUE) benchmark, a com-\nprehensive suite of datasets aimed at assessing the capabilities of NLP models across various legal tasks. The benchmark\ncovers datasets, such as ECHR [17], SCOTUS,8 EUR-Lex, LEDGAR [133], UNFAIR-ToS[77] and CaseHOLD [151], each\nchosen for its complexity, relevance, and need for"
       },
       {
@@ -2974,7 +2974,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.7903428909284741,
+        "score": 0.7871202484225986,
         "text": "22 Ariai et al.\nTable 4. Overview of datasets and their usage across different legal NLP tasks and cited studies.\nTask Datasets Identified Studies\nLJP CAIL datasets by Xiao et al. [141]\nFeng et al. [41], Tong et al. [132], Xu et al.\n[142], Yang et al. [143, 143], Zhang et al.\n[149], Zhong et al. [152, 153]\nLTC LEDGAR by Tuggener et al. [133] Mamooler et al. [86]EURLEX57K by Chalkidis et al. [18] Song et al. [124]\nNER LegalNERo by Păis et al. [110] Smădu et al. [123]German LER by Leitner et al. ["
       },
       {
@@ -2983,7 +2983,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 3,
         "section": "related_work",
-        "score": 0.7653767275106126,
+        "score": 0.7608360194661727,
         "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 3\nTable 2. List of acronyms used in the survey.\nAcronyms Meaning\nCFR Code of Federal Regulations\nCJEU Court of Justice of the European Union\nECHR European Court of Human Rights\nFSCS Federal Supreme Court of Switzerland\nJEC-QA Judicial Examination of Chinese Question Answering\nLAM Legal Argument Mining\nLDS Legal Document Summarisation\nLJP Legal Judgement Prediction\nLQA Legal Question Answering\nLTC"
       }
     ],
@@ -3006,7 +3006,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.6480840025048304,
+        "score": 0.6401256108358878,
         "text": "ting from the 16th century to the present. The corpus includes raw text and metadata across various court types\nand is structured in XML format for ease of use and annotated for case outcomes in a subset of 638 cases. Additionally,\nthe CLC is supported by a Python library for data manipulation and ML applications.\nManuscript submitted to ACM"
       },
       {
@@ -3015,7 +3015,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.6429746725834639,
+        "score": 0.6394819187500426,
         "text": "rent teams engaging in multiple tasks. task 1 involves legal case retrieval, requiring participants to extract\nsupporting cases from a corpus and task 2 focuses on legal case entailment, identifying paragraphs that entail aspects\nof a new case. Task 3 and 4, based on Japanese civil code statutes from the bar exam, involve retrieving relevant articles\nand verifying statements, respectively. The competition leverages a dataset of over 5,700 case law files and introduces\nnew query cases and test qu"
       },
       {
@@ -3024,7 +3024,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 16,
         "section": "reasoning",
-        "score": 0.5788725269512827,
+        "score": 0.5654321312904358,
         "text": "Legal Topic Inﬂuential Judgement\nRight to personal liberty Maneka Gandhi Vs. Union of India , 1978 , ...\nSupreme Court’s authority over the\nConstitution Kesavananda Bharati vs state of Kerala , 1973,.....\nUniform Civil Code Mohammed Ahmed Khan v. Shah Bano Begum , 1985,...\nTable 3: Examples of Inﬂuential Judgements\n2018) which is a part of Chinese AI Law Challenge.\nIn the Forum of Information Retrieval Evaluation\n2019 (Bhattacharya et al., 2019a), there is a dataset\ncreated which ﬁnds most relev"
       }
     ],
@@ -3047,7 +3047,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7566181807615542,
+        "score": 0.7518833579878055,
         "text": "n.\n• Similar NLP benchmarks\nIn the Forum of Information Retrieval Evalua-\ntion 2019 (Bhattacharya et al., 2019a), there is a\ndataset created which identiﬁes the most similar\ncases for a given text description of a case from a\nset of 2914 supreme court judgements. This data is\navailable for 50 text description queries. Chinese\nAI Law competition (Xiao et al., 2019) has created\na similar case matching competition (CAIL 2019 -\nSCM). This competition focuses on ﬁnding which\n2 supreme court cases are"
       },
       {
@@ -3056,7 +3056,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.739326097389294,
+        "score": 0.7403429878371336,
         "text": "Entity1 Relation Entity2\nAshok Sethi is Complainer\nPranav Jog is Accussed\nComplainer is neighbor Accussed\nComplainer assaulted Accussed\nTable 2: Example of Extracted Relations\nNLP Models should be able to correctly identify\nmost of the relations and correctly categorize those.\n5.3 Case Similarity\nIndian Law is common law. This means that prece-\ndent set by previous courts to interpret laws must\nbe respected. Hence ﬁnding out cases which are\nsimilar to a given case becomes important for le-\ngal r"
       },
       {
@@ -3065,7 +3065,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.7371753140896946,
+        "score": 0.7396262663714371,
         "text": ".1 Find Similar Cases\n• Description of Task\nThis benchmark deals with ﬁnding most rele-\nvant cases for given text descriptions about a case.\nMany existing search engines of Indian Legal doc-\numents (India Kanoon , Legitquest, aironline etc.)\nfocus on searches based on keywords. Searching\nwith text descriptions allows you to look for more\ndetailed information rather than keywords based\nsearch. Hence one can input the FIR, chargesheets\n, case description and search for the judgements\nwhich are sim"
       }
     ],
@@ -3099,7 +3099,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 9,
         "section": "summary_generation",
-        "score": 0.6575614230224938,
+        "score": 0.6647522652739846,
         "text": " machine\nlearning (ML) community. However, to the best\nof our knowledge, there exists no ML and legal\nbenchmarks on context/ actor speciﬁc summary\ngeneration.\n• Dataset to be collected\nIn our benchmark, we propose the use of open\ndocuments from the Indian Legal System (e.g. case"
       },
       {
@@ -3108,7 +3108,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 9,
         "section": "summary_generation",
-        "score": 0.6528964091909899,
+        "score": 0.6530806629013725,
         "text": " Indian Legal Documents (Merchant and Pande,\n2018), (Bhattacharya et al., 2019b), which they\ntested using human generated summaries (Wes).\nIn addition to these there are text summarization\ntracks in NLP conferences such as Text REtrieval\nConference (Tex), Text Analysis Conference (Tex),\nand Forum for Information Retrieval Evaluation\n(FIR). To create targeted models which go on the\nleaderboard for this benchmark, one can leverage\nexisting summary generation models such as con-\ntext speciﬁc senten"
       }
     ],
@@ -3134,17 +3134,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 8,
         "section": "background",
-        "score": 0.5450474619865417,
+        "score": 0.5465090815414132,
         "text": "8] suggest that its actual performance may be considerably lower, possibly around the 48th percentile\noverall and 15th percentile on essays. Similarly, further research reveals that although ChatGPT can achieve moderate\nsuccess on certain legal classification tasks, smaller fine-tuned models still outperform it by about 30 percentage points\n[16]. Another study highlights a tendency for LLMs to hallucinate legal content at high rates—up to 58% in some cases,\nraising reliability concerns for compl"
       },
       {
-        "chunk_id": "C:nlp-legal-survey-2410.21306-p9-c0-8fdaf0b5",
+        "chunk_id": "C:nlp-legal-survey-2410.21306-p19-c5-85af0ff5",
         "document_id": "nlp-legal-survey-2410.21306",
         "source": "nlp-legal-survey-2410.21306",
-        "page": 9,
-        "section": "methodology",
-        "score": 0.42061591148376465,
-        "text": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models and Challenges 9\ncompare methods in the context of e-discovery. Its contributions include benchmark datasets and evaluation metrics\nthat were used to assess retrieval performance in legal text processing.\n4 Methodology\nThis survey follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) framework [100].\nIt ensures a transparent and comprehensive assessment of research on NLP tasks"
+        "page": 19,
+        "section": "named_entity_recognition",
+        "score": 0.4191366482295611,
+        "text": "gradients. The authors also explore ensembles of different model configurations, evaluating\nperformance via precision, recall and F1 scores against a gold-standard corpus.\n7https://www.geonames.org/\nManuscript submitted to ACM"
       },
       {
         "chunk_id": "C:legal-nlp-india-survey-2107.06056-p6-c2-1bb180cf",
@@ -3152,7 +3152,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 6,
         "section": "information_extraction",
-        "score": 0.4192268377312077,
+        "score": 0.4190310662696085,
         "text": "thods employed in other\nquestion generation benchmarks. We need only\npeople who are proﬁcient in the language, not nec-\nessarily legal experts, for creating the data in this\nbenchmark. We can leverage existing tools such as\nProphetNET (Qi et al., 2021), T5 (Kumar, 2021)\nand Squash (Krishna and Iyyer, 2019) ﬁne-tune\nthem if needed for Legal question generation.\n• Evaluation Metrics\nThere are two main aspects of the evaluation of\nthis benchmark. First one is whether the QG pro-\ncess has identiﬁed "
       }
     ],
@@ -3175,7 +3175,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 15,
         "section": "reasoning",
-        "score": 0.7434779405593872,
+        "score": 0.7468614499064463,
         "text": "ing the relevant act of the law based on\nthe text description of the fact is an important legal\nresearch task. This is done typically by lawyers\nand police while making the chargesheet. Automat-\ning this process can help layman people who don’t\nunderstand law. This would help people to collect\nthe right information about the case in a timely\nmanner before they interact with lawyers or police.\nThis will also increase familiarity of law in com-\nmon people. E.g. A citizen enters text “Thieves\ntook "
       },
       {
@@ -3184,7 +3184,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 15,
         "section": "reasoning",
-        "score": 0.5878361252106975,
+        "score": 0.5915923823824395,
         "text": "udgements with citations. Legal experts\nwould be needed to create such lists. Opinions of\nmultiple legal experts need to be combined to cre-\nate the curated list in speciﬁc areas. Since data to\nbe collected involves ranked lists in a given area,\ncomplex tools may not be needed for data collec-\ntion. Experts can use simple tools like MS Excel to\ncreate such lists. Many of the existing NLP compo-\nnents like Legal Named Entity Relation Extractor\ncan be leveraged for creating structured data for\nhum"
       },
       {
@@ -3193,7 +3193,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 15,
         "section": "reasoning",
-        "score": 0.5827267268570377,
+        "score": 0.5909227065076887,
         "text": "c legal\ntopics.\n• Value Proposition\nThe benchmark would provide objective evalua-\ntion of inﬂuence of a judgement. This would also\nmean time saving for legal research.\n• Mapping to standard NLP Tasks\nThis maps to citations extraction and algorithms\nlike pagerank to decide inﬂuence once the network\nof citations is created. These NLP tasks are con-\nsidered easy because of availability of pretrained\nmodels and libraries.\n• Similar NLP benchmarks\nThere is an existing benchmark that focuses on\npredic"
       }
     ],
@@ -3219,7 +3219,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.8225170585492838,
+        "score": 0.8197069900966013,
         "text": "Entity1 Relation Entity2\nAshok Sethi is Complainer\nPranav Jog is Accussed\nComplainer is neighbor Accussed\nComplainer assaulted Accussed\nTable 2: Example of Extracted Relations\nNLP Models should be able to correctly identify\nmost of the relations and correctly categorize those.\n5.3 Case Similarity\nIndian Law is common law. This means that prece-\ndent set by previous courts to interpret laws must\nbe respected. Hence ﬁnding out cases which are\nsimilar to a given case becomes important for le-\ngal r"
       },
       {
@@ -3228,7 +3228,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.8106205108946718,
+        "score": 0.8040091629017454,
         "text": ".1 Find Similar Cases\n• Description of Task\nThis benchmark deals with ﬁnding most rele-\nvant cases for given text descriptions about a case.\nMany existing search engines of Indian Legal doc-\numents (India Kanoon , Legitquest, aironline etc.)\nfocus on searches based on keywords. Searching\nwith text descriptions allows you to look for more\ndetailed information rather than keywords based\nsearch. Hence one can input the FIR, chargesheets\n, case description and search for the judgements\nwhich are sim"
       },
       {
@@ -3237,7 +3237,7 @@
         "source": "legal-nlp-india-survey-2107.06056",
         "page": 13,
         "section": "case_similarity",
-        "score": 0.761490330784938,
+        "score": 0.7575399731123444,
         "text": "n of India and Another (1978) , Kharak\nSingh v. State of U.P. and Others etc. The sim-\nilar cases could come from other high courts or\nsupreme courts.\n• Value Proposition\nReduce time needed for manual search of similar\ncases and provide more meaningful results. Pro-\nvision of search by larger text instead of just key-\nwords would be very helpful. Many startups are\ndeveloping such search engines as well. But there\nis no benchmark about how good the search en-\ngines are. Hence this benchmark would"
       }
     ],
@@ -3263,17 +3263,8 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.7361145143713731,
+        "score": 0.7326875925064296,
         "text": "s 3, 4 and 5 which\nadapted to recent legal revisions in Japanese law and excluded untranslated parts, reflecting the ongoing evolution and\nchallenge in legal NLP applications.\nBarale et al. [9] present AsyLex, a pioneering dataset tailored for refugee law applications, featuring 59,112 documents\nfrom Canadian refugee status determinations spanning from 1996 to 2022. This dataset is designed to enhance the\ncapabilities of NLP models in legal research by providing 19,115 gold-standard human-annota"
-      },
-      {
-        "chunk_id": "C:legal-nlp-india-survey-2107.06056-p16-c0-88e6c31f",
-        "document_id": "legal-nlp-india-survey-2107.06056",
-        "source": "legal-nlp-india-survey-2107.06056",
-        "page": 16,
-        "section": "reasoning",
-        "score": 0.5895924499266678,
-        "text": "Legal Topic Inﬂuential Judgement\nRight to personal liberty Maneka Gandhi Vs. Union of India , 1978 , ...\nSupreme Court’s authority over the\nConstitution Kesavananda Bharati vs state of Kerala , 1973,.....\nUniform Civil Code Mohammed Ahmed Khan v. Shah Bano Begum , 1985,...\nTable 3: Examples of Inﬂuential Judgements\n2018) which is a part of Chinese AI Law Challenge.\nIn the Forum of Information Retrieval Evaluation\n2019 (Bhattacharya et al., 2019a), there is a dataset\ncreated which ﬁnds most relev"
       },
       {
         "chunk_id": "C:nlp-legal-survey-2410.21306-p10-c3-6e6bb0b5",
@@ -3281,8 +3272,17 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 10,
         "section": "question_answering",
-        "score": 0.5806806799020614,
+        "score": 0.5904030203819443,
         "text": "ome II and Brussels\nI bis – with answers derived directly from these regulations. The questions are classified based on their specificity,\nallowing for nuanced analysis of context-dependency in legal reasoning. This dataset supports the assessment of QA\nsystems intended for legal professionals navigating complex cross-border issues.\nEQUALS [23] is a large-scale annotated LQA dataset in Chinese law, containing 6,914 question-answer pairs with\nanswers based on specific law articles. Curated by sen"
+      },
+      {
+        "chunk_id": "C:legal-nlp-india-survey-2107.06056-p16-c0-88e6c31f",
+        "document_id": "legal-nlp-india-survey-2107.06056",
+        "source": "legal-nlp-india-survey-2107.06056",
+        "page": 16,
+        "section": "reasoning",
+        "score": 0.58499712765183,
+        "text": "Legal Topic Inﬂuential Judgement\nRight to personal liberty Maneka Gandhi Vs. Union of India , 1978 , ...\nSupreme Court’s authority over the\nConstitution Kesavananda Bharati vs state of Kerala , 1973,.....\nUniform Civil Code Mohammed Ahmed Khan v. Shah Bano Begum , 1985,...\nTable 3: Examples of Inﬂuential Judgements\n2018) which is a part of Chinese AI Law Challenge.\nIn the Forum of Information Retrieval Evaluation\n2019 (Bhattacharya et al., 2019a), there is a dataset\ncreated which ﬁnds most relev"
       }
     ],
     "hit_at_1": true,
@@ -3304,7 +3304,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 23,
         "section": "datasets",
-        "score": 0.8078350550980918,
+        "score": 0.8037049770355453,
         "text": "multilingual benchmark for evaluating LMs on legal NLP tasks. Drawing on\nlegal NLP research published between 2010 and 2022, they curate 11 human-annotated datasets spanning 24 languages\nand multiple legal domains. To ensure fair comparison across models, the authors introduce two aggregate metrics—the\ndataset aggregate score and the language aggregate score—and show that performance on LEXTREME rises with model\nsize. The benchmark covers three task types: single-label text classification, multi"
       },
       {
@@ -3313,7 +3313,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.7880552284750493,
+        "score": 0.7890313267708049,
         "text": "lding and four closely related incorrect options, encouraging models to demonstrate genuine legal reasoning.\nChalkidis et al. [21] introduce the Legal General Language Understanding Evaluation (LexGLUE) benchmark, a com-\nprehensive suite of datasets aimed at assessing the capabilities of NLP models across various legal tasks. The benchmark\ncovers datasets, such as ECHR [17], SCOTUS,8 EUR-Lex, LEDGAR [133], UNFAIR-ToS[77] and CaseHOLD [151], each\nchosen for its complexity, relevance, and need for"
       },
       {
@@ -3322,7 +3322,7 @@
         "source": "nlp-legal-survey-2410.21306",
         "page": 22,
         "section": "datasets",
-        "score": 0.7614826417853037,
+        "score": 0.7558324628076055,
         "text": "22 Ariai et al.\nTable 4. Overview of datasets and their usage across different legal NLP tasks and cited studies.\nTask Datasets Identified Studies\nLJP CAIL datasets by Xiao et al. [141]\nFeng et al. [41], Tong et al. [132], Xu et al.\n[142], Yang et al. [143, 143], Zhang et al.\n[149], Zhong et al. [152, 153]\nLTC LEDGAR by Tuggener et al. [133] Mamooler et al. [86]EURLEX57K by Chalkidis et al. [18] Song et al. [124]\nNER LegalNERo by Păis et al. [110] Smădu et al. [123]German LER by Leitner et al. ["
       }
     ],

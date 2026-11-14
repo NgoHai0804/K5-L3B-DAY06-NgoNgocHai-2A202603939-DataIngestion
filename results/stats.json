@@ -19,11 +19,11 @@
   },
   "B/dev": {
     "n": 19,
-    "hit1": 14,
+    "hit1": 13,
     "hit3": 15,
-    "hit_at_1": "14/19",
+    "hit_at_1": "13/19",
     "evidence_hit_at_3": "15/19",
-    "hit1_rate": 0.737,
+    "hit1_rate": 0.684,
     "hit3_rate": 0.789
   },
   "B/test": {

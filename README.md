@@ -40,6 +40,40 @@ Chọn tài liệu được phép sử dụng; giữ **ID tài liệu, nguồn, 
 
 Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **15 câu dev / 5 câu test** trước khi chạy; chọn cấu hình trên dev, rồi đánh giá test sau khi cố định. Mỗi câu hỏi cần có đoạn bằng chứng và trang nguồn; thiết kế bộ câu hỏi và đánh giá theo [BENCHMARK.md](BENCHMARK.md).
 
+### Ba cấu hình A/B/C
+
+| Cấu hình | Chunking | Chunk size | Overlap | Metadata | Filter | Embedding | Store / metric |
+|---|---|---:|---:|---|---|---|---|
+| **A** | Fixed-size | 500 ký tự | 50 | `document_id, source, page, section, year` | Không lọc | `qwen/qwen3-embedding-8b` (4096) | pgvector / cosine |
+| **B** | Theo đoạn/heading | max 800 ký tự | — | giống A | Không lọc | cùng model | pgvector / cosine |
+| **C** | Theo đoạn (giống B) | max 800 ký tự | — | giống B | Lọc khi câu hỏi có filter | cùng model | pgvector / cosine |
+
+- **A–B** chỉ khác **cách chunk** (fixed-size ↔ theo đoạn) → cô lập ảnh hưởng của chunking.
+- **B–C** chỉ khác **metadata filter** (không lọc ↔ có lọc) → cô lập ảnh hưởng của filter.
+- Giữ nguyên corpus, embedding model, metric, bộ câu hỏi và `top_k = 3` cho cả ba.
+- C chỉ lọc cho câu có `filter`; câu không có filter chạy như B và ghi `filter_applied: null` trong trace.
+- Giá trị filter (`document_id`, `section`) lấy từ [`data/manifest.json`](data/manifest.json) và đã kiểm chứng theo trang nguồn; whitelist filter nằm trong `starter/src/store.py`.
+- Hiện thực: `_strategies()` trong `starter/src/run.py`. Đã nạp đủ ba index vào pgvector (A = 386, B = 230, C = 230 chunk).
+
+### Kết quả dev / test (Bước 5)
+
+Lệnh chạy: `.\.venv\Scripts\python.exe -m src.run` trong `starter/`. Trace đầy đủ ở [`results/traces.json`](results/traces.json), thống kê ở [`results/stats.json`](results/stats.json), log ingest ở [`results/ingest_log.json`](results/ingest_log.json).
+
+| Cấu hình | Split | Hit@1 (n/N) | Evidence Hit@3 (n/N) | Chunk count | Ingest | Chi phí |
+|---|---|---:|---:|---:|---:|---:|
+| A | dev | 13/19 | 15/19 | 386 | 52.1s | ≈0 |
+| A | test | 6/8 | 8/8 | 386 | — | ≈0 |
+| B | dev | 13/19 | 15/19 | 230 | 29.4s | ≈0 |
+| B | test | 5/8 | 5/8 | 230 | — | ≈0 |
+| C | dev | 14/19 | 15/19 | 230 | 22.4s | ≈0 |
+| C | test | 5/8 | 5/8 | 230 | — | ≈0 |
+
+- **Bộ câu hỏi:** 27 câu (19 dev / 8 test); test = q05, q09, q16, q23, q24, q25, q26, q27. Chỉ số dạng n/N lấy từ `results/stats.json`.
+- **Idempotent:** chạy lại pipeline lần hai → pgvector vẫn A = 386, B = 230, C = 230 (không nhân đôi); do id ổn định dạng `strategy:chunk_id`.
+- **Phân bố độ dài chunk** (đo lại từ pgvector): A trung bình 474 (57–500); B/C trung bình 722 (19–800).
+- **Chi phí:** ≈ 0 — embedding ~130k token qua OpenRouter `qwen/qwen3-embedding-8b` (không đáng kể), vector store chạy local.
+- Chấm thủ công 5 khía cạnh (coherence, metadata, grounding) thuộc Bước 6.
+
 Đánh giá theo năm khía cạnh: **độ chính xác truy xuất**, **tính mạch lạc của chunk**, **tính hữu dụng của metadata**, **chất lượng grounding** và **tác động của chiến lược dữ liệu**. Giải thích lựa chọn bằng kết quả, ví dụ lỗi và các đánh đổi.
 
 ## 3. Chuẩn bị bài nộp
