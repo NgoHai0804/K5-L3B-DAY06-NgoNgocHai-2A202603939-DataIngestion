@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,section,year",none,qwen/qwen3-embedding-8b,"Cửa sổ 500 ký tự bắt câu ngắn rời rạc nhưng khớp evidence nguyên văn",13/19,15/19,6/8,8/8,"Hit@3 test cao nhất (8/8) nhưng 386 chunk, ingest 52s"
+B,by_paragraph,800,0,"document_id,source,page,section,year",none,qwen/qwen3-embedding-8b,"Chunk theo đoạn giữ trọn ý tốt hơn A",13/19,15/19,5/8,5/8,"Ít chunk hơn 40% (230) nhưng coherence không tăng (pypdf thiếu ranh giới đoạn)"
+C,by_paragraph,800,0,"document_id,source,page,section,year","document_id,section",qwen/qwen3-embedding-8b,"Filter nguồn/section loại chunk sai phạm vi",14/19,15/19,5/8,5/8,"Chỉ tác động 4 câu có filter; dev +1 Hit@1; filter compliance 2/2"

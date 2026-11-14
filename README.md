@@ -12,6 +12,30 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 
 Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
 
+## Cách chạy (setup & run)
+
+```powershell
+# 1) Database PostgreSQL 16 + pgvector (từ starter/)
+docker compose -p day6_student_starter up -d --wait
+
+# 2) venv + dependencies (từ starter/)
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install openai      # SDK embedding (OpenRouter, OpenAI-compatible)
+
+# 3) Cấu hình: copy .env.example -> .env, giữ DATABASE_URL, điền OPENROUTER_API_KEY
+
+# 4) Chạy pipeline end-to-end (từ starter/)
+.\.venv\Scripts\python.exe -m src.run
+
+# 5) Kiểm tra đã nạp vector
+docker compose -p day6_student_starter exec postgres psql -U day6 -d day6_lab -c "SELECT strategy, COUNT(*) FROM chunks GROUP BY strategy;"
+```
+
+- **Model:** OpenRouter `qwen/qwen3-embedding-8b` (4096 chiều) · **Vector store:** PostgreSQL 16 + pgvector 0.8.7, metric cosine.
+- **Dữ liệu:** corpus `data/raw/` (2 PDF arXiv), manifest `data/manifest.json`; benchmark `benchmark/questions.json`; kết quả `results/`.
+- **Chi phí:** ≈ 0 (< $0.01 cho ~130k token embedding); vector store chạy local.
+
 ## 1. Xây pipeline
 
 ![Đọc tài liệu, chuẩn hóa, chia chunk, tạo vector, lưu và kiểm tra](assets/ingestion-pipeline.svg)
