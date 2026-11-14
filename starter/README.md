@@ -54,6 +54,19 @@ docker compose -p day6_student_starter stop
 
 Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
 
+### Cấu hình embedding & vector store đã chốt
+
+| Mục | Giá trị |
+|---|---|
+| Provider | OpenRouter (`https://openrouter.ai/api/v1`, OpenAI-compatible) |
+| Embedding model | `qwen/qwen3-embedding-8b` |
+| Số chiều (`dimensions`) | **4096** |
+| SDK | `openai` (đã cài trong `.venv`) |
+| Vector store | PostgreSQL 16 + pgvector 0.8.7 (starter), metric cosine (`<=>`) |
+| Cột vector | `vector(4096)` trong `store.py` — phải khớp `dimensions` |
+
+> Số chiều 4096 đã xác nhận bằng một lời gọi API test (15 token, ~$0.00000015). Nếu đổi model → phải đổi `vector(N)` và ingest lại từ đầu.
+
 ## 3. Hoàn thiện pipeline
 
 1. Đặt corpus vào `data/` hoặc cung cấp manifest/hướng dẫn truy cập. Đọc [GUIDE.md](../GUIDE.md) về **30 trang nội dung**, quyền dữ liệu và metadata.

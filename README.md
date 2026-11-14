@@ -18,6 +18,22 @@ Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database v
 
 Chọn tài liệu được phép sử dụng; giữ **ID tài liệu, nguồn, trang/vị trí** và metadata phù hợp. Dùng embedding model thật qua API hoặc chạy local; lưu và truy xuất bằng pgvector, Qdrant, Chroma hoặc một store tương đương.
 
+## Dữ liệu (corpus)
+
+- **Chủ đề:** Natural Language Processing trong lĩnh vực pháp lý (legal NLP) — tasks, datasets, models, challenges, benchmarks.
+- **Vị trí corpus:** `data/raw/` · **Manifest:** [`data/manifest.json`](data/manifest.json).
+- **Quy ước vị trí:** corpus và manifest đặt dưới `data/` ở repo root; `run.py`, manifest và README dùng cùng quy ước này.
+- **Nguồn — giấy phép CC BY 4.0** (được phép dùng/tái phân phối, ghi công):
+
+  | source_id | Tài liệu | Năm | Trang nội dung |
+  |---|---|---:|---:|
+  | `nlp-legal-survey-2410.21306` | NLP for the Legal Domain: A Survey (arXiv:2410.21306v3) | 2024 | 29 |
+  | `legal-nlp-india-survey-2107.06056` | Indian Legal NLP Benchmarks: A Survey (arXiv:2107.06056v1) | 2021 | 16 |
+  | **Tổng** | | | **45 (≥ 30)** |
+
+- **Quy tắc đếm trang:** trang có ≥200 ký tự sau chuẩn hóa; loại bìa/mục lục/trống/references. Trang references bị loại khỏi đếm; trang hình/bảng ít text ghi ở `empty_or_ocr_broken_pages` (Bước 3 sẽ ghi thêm log).
+- **Phạm vi metadata filter:** cấp tài liệu `document_id`, `source`, `year`, `document_type`; cấp trang `section` (suy ra từ heading khi ingest). Hai tài liệu + nhiều section cho ≥2 phạm vi phân biệt.
+
 ## 2. So sánh và đánh giá
 
 ![Ba chiến lược được đánh giá trên cùng corpus và benchmark dev/test](assets/benchmark-workflow.svg)

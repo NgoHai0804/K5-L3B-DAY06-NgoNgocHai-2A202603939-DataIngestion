@@ -1,0 +1,112 @@
+{
+  "project": "Day06 Data Ingestion - Legal NLP (survey corpus)",
+  "student": {
+    "name": "NgoNgocHai",
+    "mssv": "2A202603939",
+    "class": "L3B"
+  },
+  "counting_rule": "PDF: đếm trang có nội dung (>=200 ký tự sau chuẩn hóa), loại bìa/mục lục/trống/references. Trang references bị loại; trang < 200 ký tự ghi vào empty_or_ocr_broken_pages.",
+  "topic": "Natural Language Processing trong lĩnh vực pháp lý (legal NLP): tasks, datasets, models, challenges, benchmarks.",
+  "filter_scopes": {
+    "document-level": [
+      "document_id",
+      "source",
+      "year",
+      "document_type"
+    ],
+    "page-level": [
+      "section (suy ra từ heading khi ingest ở Bước 3)"
+    ],
+    "note": "2 tài liệu + nhiều section -> >=2 phạm vi phân biệt để metadata filter có ý nghĩa."
+  },
+  "position_convention": "Corpus đặt tại data/raw/; manifest tại data/manifest.json (repo root). run.py, manifest và README dùng cùng quy ước này.",
+  "sources": [
+    {
+      "source_id": "nlp-legal-survey-2410.21306",
+      "title": "Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models, and Challenges",
+      "source_path_or_url": "data/raw/nlp-legal-survey-2410.21306.pdf",
+      "canonical_url": "https://arxiv.org/abs/2410.21306",
+      "license_or_permission": "CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "accessed_at": "2026-11-14T03:00:00Z",
+      "format": "pdf",
+      "year": 2024,
+      "document_type": "survey",
+      "physical_pages": 35,
+      "references_start_page": 30,
+      "content_pages_counted": 29,
+      "content_page_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "normalized_char_count": 114801,
+      "snapshot_or_version": "arXiv:2410.21306v3",
+      "empty_or_ocr_broken_pages": [],
+      "notes": "Trang references bị loại khỏi đếm nội dung."
+    },
+    {
+      "source_id": "legal-nlp-india-survey-2107.06056",
+      "title": "Indian Legal NLP Benchmarks: A Survey",
+      "source_path_or_url": "data/raw/legal-nlp-india-survey-2107.06056.pdf",
+      "canonical_url": "https://arxiv.org/abs/2107.06056",
+      "license_or_permission": "CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "accessed_at": "2026-11-14T03:00:00Z",
+      "format": "pdf",
+      "year": 2021,
+      "document_type": "survey",
+      "physical_pages": 21,
+      "references_start_page": 18,
+      "content_pages_counted": 16,
+      "content_page_ids": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "normalized_char_count": 51226,
+      "snapshot_or_version": "arXiv:2107.06056v1",
+      "empty_or_ocr_broken_pages": [
+        4
+      ],
+      "notes": "Trang references bị loại khỏi đếm nội dung. Trang ít text (hình/bảng, <200 ký tự): [4]."
+    }
+  ]
+}
